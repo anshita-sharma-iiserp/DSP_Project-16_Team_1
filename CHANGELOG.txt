@@ -58,7 +58,25 @@ Format:
                                     - From backlinks:      200 articles
                                     - Total (filtered):    3,867 articles
 
-2026-03-11 14:43 IST  [ADD]     Created this CHANGELOG.txt
+2026-03-11 15:18 IST  [ADD]     Added trial_run/symptoms/notebooks/step2_graph_construction.py
+                                  Step 2 of project: Bulk link ingestion & graph construction
+                                    - Query Wikipedia API in batches of 50
+                                    - Filter invalid/spam nodes
+                                    - Generate NetworkX directed graph
+
+2026-03-11 15:18 IST  [RUN]     Ran step2_graph_construction.py successfully
+                                  Output 1: trial_run/symptoms/data/raw_links_step2.json (14 MB)
+                                  Output 2: trial_run/symptoms/graphs/symptoms_graph.graphml (27 MB)
+                                  Output 3: trial_run/symptoms/data/symptoms_edgelist.csv (18 MB)
+                                  Results:
+                                    - Nodes: 3,867
+                                    - Edges: 307,329
+                                    - Density: 0.020557
+
+2026-03-11 15:19 IST  [ADD]     Added trial_run/symptoms/notebooks/step3_metrics.py
+                                  Step 3 of project: Computing network metrics
+                                    - GPU accelerated (cuGraph) implementation if available
+                                    - Computes In/Out Degree, PageRank, and Centrality
 
 --------------------------------------------------------------------------------
  UPCOMING / PLANNED

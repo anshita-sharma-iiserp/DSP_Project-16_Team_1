@@ -100,6 +100,14 @@ Format:
                                     - Edge Growth: 3436 -> 10149 edges
                                     - Top Surging Nodes: 'COVID-19 pandemic', 'Long COVID', 'Symptoms of COVID-19'
 
+2026-03-11 16:40 IST  [ADD]     Added trial_run/symptoms/notebooks/step6_dashboard.py
+                                  Step 6 of project: Interactive Dashboard
+                                    - Built with Streamlit, Plotly, and Pyvis
+                                    - Tab 1: Hub Analysis (PageRank Bar Charts)
+                                    - Tab 2: Interactive PyVis Physics Network (Top 300 nodes)
+                                    - Tab 3: Temporal Evolution (Growth metrics and Surging nodes)
+                                  Added Streamlit, Plotly, Pyvis to requirements.txt
+
 --------------------------------------------------------------------------------
  UPCOMING / PLANNED
 --------------------------------------------------------------------------------

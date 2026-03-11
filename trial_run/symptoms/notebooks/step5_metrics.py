@@ -1,4 +1,4 @@
-# Step 3: Graph Metrics (Degree, Centrality, Connectivity)
+# Step 5: Graph Metrics (Degree, Centrality, Connectivity)
 # Computes key network metrics for the Wikipedia link graph.
 # Uses GPU acceleration via RAPIDS cuGraph if available.
 
@@ -24,7 +24,7 @@ GRAPHS_DIR = Path('../graphs')
 graphml_path = GRAPHS_DIR / 'symptoms_graph.graphml'
 
 print("=" * 60)
-print("  Step 3: Graph Metrics Computation")
+print("  Step 5: Graph Metrics Computation")
 print("=" * 60)
 
 # 1. Load Graph
@@ -122,4 +122,4 @@ output_csv = DATA_DIR / 'network_metrics.csv'
 df_metrics.to_csv(output_csv)
 print(f"\n  → Saved full metrics to: {output_csv.name}")
 
-print("\nStep 3 Complete! Run step4_temporal.py next.")
+print("\nStep 5 Complete! Run step6_dashboard.py next.")

@@ -169,4 +169,4 @@ edgelist_path = DATA_DIR / 'symptoms_edgelist.csv'
 nx.write_edgelist(G, edgelist_path, delimiter=',', data=False)
 print(f"  >> Saved as Edge List: {edgelist_path.name} ({os.path.getsize(edgelist_path)/1024:.1f} KB)")
 
-print("\nStep 2 Complete! Run step3_metrics.py next.")
+print("\nStep 2 Complete! Run step4_temporal.py next.")

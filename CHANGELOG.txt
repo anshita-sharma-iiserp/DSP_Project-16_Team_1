@@ -85,6 +85,21 @@ Format:
                                     - Top PageRank nodes highlight identifiers (Doi, ISSN, PMID)
                                       and hubs like 'COVID-19 pandemic', 'Symptoms of COVID-19', 'Long COVID'.
 
+2026-03-11 16:10 IST  [ADD]     Added trial_run/symptoms/notebooks/step4_temporal.py
+                                  Step 4 of project: Temporal Analysis
+                                    - Queries Wikipedia Revisions API for exact wikitext at March 2020 & March 2026
+                                    - Regex parsed wikilinks. Excluded categories/files/interwiki
+                                    - Evaluates node and edge growth
+
+2026-03-11 16:15 IST  [RUN]     Ran step4_temporal.py successfully
+                                  Output 1: trial_run/symptoms/graphs/symptoms_graph_2020.graphml
+                                  Output 2: trial_run/symptoms/graphs/symptoms_graph_2026.graphml
+                                  Output 3: trial_run/symptoms/data/temporal_shifts.csv
+                                  Results:
+                                    - Network Growth: 1434 -> 2933 nodes
+                                    - Edge Growth: 3436 -> 10149 edges
+                                    - Top Surging Nodes: 'COVID-19 pandemic', 'Long COVID', 'Symptoms of COVID-19'
+
 --------------------------------------------------------------------------------
  UPCOMING / PLANNED
 --------------------------------------------------------------------------------

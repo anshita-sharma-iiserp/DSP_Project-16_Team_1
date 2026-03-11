@@ -78,6 +78,13 @@ Format:
                                     - GPU accelerated (cuGraph) implementation if available
                                     - Computes In/Out Degree, PageRank, and Centrality
 
+2026-03-11 16:00 IST  [RUN]     Ran step3_metrics.py successfully (CPU fallback)
+                                  Output: trial_run/symptoms/data/network_metrics.csv
+                                  Results:
+                                    - Computed degree, betweenness, pagerank in ~2s
+                                    - Top PageRank nodes highlight identifiers (Doi, ISSN, PMID)
+                                      and hubs like 'COVID-19 pandemic', 'Symptoms of COVID-19', 'Long COVID'.
+
 --------------------------------------------------------------------------------
  UPCOMING / PLANNED
 --------------------------------------------------------------------------------

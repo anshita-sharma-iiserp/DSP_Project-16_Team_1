@@ -70,28 +70,34 @@ with tab1:
 # --- TAB 2: Interactive Graph ---
 with tab2:
     st.header("Interactive Network Visualisation")
-    st.markdown("Visualising a sample of the network structure (top 300 nodes by PageRank for performance).")
+    st.markdown("Use the slider below to reduce the number of nodes and clear up the screen clutter. The graph simulation will pull connected nodes together and push unconnected ones apart.")
     
+    colA, colB = st.columns([1, 2])
+    with colA:
+        num_nodes = st.slider("Number of Hubs to Display", min_value=10, max_value=300, value=75, step=5)
+        node_dist = st.slider("Node Separation Distance", min_value=100, max_value=500, value=250, step=50)
+
     G = load_graph('2026')
     if G is not None and df_metrics is not None:
-        # Filter graph for performance (browser crashes if we draw 4000 nodes)
-        top_nodes = df_metrics.head(300)['article'].tolist()
+        # Filter graph for performance and clarity
+        top_nodes = df_metrics.head(num_nodes)['article'].tolist()
         sub_G = G.subgraph(top_nodes)
         
         # Initialize Pyvis
-        net = Network(height="600px", width="100%", bgcolor="#222222", font_color="white", directed=True)
+        net = Network(height="650px", width="100%", bgcolor="#1a1a1a", font_color="white", directed=True)
         
         # Add nodes with sizing based on degree
         for node in sub_G.nodes():
             degree = sub_G.degree(node)
-            net.add_node(node, label=node, title=node, size=min(degree * 2, 50))
+            # Make the nodes slightly transparent so you can see overlapping links
+            net.add_node(node, label=node, title=f"{node} (Degree: {degree})", size=min(degree * 1.5, 40), color="rgba(97, 175, 239, 0.9)")
             
-        # Add edges
+        # Add edges (make them semi-transparent to reduce visual noise)
         for source, target in sub_G.edges():
-            net.add_edge(source, target, color="#aaaaaa")
+            net.add_edge(source, target, color="rgba(150, 150, 150, 0.3)")
             
-        # Customize physics
-        net.repulsion(node_distance=150, central_gravity=0.1, spring_length=150)
+        # Dramatic physics customisation to stop overlapping!
+        net.barnes_hut(gravity=-8000, central_gravity=0.3, spring_length=node_dist, spring_strength=0.04, damping=0.09, overlap=0)
         
         # Save and display
         html_path = "network_map.html"

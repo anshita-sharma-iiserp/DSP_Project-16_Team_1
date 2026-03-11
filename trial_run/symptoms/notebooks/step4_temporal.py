@@ -93,7 +93,7 @@ def extract_wikilinks(wikitext):
 
 
 print("=" * 60)
-print("  Step 4: Temporal Analysis (2020 vs 2026)")
+print("  Step 4: 4-Phase Temporal Analysis (2020-2022)")
 print("=" * 60)
 
 # Load target articles (Using the 386 core articles from step 2 for speed)
@@ -110,18 +110,20 @@ print(f"Analyzing historical evolution of {len(target_articles)} core articles..
 
 # Define timestamps
 SNAPSHOTS = {
-    '2020': '2020-04-01T23:59:59Z',  # Start of pandemic
-    '2026': '2026-03-01T23:59:59Z'   # Present day
+    '2020_03': '2020-03-01T23:59:59Z',  # Phase 1: The "Classic Triad"
+    '2020_07': '2020-07-01T23:59:59Z',  # Phase 2: The "Sensory Discovery"
+    '2021_03': '2021-03-01T23:59:59Z',  # Phase 3: The "Chronic Realization"
+    '2022_01': '2022-01-01T23:59:59Z'   # Phase 4: The "Omicron Shift"
 }
 
 temporal_graphs = {}
 metrics_history = {}
 
-for year, timestamp in SNAPSHOTS.items():
-    print(f"\n[1/3] Building Graph for {year} (Timestamp: {timestamp})")
+for phase, timestamp in SNAPSHOTS.items():
+    print(f"\nBuilding Graph for Phase {phase} (Timestamp: {timestamp})")
     
     G = nx.DiGraph()
-    G.graph['year'] = year
+    G.graph['phase'] = phase
     missing_nodes = 0
     
     # 1. Fetch text and extract links
@@ -135,7 +137,7 @@ for year, timestamp in SNAPSHOTS.items():
         
         if wikitext is None:
             missing_nodes += 1
-            continue  # Article didn't exist in this year!
+            continue  # Article didn't exist in this phase!
             
         G.add_node(article)
         
@@ -148,14 +150,14 @@ for year, timestamp in SNAPSHOTS.items():
         time.sleep(0.1) # Be nice to API
 
     # 2. Save Graph structure
-    nx.write_graphml(G, GRAPHS_DIR / f'symptoms_graph_{year}.graphml')
+    nx.write_graphml(G, GRAPHS_DIR / f'symptoms_graph_{phase}.graphml')
     
     # 3. Calculate basic metrics
-    density = nx.density(G)
+    density = nx.density(G) if G.number_of_nodes() > 1 else 0
     pr = nx.pagerank(G, alpha=0.85) if G.number_of_nodes() > 0 else {}
     
-    temporal_graphs[year] = G
-    metrics_history[year] = {
+    temporal_graphs[phase] = G
+    metrics_history[phase] = {
         'nodes': G.number_of_nodes(),
         'edges': G.number_of_edges(),
         'missing_or_uncreated': missing_nodes,
@@ -163,40 +165,40 @@ for year, timestamp in SNAPSHOTS.items():
         'pagerank': pr
     }
     
-    print(f"  => {year} Graph Built in {time.time()-start_time:.1f}s")
+    print(f"  => {phase} Graph Built in {time.time()-start_time:.1f}s")
     print(f"     Nodes: {G.number_of_nodes()} | Edges: {G.number_of_edges()} | Density: {density:.5f}")
 
 
-print("\n[2/3] Analyzing Temporal Shifts (2020 -> 2026)")
+print("\nAnalyzing Sequential Temporal Shifts")
 
-m2020 = metrics_history['2020']
-m2026 = metrics_history['2026']
+# Calculate Shifts (Overall + Sequential)
+df_pr_all = pd.DataFrame()
+for phase in SNAPSHOTS.keys():
+    series = pd.Series(metrics_history[phase]['pagerank'], name=f'pr_{phase}')
+    if df_pr_all.empty:
+        df_pr_all = series.to_frame()
+    else:
+        df_pr_all = df_pr_all.join(series, how='outer')
 
-print(f"\n  Structrual Evolution:")
-print(f"    - Network Growth: {m2020['nodes']} -> {m2026['nodes']} symptom articles (+{m2026['nodes']-m2020['nodes']})")
-print(f"    - Edge Growth: {m2020['edges']} -> {m2026['edges']} connections (+{m2026['edges']-m2020['edges']})")
-print(f"    - Density Shift: {m2020['density']:.5f} -> {m2026['density']:.5f}")
+df_pr_all = df_pr_all.fillna(0)
 
-# Calculate Top 10 Hub Shifts
-df_pr2020 = pd.Series(m2020['pagerank'], name='pr_2020').to_frame()
-df_pr2026 = pd.Series(m2026['pagerank'], name='pr_2026').to_frame()
+# Calculate sequential shifts
+df_pr_all['shift_P1_to_P2'] = df_pr_all['pr_2020_07'] - df_pr_all['pr_2020_03']
+df_pr_all['shift_P2_to_P3'] = df_pr_all['pr_2021_03'] - df_pr_all['pr_2020_07']
+df_pr_all['shift_P3_to_P4'] = df_pr_all['pr_2022_01'] - df_pr_all['pr_2021_03']
+df_pr_all['shift_overall']  = df_pr_all['pr_2022_01'] - df_pr_all['pr_2020_03']
 
-df_shifts = df_pr2026.join(df_pr2020, how='outer').fillna(0)
-df_shifts['shift'] = df_shifts['pr_2026'] - df_shifts['pr_2020']
-df_shifts = df_shifts.sort_values(by='pr_2026', ascending=False)
+df_pr_all = df_pr_all.sort_values(by='pr_2022_01', ascending=False)
 
-print("\n  Top 10 Knowledge Hubs (2026) vs their 2020 Importance:")
-print(df_shifts.head(10).to_string())
-
-# Find articles that became WAY more important (Highest Positive Shift)
-surge = df_shifts.sort_values(by='shift', ascending=False).head(5)
-print("\n  Top 5 Surging Nodes (Became central between 2020-2026):")
-print(surge.to_string())
+print("\n  Top 10 Nodes by Overall Shift (2020_03 -> 2022_01):")
+print(df_pr_all[['shift_overall']].sort_values(by='shift_overall', ascending=False).head(10).to_string())
 
 # Save analysis to CSV
-df_shifts.to_csv(DATA_DIR / 'temporal_shifts.csv')
-print("\n[3/3] Temporal Data Saved.")
+# Drop unnamed axis by resetting index and naming it
+df_pr_all.index.name = 'article'
+df_pr_all.to_csv(DATA_DIR / 'temporal_shifts.csv')
+print("\nTemporal Data Saved.")
 print(f"  - Data: {DATA_DIR}/temporal_shifts.csv")
-print(f"  - Graphs: {GRAPHS_DIR}/symptoms_graph_2020.graphml, symptoms_graph_2026.graphml")
+print(f"  - Graphs: {GRAPHS_DIR}/symptoms_graph_*.graphml")
 
 print("\nStep 4 Complete! 🎉")

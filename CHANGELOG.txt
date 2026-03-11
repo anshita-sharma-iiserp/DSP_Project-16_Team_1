@@ -1,0 +1,72 @@
+================================================================================
+ DSP PROJECT — CHANGELOG
+ Repo: DSP_Project-16_Team_1
+ Domain: COVID-19 | Team Member (Symptoms): Pratik (pratik3551-gg)
+================================================================================
+
+Format:
+  [YYYY-MM-DD HH:MM IST] [ACTION] Description
+  Actions: ADD | MODIFY | DELETE | RUN | FIX | PUSH | MERGE
+
+--------------------------------------------------------------------------------
+2026-03-11 13:25 IST  [ADD]     Cloned shared GitHub repo to local machine
+                                  URL: https://github.com/anshita-sharma-iiserp/DSP_Project-16_Team_1.git
+
+2026-03-11 13:26 IST  [ADD]     Created branch: feature/symptoms-trial
+
+2026-03-11 13:26 IST  [ADD]     Created folder structure under trial_run/symptoms/
+                                  - trial_run/symptoms/data/        (raw data output)
+                                  - trial_run/symptoms/graphs/       (visualisation output)
+                                  - trial_run/symptoms/notebooks/    (scripts & notebooks)
+
+2026-03-11 13:27 IST  [ADD]     Added trial_run/symptoms/notebooks/symptoms_trial.ipynb
+                                  Full Jupyter notebook: API ingestion, graph construction,
+                                  centrality metrics, visualisation, temporal comparison
+
+2026-03-11 13:27 IST  [ADD]     Added trial_run/symptoms/requirements.txt
+                                  Libraries: requests, networkx, pandas, matplotlib, jupyter
+
+2026-03-11 13:27 IST  [ADD]     Added .gitkeep files in data/ and graphs/ folders
+                                  (to track empty directories in Git)
+
+2026-03-11 13:28 IST  [FIX]     Fixed Git commit email privacy issue
+                                  Switched to GitHub no-reply address for commits
+
+2026-03-11 13:29 IST  [PUSH]    Pushed branch feature/symptoms-trial to GitHub remote
+
+2026-03-11 13:33 IST  [MERGE]   Pull Request #1 merged into main
+                                  PR Title: "feat(symptoms): Add trial run - Wikipedia link analysis notebook"
+                                  Merged by: pratik3551-gg
+
+2026-03-11 14:39 IST  [ADD]     Added trial_run/symptoms/notebooks/step1_article_discovery.py
+                                  Step 1 of project: Wikipedia article discovery via:
+                                    - Category expansion (COVID-19, Long COVID, etc.)
+                                    - Outlink expansion from 13 symptom seed articles
+                                    - Backlinks to 'Symptoms of COVID-19'
+
+2026-03-11 14:41 IST  [FIX]     Fixed Wikimedia API request: added User-Agent header via Session
+                                  (API returned empty responses without proper User-Agent)
+
+2026-03-11 14:42 IST  [FIX]     Fixed Windows console Unicode error (arrow character in print)
+                                  Replaced unicode arrow with ASCII '>>'
+
+2026-03-11 14:42 IST  [RUN]     Ran step1_article_discovery.py successfully
+                                  Output: trial_run/symptoms/data/discovered_articles.csv
+                                  Results:
+                                    - From categories:     200 articles
+                                    - From link expansion: 3,726 articles
+                                    - From backlinks:      200 articles
+                                    - Total (filtered):    3,867 articles
+
+2026-03-11 14:43 IST  [ADD]     Created this CHANGELOG.txt
+
+--------------------------------------------------------------------------------
+ UPCOMING / PLANNED
+--------------------------------------------------------------------------------
+  [ ] Step 2: Ingest link data and build directed graph
+  [ ] Step 3: Compute graph metrics (centrality, degree)
+  [ ] Step 4: Temporal snapshot comparison
+  [ ] Step 5: Interactive dashboard
+  [ ] Push Step 1 results to GitHub
+
+================================================================================

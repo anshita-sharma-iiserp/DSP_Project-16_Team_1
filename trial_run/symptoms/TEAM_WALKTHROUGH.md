@@ -56,6 +56,5 @@ We needed a way to present this massive dataset interactively.
 ## How to Run It Yourself
 We built a Windows batch script to make launching the dashboard effortless for the team. 
 1. Open this project in your terminal.
-2. Ensure you have the libraries installed: `pip install -r requirements.txt`
-3. Run the batch script: `.\trial_run\symptoms\run_dashboard.bat` (or just double click it in File Explorer).
-4. The dashboard will automatically open in your browser at `http://localhost:8501`.
+2. Run the batch script: `.\trial_run\symptoms\run_dashboard.bat` (or just double click it in File Explorer).
+3. The dashboard will automatically open in your browser at `http://localhost:8501`.

@@ -8,7 +8,7 @@ from pathlib import Path
 
 # Streamlit App Config
 st.set_page_config(page_title="Wikipedia Knowledge Flow", layout="wide")
-st.title("🌐 COVID-19 Symptoms: Wikipedia Knowledge Structure")
+st.title(" COVID-19 Symptoms: Wikipedia Knowledge Structure")
 st.markdown("""
 This dashboard visualises the Wikipedia internal link graph for articles related to **Symptoms of COVID-19**.
 Explore the core hubs, view the interactive network, and track how the knowledge structure evolved across **4 distinct phases**.
@@ -46,7 +46,7 @@ df_metrics, df_temporal = load_data()
 # ==============================================================================
 # TAB LAYOUT
 # ==============================================================================
-tab1, tab2, tab3, tab4 = st.tabs(["📊 Network Hubs (Latest)", "🕸️ Interactive Graph", "⏱️ 4-Phase Temporal Evolution", "📖 Methodology & Limitations"])
+tab1, tab2, tab3, tab4 = st.tabs([" Network Hubs (Latest)", " Interactive Graph", " 4-Phase Temporal Evolution", " Methodology & Limitations"])
 
 # --- TAB 1: Network Hubs ---
 with tab1:
@@ -78,7 +78,7 @@ with tab2:
         node_dist = st.slider("Node Separation Distance", min_value=100, max_value=500, value=250, step=50)
 
     # 4-Phase Timeline Selection
-    st.markdown("### ⏳ Temporal Network Slider")
+    st.markdown("###  Temporal Network Slider")
     phase_options = {
         '2020_03': 'March 2020: The "Classic Triad"',
         '2020_07': 'July 2020: Sensory Discovery',

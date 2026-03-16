@@ -13,10 +13,10 @@ try:
     import cugraph
     import cudf
     USE_GPU = True
-    print("🚀 CUDA GPU Detected! cuGraph will be used for heavy metrics.")
+    print(" CUDA GPU Detected! cuGraph will be used for heavy metrics.")
 except ImportError:
     USE_GPU = False
-    print("🐢 No cuGraph found. Falling back to CPU via NetworkX (might be slow).")
+    print(" No cuGraph found. Falling back to CPU via NetworkX (might be slow).")
 
 # Setup paths
 DATA_DIR = Path('../data')
@@ -115,7 +115,7 @@ print("\n[3/3] Analysis Results")
 # Sort by PageRank (best indicator of global importance in Wikipedia)
 df_metrics = df_metrics.sort_values(by='pagerank', ascending=False)
 
-print("\n🏆 Top 15 Most Important COVID-19 Symptoms Articles (by PageRank):")
+print("\n Top 15 Most Important COVID-19 Symptoms Articles (by PageRank):")
 print(df_metrics.head(15).to_string())
 
 output_csv = DATA_DIR / 'network_metrics.csv'

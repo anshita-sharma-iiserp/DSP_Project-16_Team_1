@@ -1,0 +1,1750 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-30">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="COVID-19" label="COVID-19" />
+      <node id="Anthony Fauci" label="Anthony Fauci" />
+      <node id="NZ COVID Tracer" label="NZ COVID Tracer" />
+      <node id="Economic impact of the COVID-19 pandemic in Malaysia" label="Economic impact of the COVID-19 pandemic in Malaysia" />
+      <node id="George Dantzig" label="George Dantzig" />
+      <node id="COVID-19 pandemic in Romania" label="COVID-19 pandemic in Romania" />
+      <node id="National responses to the COVID-19 pandemic in Africa" label="National responses to the COVID-19 pandemic in Africa" />
+      <node id="COVID-19 pandemic in Russia" label="COVID-19 pandemic in Russia" />
+      <node id="George Armitage Miller" label="George Armitage Miller" />
+      <node id="A Parks and Recreation Special" label="A Parks and Recreation Special" />
+      <node id="Shelley E. Taylor" label="Shelley E. Taylor" />
+      <node id="Edwin M. McMillan" label="Edwin M. McMillan" />
+      <node id="ArXiv (identifier)" label="ArXiv (identifier)" />
+      <node id="ArXiv" label="ArXiv" />
+      <node id="ArcGIS" label="ArcGIS" />
+      <node id="ArcGIS Server" label="ArcGIS Server" />
+      <node id="SUSE Linux Enterprise Server" label="SUSE Linux Enterprise Server" />
+      <node id="Dataset" label="Dataset" />
+      <node id="Oracle Database" label="Oracle Database" />
+      <node id="Doi (identifier)" label="Doi (identifier)" />
+      <node id="Map projection" label="Map projection" />
+      <node id="Perl" label="Perl" />
+      <node id="ISBN (identifier)" label="ISBN (identifier)" />
+      <node id="FME (software)" label="FME (software)" />
+      <node id="Metadata" label="Metadata" />
+      <node id="BBC" label="BBC" />
+      <node id="FreeTV Australia" label="FreeTV Australia" />
+      <node id="BBC Micro" label="BBC Micro" />
+      <node id="5IT" label="5IT" />
+      <node id="BBC Brit" label="BBC Brit" />
+      <node id="Auntie (song)" label="Auntie (song)" />
+      <node id="Fundação Padre Anchieta" label="Fundação Padre Anchieta" />
+      <node id="BBC America" label="BBC America" />
+      <node id="Terabytes" label="Terabytes" />
+      <node id="VisitBritain" label="VisitBritain" />
+      <node id="Khabar Agency" label="Khabar Agency" />
+      <node id="BBC News" label="BBC News" />
+      <node id="BBC West" label="BBC West" />
+      <node id="The World Tonight" label="The World Tonight" />
+      <node id="STORYFix" label="STORYFix" />
+      <node id="Morecambe and Wise" label="Morecambe and Wise" />
+      <node id="Voice of America" label="Voice of America" />
+      <node id="Helen Boaden" label="Helen Boaden" />
+      <node id="Everywoman (radio programme)" label="Everywoman (radio programme)" />
+      <node id="NBC News" label="NBC News" />
+      <node id="Save the Children" label="Save the Children" />
+      <node id="Coat of arms of the BBC" label="Coat of arms of the BBC" />
+      <node id="BBC News Online" label="BBC News Online" />
+      <node id="Business Today (BBC News programme)" label="Business Today (BBC News programme)" />
+      <node id="Ivan Noble" label="Ivan Noble" />
+      <node id="RealPlayer" label="RealPlayer" />
+      <node id="Newsbeat" label="Newsbeat" />
+      <node id="Broadcasting House (radio programme)" label="Broadcasting House (radio programme)" />
+      <node id="Adobe Flash" label="Adobe Flash" />
+      <node id="Wake Up to Money" label="Wake Up to Money" />
+      <node id="BAFTA Interactive Entertainment Awards" label="BAFTA Interactive Entertainment Awards" />
+      <node id="Any Questions?" label="Any Questions?" />
+      <node id="Bibcode (identifier)" label="Bibcode (identifier)" />
+      <node id="Bibcode" label="Bibcode" />
+      <node id="Caixin" label="Caixin" />
+      <node id="IHS Markit" label="IHS Markit" />
+      <node id="Paywall" label="Paywall" />
+      <node id="Hankou" label="Hankou" />
+      <node id="Princeton University" label="Princeton University" />
+      <node id="HSBC" label="HSBC" />
+      <node id="Jeremy Goldkorn" label="Jeremy Goldkorn" />
+      <node id="Funeral urn" label="Funeral urn" />
+      <node id="Stock Exchange Executive Council" label="Stock Exchange Executive Council" />
+      <node id="Simplified Chinese characters" label="Simplified Chinese characters" />
+      <node id="Beijing" label="Beijing" />
+      <node id="Centers for Disease Control and Prevention" label="Centers for Disease Control and Prevention" />
+      <node id="OCLC (identifier)" label="OCLC (identifier)" />
+      <node id="The Wall Street Journal" label="The Wall Street Journal" />
+      <node id="Council on Environmental Quality" label="Council on Environmental Quality" />
+      <node id="Radium Girls" label="Radium Girls" />
+      <node id="Administration for Native Americans" label="Administration for Native Americans" />
+      <node id="Lawrenceville, Georgia" label="Lawrenceville, Georgia" />
+      <node id="Health Resources and Services Administration" label="Health Resources and Services Administration" />
+      <node id="Domestic military deployments by the second Trump administration" label="Domestic military deployments by the second Trump administration" />
+      <node id="Ricin" label="Ricin" />
+      <node id="Smallpox" label="Smallpox" />
+      <node id="Digital object identifier" label="Digital object identifier" />
+      <node id="Donald McNeil Jr." label="Donald McNeil Jr." />
+      <node id="Donald G. McNeil Jr." label="Donald G. McNeil Jr." />
+      <node id="Encyclopædia Britannica" label="Encyclopædia Britannica" />
+      <node id="Adam Black" label="Adam Black" />
+      <node id="Emperor of India" label="Emperor of India" />
+      <node id="Peter Ritchie Calder" label="Peter Ritchie Calder" />
+      <node id="James Clerk Maxwell" label="James Clerk Maxwell" />
+      <node id="Thomas Young (scientist)" label="Thomas Young (scientist)" />
+      <node id="ISSN (identifier)" label="ISSN (identifier)" />
+      <node id="The New York Times" label="The New York Times" />
+      <node id="Encyclopedia of China Publishing House" label="Encyclopedia of China Publishing House" />
+      <node id="Door-to-door" label="Door-to-door" />
+      <node id="Philip W. Goetz" label="Philip W. Goetz" />
+      <node id="European Centre for Disease Prevention and Control" label="European Centre for Disease Prevention and Control" />
+      <node id="Cultural competence in health care" label="Cultural competence in health care" />
+      <node id="European Chemicals Agency" label="European Chemicals Agency" />
+      <node id="European Agency for Safety and Health at Work" label="European Agency for Safety and Health at Work" />
+      <node id="Euro" label="Euro" />
+      <node id="Health care reform" label="Health care reform" />
+      <node id="Health departments in the United States" label="Health departments in the United States" />
+      <node id="Erie County Democratic Committee" label="Erie County Democratic Committee" />
+      <node id="Social cognitive theory" label="Social cognitive theory" />
+      <node id="Health Protection Agency" label="Health Protection Agency" />
+      <node id="Innovative Medicines Initiative" label="Innovative Medicines Initiative" />
+      <node id="Food and Drug Administration" label="Food and Drug Administration" />
+      <node id="Fraudulent intent" label="Fraudulent intent" />
+      <node id="List of foodborne illness outbreaks" label="List of foodborne illness outbreaks" />
+      <node id="COVID-19 pandemic" label="COVID-19 pandemic" />
+      <node id="Seafood fraud" label="Seafood fraud" />
+      <node id="Bad Pharma" label="Bad Pharma" />
+      <node id="Alexander M. Schmidt" label="Alexander M. Schmidt" />
+      <node id="Food and Drug Administration Modernization Act" label="Food and Drug Administration Modernization Act" />
+      <node id="National Center for Toxicological Research" label="National Center for Toxicological Research" />
+      <node id="Big Pharma (book)" label="Big Pharma (book)" />
+      <node id="Mycotoxin" label="Mycotoxin" />
+      <node id="Hannah Ritchie" label="Hannah Ritchie" />
+      <node id="Electric car" label="Electric car" />
+      <node id="Solar energy" label="Solar energy" />
+      <node id="Penguin Random House" label="Penguin Random House" />
+      <node id="The Guardian" label="The Guardian" />
+      <node id="Wind energy" label="Wind energy" />
+      <node id="Deforestation" label="Deforestation" />
+      <node id="ORCID (identifier)" label="ORCID (identifier)" />
+      <node id="Scientific American" label="Scientific American" />
+      <node id="Veganism" label="Veganism" />
+      <node id="Hdl (identifier)" label="Hdl (identifier)" />
+      <node id="Handle System" label="Handle System" />
+      <node id="ISSN" label="ISSN" />
+      <node id="Istituto Superiore di Sanità" label="Istituto Superiore di Sanità" />
+      <node id="National Institute of Health (Italy)" label="National Institute of Health (Italy)" />
+      <node id="Johns Hopkins University" label="Johns Hopkins University" />
+      <node id="Massachusetts College of Art and Design" label="Massachusetts College of Art and Design" />
+      <node id="Economic diversity" label="Economic diversity" />
+      <node id="Gertrude Stein" label="Gertrude Stein" />
+      <node id="The truth will set you free" label="The truth will set you free" />
+      <node id="Cornell University" label="Cornell University" />
+      <node id="The Johns Hopkins News-Letter" label="The Johns Hopkins News-Letter" />
+      <node id="University of Maryland Biotechnology Institute" label="University of Maryland Biotechnology Institute" />
+      <node id="American Broadcasting Company" label="American Broadcasting Company" />
+      <node id="Suburban Hospital" label="Suburban Hospital" />
+      <node id="Doctor of Philosophy" label="Doctor of Philosophy" />
+      <node id="Knowable Magazine" label="Knowable Magazine" />
+      <node id="Annual Review of Vision Science" label="Annual Review of Vision Science" />
+      <node id="Annual Review of Linguistics" label="Annual Review of Linguistics" />
+      <node id="Newswomen's Club of New York" label="Newswomen's Club of New York" />
+      <node id="American Society of Journalists and Authors" label="American Society of Journalists and Authors" />
+      <node id="Annual Review of Psychology" label="Annual Review of Psychology" />
+      <node id="Annual Review of Phytopathology" label="Annual Review of Phytopathology" />
+      <node id="Annual Review of Resource Economics" label="Annual Review of Resource Economics" />
+      <node id="Annual Review of Analytical Chemistry" label="Annual Review of Analytical Chemistry" />
+      <node id="Derivative works" label="Derivative works" />
+      <node id="LCCN (identifier)" label="LCCN (identifier)" />
+      <node id="Library of Congress Control Number" label="Library of Congress Control Number" />
+      <node id="National COVID-19 Clinical Evidence Taskforce" label="National COVID-19 Clinical Evidence Taskforce" />
+      <node id="COVID-19 pandemic in Australia" label="COVID-19 pandemic in Australia" />
+      <node id="National Geographic" label="National Geographic" />
+      <node id="Iron Curtain" label="Iron Curtain" />
+      <node id="CD-ROM" label="CD-ROM" />
+      <node id="WWII" label="WWII" />
+      <node id="Florida Keys" label="Florida Keys" />
+      <node id="Ukrainian language" label="Ukrainian language" />
+      <node id="The Wolf (magazine)" label="The Wolf (magazine)" />
+      <node id="Dian Fossey Gorilla Fund International" label="Dian Fossey Gorilla Fund International" />
+      <node id="National Geographic (Scandinavian TV channel)" label="National Geographic (Scandinavian TV channel)" />
+      <node id="Biological Conservation (journal)" label="Biological Conservation (journal)" />
+      <node id="National Institute for Health Research" label="National Institute for Health Research" />
+      <node id="National Institute for Health and Care Research" label="National Institute for Health and Care Research" />
+      <node id="Nature (journal)" label="Nature (journal)" />
+      <node id="Wayback Machine" label="Wayback Machine" />
+      <node id="Scientific journal" label="Scientific journal" />
+      <node id="Basophils" label="Basophils" />
+      <node id="Jean Daniel" label="Jean Daniel" />
+      <node id="Hans Magnus Enzensberger" label="Hans Magnus Enzensberger" />
+      <node id="Positive feedback" label="Positive feedback" />
+      <node id="Google" label="Google" />
+      <node id="Retraction in academic publishing" label="Retraction in academic publishing" />
+      <node id="Palgrave Macmillan" label="Palgrave Macmillan" />
+      <node id="S2CID (identifier)" label="S2CID (identifier)" />
+      <node id="Nature Portfolio" label="Nature Portfolio" />
+      <node id="Henry Holt and Company" label="Henry Holt and Company" />
+      <node id="Magazine" label="Magazine" />
+      <node id="National Human Genome Research Institute" label="National Human Genome Research Institute" />
+      <node id="Gutefrage.net" label="Gutefrage.net" />
+      <node id="Alexander MacMillan (publisher)" label="Alexander MacMillan (publisher)" />
+      <node id="Pan Books" label="Pan Books" />
+      <node id="Learned society" label="Learned society" />
+      <node id="Rod Campbell" label="Rod Campbell" />
+      <node id="OCLC" label="OCLC" />
+      <node id="HTML element" label="HTML element" />
+      <node id="Our World in Data" label="Our World in Data" />
+      <node id="FTX" label="FTX" />
+      <node id="Poverty" label="Poverty" />
+      <node id="Disease" label="Disease" />
+      <node id="Hank Green" label="Hank Green" />
+      <node id="List of global issues" label="List of global issues" />
+      <node id="Revenue" label="Revenue" />
+      <node id="Kurzgesagt" label="Kurzgesagt" />
+      <node id="World Health Organization" label="World Health Organization" />
+      <node id="Hetan Shah" label="Hetan Shah" />
+      <node id="Oxford English Dictionary" label="Oxford English Dictionary" />
+      <node id="British English" label="British English" />
+      <node id="Francis George Fowler" label="Francis George Fowler" />
+      <node id="Big Ideas (TV series)" label="Big Ideas (TV series)" />
+      <node id="HathiTrust" label="HathiTrust" />
+      <node id="Dewey Decimal Classification" label="Dewey Decimal Classification" />
+      <node id="HarperCollins" label="HarperCollins" />
+      <node id="Headword" label="Headword" />
+      <node id="Grimm brothers" label="Grimm brothers" />
+      <node id="George Eliot" label="George Eliot" />
+      <node id="PMC (identifier)" label="PMC (identifier)" />
+      <node id="PubMed Central" label="PubMed Central" />
+      <node id="PMID (identifier)" label="PMID (identifier)" />
+      <node id="PubMed" label="PubMed" />
+      <node id="Politico" label="Politico" />
+      <node id="Party divisions of United States Congresses" label="Party divisions of United States Congresses" />
+      <node id="The Hill (newspaper)" label="The Hill (newspaper)" />
+      <node id="Politico Europe" label="Politico Europe" />
+      <node id="RealClearPolitics" label="RealClearPolitics" />
+      <node id="Robert Allbritton" label="Robert Allbritton" />
+      <node id="Sonia Sotomayor" label="Sonia Sotomayor" />
+      <node id="John F. Harris" label="John F. Harris" />
+      <node id="Clerk of the United States House of Representatives" label="Clerk of the United States House of Representatives" />
+      <node id="Chaplain of the United States House of Representatives" label="Chaplain of the United States House of Representatives" />
+      <node id="Democratic Women's Caucus" label="Democratic Women's Caucus" />
+      <node id="ResearchGate" label="ResearchGate" />
+      <node id="Snapchat" label="Snapchat" />
+      <node id="Matt Cohler" label="Matt Cohler" />
+      <node id="ITunes Ping" label="ITunes Ping" />
+      <node id="Ease of use" label="Ease of use" />
+      <node id="Scientometrics (journal)" label="Scientometrics (journal)" />
+      <node id="Billie J. Swalla" label="Billie J. Swalla" />
+      <node id="Multiply (website)" label="Multiply (website)" />
+      <node id="Idka" label="Idka" />
+      <node id="Yik Yak" label="Yik Yak" />
+      <node id="Quacquarelli Symonds" label="Quacquarelli Symonds" />
+      <node id="Reuters" label="Reuters" />
+      <node id="Newsweek" label="Newsweek" />
+      <node id="CNN" label="CNN" />
+      <node id="Derek Watkins (graphics editor)" label="Derek Watkins (graphics editor)" />
+      <node id="Zenit News Agency" label="Zenit News Agency" />
+      <node id="Fernando Henrique Cardoso" label="Fernando Henrique Cardoso" />
+      <node id="Challenge (TV channel)" label="Challenge (TV channel)" />
+      <node id="Anadolu Agency" label="Anadolu Agency" />
+      <node id="Freesat from Sky" label="Freesat from Sky" />
+      <node id="Time Person of the Year" label="Time Person of the Year" />
+      <node id="BBC Radio Cymru 2" label="BBC Radio Cymru 2" />
+      <node id="Richard Horton (editor)" label="Richard Horton (editor)" />
+      <node id="Internship (medicine)" label="Internship (medicine)" />
+      <node id="Fellow of the Academy of Medical Sciences" label="Fellow of the Academy of Medical Sciences" />
+      <node id="Financial Times" label="Financial Times" />
+      <node id="Physicians for Human Rights" label="Physicians for Human Rights" />
+      <node id="WHO regions" label="WHO regions" />
+      <node id="Editor-in-chief" label="Editor-in-chief" />
+      <node id="Academy of Medical Sciences" label="Academy of Medical Sciences" />
+      <node id="Brian Deer" label="Brian Deer" />
+      <node id="Tony Blair" label="Tony Blair" />
+      <node id="Semantic Scholar" label="Semantic Scholar" />
+      <node id="SSRN (identifier)" label="SSRN (identifier)" />
+      <node id="Social Science Research Network" label="Social Science Research Network" />
+      <node id="Science-Based Medicine" label="Science-Based Medicine" />
+      <node id="Skeptic (U.S. magazine)" label="Skeptic (U.S. magazine)" />
+      <node id="Quackwatch" label="Quackwatch" />
+      <node id="Neurologist" label="Neurologist" />
+      <node id="Yale University" label="Yale University" />
+      <node id="Nonprofit corporation" label="Nonprofit corporation" />
+      <node id="Psychology Today" label="Psychology Today" />
+      <node id="NPR" label="NPR" />
+      <node id="Off-label use" label="Off-label use" />
+      <node id="Etanercept" label="Etanercept" />
+      <node id="The San Diego Union-Tribune" label="The San Diego Union-Tribune" />
+      <node id="Science (journal)" label="Science (journal)" />
+      <node id="Gloria Steinem" label="Gloria Steinem" />
+      <node id="Interdisciplinarity" label="Interdisciplinarity" />
+      <node id="Fondo de Cultura Económica" label="Fondo de Cultura Económica" />
+      <node id="Princess of Asturias Awards" label="Princess of Asturias Awards" />
+      <node id="Neutron star merger" label="Neutron star merger" />
+      <node id="Hay Festival" label="Hay Festival" />
+      <node id="Lenacapavir" label="Lenacapavir" />
+      <node id="Leland Ossian Howard" label="Leland Ossian Howard" />
+      <node id="Prince of Asturias Awards" label="Prince of Asturias Awards" />
+      <node id="Evolution" label="Evolution" />
+      <node id="W. H. Freeman" label="W. H. Freeman" />
+      <node id="Charles Goodyear" label="Charles Goodyear" />
+      <node id="Taipei" label="Taipei" />
+      <node id="Scientific American Frontiers" label="Scientific American Frontiers" />
+      <node id="First Second Books" label="First Second Books" />
+      <node id="361 Broadway" label="361 Broadway" />
+      <node id="Frank Winfield Woolworth" label="Frank Winfield Woolworth" />
+      <node id="Alan Alda" label="Alan Alda" />
+      <node id="Picador (imprint)" label="Picador (imprint)" />
+      <node id="The Economist" label="The Economist" />
+      <node id="Climate crisis" label="Climate crisis" />
+      <node id="2020 Malawian presidential election" label="2020 Malawian presidential election" />
+      <node id="Salomon Mayer von Rothschild" label="Salomon Mayer von Rothschild" />
+      <node id="Nadine de Rothschild" label="Nadine de Rothschild" />
+      <node id="Undergraduate education" label="Undergraduate education" />
+      <node id="Emperor Ferdinand Northern Railway" label="Emperor Ferdinand Northern Railway" />
+      <node id="Classical liberalism" label="Classical liberalism" />
+      <node id="Francis Wrigley Hirst" label="Francis Wrigley Hirst" />
+      <node id="George Kennan" label="George Kennan" />
+      <node id="Château de la Muette" label="Château de la Muette" />
+      <node id="The Globe and Mail" label="The Globe and Mail" />
+      <node id="Toronto Daily Star" label="Toronto Daily Star" />
+      <node id="List of radio stations in Canada" label="List of radio stations in Canada" />
+      <node id="William Henry Wright" label="William Henry Wright" />
+      <node id="Clear Grits" label="Clear Grits" />
+      <node id="The Gazette (Montreal)" label="The Gazette (Montreal)" />
+      <node id="Rebel News" label="Rebel News" />
+      <node id="List of Canadian journalists" label="List of Canadian journalists" />
+      <node id="Newspapers in Canada" label="Newspapers in Canada" />
+      <node id="First Canadian Place" label="First Canadian Place" />
+      <node id="Transcontinental (company)" label="Transcontinental (company)" />
+      <node id="Respect Party" label="Respect Party" />
+      <node id="Northern Ireland" label="Northern Ireland" />
+      <node id="Milwaukee Journal Sentinel" label="Milwaukee Journal Sentinel" />
+      <node id="Richard Gott" label="Richard Gott" />
+      <node id="Stamp duty" label="Stamp duty" />
+      <node id="David Conn" label="David Conn" />
+      <node id="New York Review of Books" label="New York Review of Books" />
+      <node id="Margaret Widdemer" label="Margaret Widdemer" />
+      <node id="Joel Waldfogel" label="Joel Waldfogel" />
+      <node id="Japan" label="Japan" />
+      <node id="Frank Longo" label="Frank Longo" />
+      <node id="Jim Hoagland" label="Jim Hoagland" />
+      <node id="International Herald Tribune" label="International Herald Tribune" />
+      <node id="Deepa Seetharaman" label="Deepa Seetharaman" />
+      <node id="App Store (Apple)" label="App Store (Apple)" />
+      <node id="Assault weapons legislation in the United States" label="Assault weapons legislation in the United States" />
+      <node id="General relativity" label="General relativity" />
+      <node id="Rand Paul" label="Rand Paul" />
+      <node id="Rush Limbaugh" label="Rush Limbaugh" />
+      <node id="Alex Tizon" label="Alex Tizon" />
+      <node id="Progressive conservatism" label="Progressive conservatism" />
+      <node id="Pulitzer Prize for Investigative Reporting" label="Pulitzer Prize for Investigative Reporting" />
+      <node id="Federal Bureau of Investigation" label="Federal Bureau of Investigation" />
+      <node id="Arkansas Gazette" label="Arkansas Gazette" />
+      <node id="Europe" label="Europe" />
+      <node id="Harold Evans" label="Harold Evans" />
+      <node id="The Washington Free Beacon" label="The Washington Free Beacon" />
+      <node id="The Washington Post" label="The Washington Post" />
+      <node id="White House Correspondents' Association" label="White House Correspondents' Association" />
+      <node id="2008 United States presidential election" label="2008 United States presidential election" />
+      <node id="Eileen Welsome" label="Eileen Welsome" />
+      <node id="Roll Call" label="Roll Call" />
+      <node id="The Boston Post" label="The Boston Post" />
+      <node id="Nils Bruzelius" label="Nils Bruzelius" />
+      <node id="Edith Galt" label="Edith Galt" />
+      <node id="Clifford K. Berryman" label="Clifford K. Berryman" />
+      <node id="CNBC" label="CNBC" />
+      <node id="Amber Heard" label="Amber Heard" />
+      <node id="University of Washington" label="University of Washington" />
+      <node id="B1G Super Saturday" label="B1G Super Saturday" />
+      <node id="Walla Walla University" label="Walla Walla University" />
+      <node id="Pike Street (Seattle)" label="Pike Street (Seattle)" />
+      <node id="Kyushu University" label="Kyushu University" />
+      <node id="Hec Edmundson Pavilion" label="Hec Edmundson Pavilion" />
+      <node id="Serial killer" label="Serial killer" />
+      <node id="College of William &amp; Mary" label="College of William &amp; Mary" />
+      <node id="Henry Suzzallo" label="Henry Suzzallo" />
+      <node id="Revised Code of Washington" label="Revised Code of Washington" />
+      <node id="UpToDate" label="UpToDate" />
+      <node id="Wolters Kluwer Health" label="Wolters Kluwer Health" />
+      <node id="United States" label="United States" />
+      <node id="Scholarly peer review" label="Scholarly peer review" />
+      <node id="Lexicomp" label="Lexicomp" />
+      <node id="EMedicine" label="EMedicine" />
+      <node id="Norway" label="Norway" />
+      <node id="Journal of Medical Ethics" label="Journal of Medical Ethics" />
+      <node id="Nephrology" label="Nephrology" />
+      <node id="Universal Music Group v. Internet Archive" label="Universal Music Group v. Internet Archive" />
+      <node id="Ars Technica" label="Ars Technica" />
+      <node id="Digital preservation" label="Digital preservation" />
+      <node id="Glennys McVeigh" label="Glennys McVeigh" />
+      <node id="The Daily Beast" label="The Daily Beast" />
+      <node id="GreatFire" label="GreatFire" />
+      <node id="Library Freedom Project" label="Library Freedom Project" />
+      <node id="National Archives and Records Administration" label="National Archives and Records Administration" />
+      <node id="Ad server" label="Ad server" />
+      <node id="Digital forensics" label="Digital forensics" />
+      <node id="United Nations Division for Palestinian Rights" label="United Nations Division for Palestinian Rights" />
+      <node id="Commission on Sustainable Development" label="Commission on Sustainable Development" />
+      <node id="Deutsche Gesellschaft für Internationale Zusammenarbeit" label="Deutsche Gesellschaft für Internationale Zusammenarbeit" />
+      <node id="Mosquito net" label="Mosquito net" />
+      <node id="Annalena Baerbock" label="Annalena Baerbock" />
+      <node id="Institut Bioforce" label="Institut Bioforce" />
+      <node id="Office of the Special Representative of the Secretary-General on Sexual Violence in Conflict" label="Office of the Special Representative of the Secretary-General on Sexual Violence in Conflict" />
+      <node id="Information and communications technology" label="Information and communications technology" />
+      <node id="List of open-source health software" label="List of open-source health software" />
+      <node id="Celestial Sphere Woodrow Wilson Memorial" label="Celestial Sphere Woodrow Wilson Memorial" />
+      <node id="YouTube" label="YouTube" />
+      <node id="Google Cloud Shell" label="Google Cloud Shell" />
+      <node id="Chechnya" label="Chechnya" />
+      <node id="Like.com" label="Like.com" />
+      <node id="CNNMoney" label="CNNMoney" />
+      <node id="Google ATAP" label="Google ATAP" />
+      <node id="Recode" label="Recode" />
+      <node id="Lazy Sunday (The Lonely Island song)" label="Lazy Sunday (The Lonely Island song)" />
+      <node id="ESPN+" label="ESPN+" />
+      <node id="AlphaGo versus Lee Sedol" label="AlphaGo versus Lee Sedol" />
+      <node id="Chrome Web Store" label="Chrome Web Store" />
+      <node id="SARS-CoV-2" label="SARS-CoV-2" />
+      <node id="COVID-19 pandemic in New Hampshire" label="COVID-19 pandemic in New Hampshire" />
+      <node id="COVID-19 pandemic in Finland" label="COVID-19 pandemic in Finland" />
+      <node id="IVX-411" label="IVX-411" />
+      <node id="COVID-19 pandemic and animals" label="COVID-19 pandemic and animals" />
+      <node id="COVID-19 pandemic in Kiribati" label="COVID-19 pandemic in Kiribati" />
+      <node id="COVID-19 pandemic in Christmas Island" label="COVID-19 pandemic in Christmas Island" />
+      <node id="COVID-19 pandemic in Kentucky" label="COVID-19 pandemic in Kentucky" />
+      <node id="Timeline of the COVID-19 pandemic in April 2020" label="Timeline of the COVID-19 pandemic in April 2020" />
+      <node id="Binding domain" label="Binding domain" />
+      <node id="Responses to the COVID-19 pandemic in August 2022" label="Responses to the COVID-19 pandemic in August 2022" />
+      <node id="Xenophobia and racism related to the COVID-19 pandemic" label="Xenophobia and racism related to the COVID-19 pandemic" />
+      <node id="Zoe Health Study" label="Zoe Health Study" />
+      <node id="Mental health during the COVID-19 pandemic" label="Mental health during the COVID-19 pandemic" />
+      <node id="Gourock, Scotland" label="Gourock, Scotland" />
+      <node id="SARS-CoV-2 Epsilon variant" label="SARS-CoV-2 Epsilon variant" />
+      <node id="Muhyiddin Yassin" label="Muhyiddin Yassin" />
+      <node id="TousAntiCovid" label="TousAntiCovid" />
+      <node id="COVID-19 pandemic in Sweden" label="COVID-19 pandemic in Sweden" />
+      <node id="Timeline of the COVID-19 pandemic in 2019" label="Timeline of the COVID-19 pandemic in 2019" />
+      <node id="Impact of the COVID-19 pandemic on the environment" label="Impact of the COVID-19 pandemic on the environment" />
+      <node id="Coronavirus diseases" label="Coronavirus diseases" />
+      <node id="Feline infectious peritonitis" label="Feline infectious peritonitis" />
+      <node id="Cats" label="Cats" />
+      <node id="Stellar corona" label="Stellar corona" />
+      <node id="Dictionary.com" label="Dictionary.com" />
+      <node id="SARS" label="SARS" />
+      <node id="Pycnonotus sinensis" label="Pycnonotus sinensis" />
+      <node id="Mice" label="Mice" />
+      <node id="History of coronavirus" label="History of coronavirus" />
+      <node id="JSTOR (identifier)" label="JSTOR (identifier)" />
+      <node id="Symptoms of COVID-19" label="Symptoms of COVID-19" />
+      <node id="COVID-19 pandemic in Assam" label="COVID-19 pandemic in Assam" />
+      <node id="Awang Bulgiba Awang Mahmud" label="Awang Bulgiba Awang Mahmud" />
+      <node id="Impact of the COVID-19 pandemic on abortion in the United States" label="Impact of the COVID-19 pandemic on abortion in the United States" />
+      <node id="Treatment and management of COVID-19" label="Treatment and management of COVID-19" />
+      <node id="COVID-19 pandemic in Florida" label="COVID-19 pandemic in Florida" />
+      <node id="Responses to the COVID-19 pandemic in July 2021" label="Responses to the COVID-19 pandemic in July 2021" />
+      <node id="COVID-19 pandemic in Manitoba" label="COVID-19 pandemic in Manitoba" />
+      <node id="Timeline of the COVID-19 pandemic in May 2022" label="Timeline of the COVID-19 pandemic in May 2022" />
+      <node id="Timeline of the COVID-19 pandemic in Belarus (2022)" label="Timeline of the COVID-19 pandemic in Belarus (2022)" />
+      <node id="COVID-19 pandemic in Croatia" label="COVID-19 pandemic in Croatia" />
+      <node id="Long COVID" label="Long COVID" />
+      <node id="2020–2023 global chip shortage" label="2020–2023 global chip shortage" />
+      <node id="Mega Ligtas COVID Centers" label="Mega Ligtas COVID Centers" />
+      <node id="Impact of the COVID-19 pandemic on female education" label="Impact of the COVID-19 pandemic on female education" />
+      <node id="PTX-COVID19-B" label="PTX-COVID19-B" />
+      <node id="Caregiver" label="Caregiver" />
+      <node id="Economic impact of the COVID-19 pandemic in the Republic of Ireland" label="Economic impact of the COVID-19 pandemic in the Republic of Ireland" />
+      <node id="Responses to the COVID-19 pandemic in February 2020" label="Responses to the COVID-19 pandemic in February 2020" />
+      <node id="Responses to the COVID-19 pandemic in August 2021" label="Responses to the COVID-19 pandemic in August 2021" />
+      <node id="COVID-19 pandemic in Italy" label="COVID-19 pandemic in Italy" />
+      <node id="Responses to the COVID-19 pandemic in May 2020" label="Responses to the COVID-19 pandemic in May 2020" />
+      <node id="COVID-19 vaccine" label="COVID-19 vaccine" />
+      <node id="COVID-19 pandemic in the Isle of Man" label="COVID-19 pandemic in the Isle of Man" />
+      <node id="Human rights issues related to the COVID-19 pandemic" label="Human rights issues related to the COVID-19 pandemic" />
+      <node id="COVID-19 pandemic in Sint Eustatius" label="COVID-19 pandemic in Sint Eustatius" />
+      <node id="European Union response to the COVID-19 pandemic" label="European Union response to the COVID-19 pandemic" />
+      <node id="COVID-19 pandemic in Iceland" label="COVID-19 pandemic in Iceland" />
+      <node id="Timeline of the COVID-19 pandemic in May 2021" label="Timeline of the COVID-19 pandemic in May 2021" />
+      <node id="Impact of the COVID-19 pandemic on tourism" label="Impact of the COVID-19 pandemic on tourism" />
+      <node id="Virology" label="Virology" />
+      <node id="The Bahamas" label="The Bahamas" />
+      <node id="Luxembourg" label="Luxembourg" />
+      <node id="Transmission of COVID-19" label="Transmission of COVID-19" />
+      <node id="Zeng Guang" label="Zeng Guang" />
+      <node id="COVID-19 pandemic in Bolivia" label="COVID-19 pandemic in Bolivia" />
+      <node id="COVID-19 pandemic in the British Virgin Islands" label="COVID-19 pandemic in the British Virgin Islands" />
+      <node id="Timeline of the COVID-19 pandemic in Mexico" label="Timeline of the COVID-19 pandemic in Mexico" />
+      <node id="COVID-19 pandemic in Fiji" label="COVID-19 pandemic in Fiji" />
+      <node id="Vehicle" label="Vehicle" />
+      <node id="2022 Wellington protest" label="2022 Wellington protest" />
+      <node id="Solidarity trial" label="Solidarity trial" />
+      <node id="Andrea Crisanti (scientist)" label="Andrea Crisanti (scientist)" />
+      <node id="Bamlanivimab" label="Bamlanivimab" />
+      <node id="COVID-19 testing" label="COVID-19 testing" />
+      <node id="COVID-19 pandemic in Kyrgyzstan" label="COVID-19 pandemic in Kyrgyzstan" />
+      <node id="List of American television series impacted by the COVID-19 pandemic" label="List of American television series impacted by the COVID-19 pandemic" />
+      <node id="COVID-19 pandemic in Åland" label="COVID-19 pandemic in Åland" />
+      <node id="COVID-19 vaccination in Greece" label="COVID-19 vaccination in Greece" />
+      <node id="New York state government response to the COVID-19 pandemic" label="New York state government response to the COVID-19 pandemic" />
+      <node id="2021 Abkhazia unrest" label="2021 Abkhazia unrest" />
+      <node id="Impact of the COVID-19 pandemic on social media" label="Impact of the COVID-19 pandemic on social media" />
+      <node id="Noor Hisham Abdullah" label="Noor Hisham Abdullah" />
+      <node id="Responses to the COVID-19 pandemic in May 2021" label="Responses to the COVID-19 pandemic in May 2021" />
+      <node id="COVID-19 pandemic in Malta" label="COVID-19 pandemic in Malta" />
+      <node id="Pandemic prevention" label="Pandemic prevention" />
+      <node id="Protein" label="Protein" />
+      <node id="Biosurveillance" label="Biosurveillance" />
+      <node id="Global Health Innovative Technology Fund (GHIT)" label="Global Health Innovative Technology Fund (GHIT)" />
+      <node id="Human–wildlife conflict" label="Human–wildlife conflict" />
+      <node id="United Nations" label="United Nations" />
+      <node id="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" label="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" />
+      <node id="CDC" label="CDC" />
+      <node id="Biotechnology risk" label="Biotechnology risk" />
+      <node id="Climate change and biodiversity loss" label="Climate change and biodiversity loss" />
+      <node id="Face masks during the COVID-19 pandemic" label="Face masks during the COVID-19 pandemic" />
+      <node id="2021 Greek protests" label="2021 Greek protests" />
+      <node id="Shi Zhengli" label="Shi Zhengli" />
+      <node id="Fahrettin Koca" label="Fahrettin Koca" />
+      <node id="COVID-19 pandemic in Maldives" label="COVID-19 pandemic in Maldives" />
+      <node id="Impact of the COVID-19 pandemic on science and technology" label="Impact of the COVID-19 pandemic on science and technology" />
+      <node id="NDV-HXP-S" label="NDV-HXP-S" />
+      <node id="COVID-19 pandemic in Latvia" label="COVID-19 pandemic in Latvia" />
+      <node id="First COVID-19 tier regulations in England" label="First COVID-19 tier regulations in England" />
+      <node id="Timeline of the COVID-19 pandemic in August 2020" label="Timeline of the COVID-19 pandemic in August 2020" />
+      <node id="Hand washing" label="Hand washing" />
+      <node id="Mental health" label="Mental health" />
+      <node id="Stay-at-home order" label="Stay-at-home order" />
+      <node id="Medication costs" label="Medication costs" />
+      <node id="Emoji" label="Emoji" />
+      <node id="List of epidemics and pandemics" label="List of epidemics and pandemics" />
+      <node id="Sexually transmitted infection" label="Sexually transmitted infection" />
+      <node id="Howard Markel" label="Howard Markel" />
+      <node id="Chlorhexidine" label="Chlorhexidine" />
+      <node id="Agent-based model in biology" label="Agent-based model in biology" />
+      <node id="COVID-19 drug development" label="COVID-19 drug development" />
+      <node id="COVID-19 pandemic in Belize" label="COVID-19 pandemic in Belize" />
+      <node id="COVID-19 protests in New Zealand" label="COVID-19 protests in New Zealand" />
+      <node id="COVID-19 pandemic in Armenia" label="COVID-19 pandemic in Armenia" />
+      <node id="RNA" label="RNA" />
+      <node id="Abdala (vaccine)" label="Abdala (vaccine)" />
+      <node id="European Medicines Agency" label="European Medicines Agency" />
+      <node id="COVID-19 vaccination in South Africa" label="COVID-19 vaccination in South Africa" />
+      <node id="COVID-19 pandemic in Belarus" label="COVID-19 pandemic in Belarus" />
+      <node id="Social distancing" label="Social distancing" />
+      <node id="Dutch government response to the COVID-19 pandemic" label="Dutch government response to the COVID-19 pandemic" />
+      <node id="Bio-secure bubble" label="Bio-secure bubble" />
+      <node id="Social impact of the COVID-19 pandemic in the United Kingdom" label="Social impact of the COVID-19 pandemic in the United Kingdom" />
+      <node id="Soberana 02" label="Soberana 02" />
+      <node id="PREPARE" label="PREPARE" />
+      <node id="COVID-19 pandemic in the Sahrawi Arab Democratic Republic" label="COVID-19 pandemic in the Sahrawi Arab Democratic Republic" />
+      <node id="Nguyễn Thanh Long" label="Nguyễn Thanh Long" />
+      <node id="Mike Tildesley" label="Mike Tildesley" />
+      <node id="Food security during the COVID-19 pandemic" label="Food security during the COVID-19 pandemic" />
+      <node id="COVID-19 pandemic in Manipur" label="COVID-19 pandemic in Manipur" />
+      <node id="COVID-19 pandemic in Cuba" label="COVID-19 pandemic in Cuba" />
+      <node id="COVID-19 naming" label="COVID-19 naming" />
+      <node id="Wuhan" label="Wuhan" />
+      <node id="Gay Related Immune Deficiency" label="Gay Related Immune Deficiency" />
+      <node id="Vox (political party)" label="Vox (political party)" />
+      <node id="Fairleigh Dickinson University" label="Fairleigh Dickinson University" />
+      <node id="Kraken" label="Kraken" />
+      <node id="Variants of SARS-CoV-2" label="Variants of SARS-CoV-2" />
+      <node id="Impact of the COVID-19 pandemic on disc golf" label="Impact of the COVID-19 pandemic on disc golf" />
+      <node id="COVID-19 pandemic in the Cocos (Keeling) Islands" label="COVID-19 pandemic in the Cocos (Keeling) Islands" />
+      <node id="COVID-19 vaccination in the Republic of Ireland" label="COVID-19 vaccination in the Republic of Ireland" />
+      <node id="COVID-19 pandemic in Mexico" label="COVID-19 pandemic in Mexico" />
+      <node id="Evacuations by the Philippines related to the COVID-19 pandemic" label="Evacuations by the Philippines related to the COVID-19 pandemic" />
+      <node id="Molnupiravir" label="Molnupiravir" />
+      <node id="COVID-19 pandemic in France" label="COVID-19 pandemic in France" />
+      <node id="COVID-19 vaccine hesitancy in the United States" label="COVID-19 vaccine hesitancy in the United States" />
+      <node id="COVID-19 pandemic in the Kurdistan Region" label="COVID-19 pandemic in the Kurdistan Region" />
+      <node id="Clouding of consciousness" label="Clouding of consciousness" />
+      <node id="Autistic burnout" label="Autistic burnout" />
+      <node id="Interoception" label="Interoception" />
+      <node id="Brain fag syndrome" label="Brain fag syndrome" />
+      <node id="Orientation (mental)" label="Orientation (mental)" />
+      <node id="Diencephalon" label="Diencephalon" />
+      <node id="Attention" label="Attention" />
+      <node id="The Menopause Society" label="The Menopause Society" />
+      <node id="Menopause" label="Menopause" />
+      <node id="Vagus nerve" label="Vagus nerve" />
+      <node id="Olfactory system" label="Olfactory system" />
+      <node id="Workplace hazard controls for COVID-19" label="Workplace hazard controls for COVID-19" />
+      <node id="COVID-19 pandemic in Tunisia" label="COVID-19 pandemic in Tunisia" />
+      <node id="COVID-19 pandemic in Northern Cyprus" label="COVID-19 pandemic in Northern Cyprus" />
+      <node id="Skycovione" label="Skycovione" />
+      <node id="Impact of the COVID-19 pandemic on Native American tribes and tribal communities" label="Impact of the COVID-19 pandemic on Native American tribes and tribal communities" />
+      <node id="U.S. state and local government responses to the COVID-19 pandemic" label="U.S. state and local government responses to the COVID-19 pandemic" />
+      <node id="COVID-19 pandemic in Saint Kitts and Nevis" label="COVID-19 pandemic in Saint Kitts and Nevis" />
+      <node id="COVID-19 pandemic in the Dominican Republic" label="COVID-19 pandemic in the Dominican Republic" />
+      <node id="COVID-19 pandemic in Samoa" label="COVID-19 pandemic in Samoa" />
+      <node id="COVID-19 pandemic in Soccsksargen" label="COVID-19 pandemic in Soccsksargen" />
+      <node id="Non-pharmaceutical intervention (epidemiology)" label="Non-pharmaceutical intervention (epidemiology)" />
+      <node id="Superinfection" label="Superinfection" />
+      <node id="COVID-19 protests in Israel" label="COVID-19 protests in Israel" />
+      <node id="Social impact of the COVID-19 pandemic in New Zealand" label="Social impact of the COVID-19 pandemic in New Zealand" />
+      <node id="Shortages related to the COVID-19 pandemic" label="Shortages related to the COVID-19 pandemic" />
+      <node id="Timeline of the COVID-19 pandemic in Ontario (2022)" label="Timeline of the COVID-19 pandemic in Ontario (2022)" />
+      <node id="Walvax COVID-19 vaccine" label="Walvax COVID-19 vaccine" />
+      <node id="SARS-CoV-2 Iota variant" label="SARS-CoV-2 Iota variant" />
+      <node id="COVID-19 pandemic in Ontario" label="COVID-19 pandemic in Ontario" />
+      <node id="Christian Drosten" label="Christian Drosten" />
+      <node id="Pandemic predictions and preparations prior to the COVID-19 pandemic" label="Pandemic predictions and preparations prior to the COVID-19 pandemic" />
+      <node id="France convoy protest" label="France convoy protest" />
+      <node id="Malaysian movement control order" label="Malaysian movement control order" />
+      <node id="COVID-19 pandemic in New York (state)" label="COVID-19 pandemic in New York (state)" />
+      <node id="Azra Ghani" label="Azra Ghani" />
+      <node id="PREDICT (USAID)" label="PREDICT (USAID)" />
+      <node id="CureVac COVID-19 vaccine" label="CureVac COVID-19 vaccine" />
+      <node id="COVID-19 pandemic in Normandy" label="COVID-19 pandemic in Normandy" />
+      <node id="Taiwan Centers for Disease Control" label="Taiwan Centers for Disease Control" />
+      <node id="List of countries by hospital beds" label="List of countries by hospital beds" />
+      <node id="Impact of the COVID-19 pandemic on the cannabis industry" label="Impact of the COVID-19 pandemic on the cannabis industry" />
+      <node id="COVID-19 surveillance" label="COVID-19 surveillance" />
+      <node id="COVID-19 pandemic in Israel" label="COVID-19 pandemic in Israel" />
+      <node id="COVID-19 pandemic in Zimbabwe" label="COVID-19 pandemic in Zimbabwe" />
+      <node id="Timeline of the COVID-19 pandemic in February 2020" label="Timeline of the COVID-19 pandemic in February 2020" />
+      <node id="Coronavirus Scientific Advisory Board" label="Coronavirus Scientific Advisory Board" />
+      <node id="Public health surveillance" label="Public health surveillance" />
+      <node id="COVID-19 pandemic in the Guantanamo Bay Naval Base" label="COVID-19 pandemic in the Guantanamo Bay Naval Base" />
+      <node id="Timeline of the COVID-19 pandemic in Australia (2020)" label="Timeline of the COVID-19 pandemic in Australia (2020)" />
+      <node id="COVID-19 pandemic in Hawaii" label="COVID-19 pandemic in Hawaii" />
+      <node id="2021 Cuban protests" label="2021 Cuban protests" />
+      <node id="COVID-19 apps" label="COVID-19 apps" />
+      <node id="CareFIJI" label="CareFIJI" />
+      <node id="University of Erfurt" label="University of Erfurt" />
+      <node id="Angola" label="Angola" />
+      <node id="Market penetration" label="Market penetration" />
+      <node id="Boston University" label="Boston University" />
+      <node id="Asymptomatic" label="Asymptomatic" />
+      <node id="ACLU" label="ACLU" />
+      <node id="Digital contact tracing" label="Digital contact tracing" />
+      <node id="University of Waterloo" label="University of Waterloo" />
+      <node id="The Hague" label="The Hague" />
+      <node id="Social distancing measures related to the COVID-19 pandemic" label="Social distancing measures related to the COVID-19 pandemic" />
+      <node id="Impact of the COVID-19 pandemic on children" label="Impact of the COVID-19 pandemic on children" />
+      <node id="COVID-19 misinformation in Canada" label="COVID-19 misinformation in Canada" />
+      <node id="Disease X" label="Disease X" />
+      <node id="COVID-19 vaccination in Spain" label="COVID-19 vaccination in Spain" />
+      <node id="German government response to the COVID-19 pandemic" label="German government response to the COVID-19 pandemic" />
+      <node id="Impact of the COVID-19 pandemic on the performing arts" label="Impact of the COVID-19 pandemic on the performing arts" />
+      <node id="COVID-19 pandemic in Cagayan Valley" label="COVID-19 pandemic in Cagayan Valley" />
+      <node id="COVID-19 pandemic in Minnesota" label="COVID-19 pandemic in Minnesota" />
+      <node id="Operation Moonshot" label="Operation Moonshot" />
+      <node id="Immuni" label="Immuni" />
+      <node id="COVID-19 pandemic death rates by country" label="COVID-19 pandemic death rates by country" />
+      <node id="Impact of the COVID-19 pandemic on the food industry" label="Impact of the COVID-19 pandemic on the food industry" />
+      <node id="International aid related to the COVID-19 pandemic" label="International aid related to the COVID-19 pandemic" />
+      <node id="COVID-19 pandemic in Portugal" label="COVID-19 pandemic in Portugal" />
+      <node id="Economic impact of the COVID-19 pandemic in New Zealand" label="Economic impact of the COVID-19 pandemic in New Zealand" />
+      <node id="Doni Monardo" label="Doni Monardo" />
+      <node id="Impact of the COVID-19 pandemic on pregnant women" label="Impact of the COVID-19 pandemic on pregnant women" />
+      <node id="UK Rapid Test Consortium" label="UK Rapid Test Consortium" />
+      <node id="COVID-19 pandemic in Indonesia" label="COVID-19 pandemic in Indonesia" />
+      <node id="COVID-19 pandemic in Wallis and Futuna" label="COVID-19 pandemic in Wallis and Futuna" />
+      <node id="Relationship between blood group and COVID-19" label="Relationship between blood group and COVID-19" />
+      <node id="COVID-19 pandemic in China" label="COVID-19 pandemic in China" />
+      <node id="Darmankade Medical Magazine" label="Darmankade Medical Magazine" />
+      <node id="O-linked glycosylation" label="O-linked glycosylation" />
+      <node id="Blood type" label="Blood type" />
+      <node id="New England Journal of Medicine" label="New England Journal of Medicine" />
+      <node id="China" label="China" />
+      <node id="COVID-19 pandemic in Jordan" label="COVID-19 pandemic in Jordan" />
+      <node id="COVID-19 pandemic in West Bengal" label="COVID-19 pandemic in West Bengal" />
+      <node id="SwissCovid" label="SwissCovid" />
+      <node id="COVID-19 pandemic in Cambodia" label="COVID-19 pandemic in Cambodia" />
+      <node id="Impact of the COVID-19 pandemic on foster care in the United States" label="Impact of the COVID-19 pandemic on foster care in the United States" />
+      <node id="United Kingdom responses to the COVID-19 pandemic" label="United Kingdom responses to the COVID-19 pandemic" />
+      <node id="Nasal congestion" label="Nasal congestion" />
+      <node id="COVID-19 cases at the 2020 Summer Olympics and 2020 Summer Paralympics" label="COVID-19 cases at the 2020 Summer Olympics and 2020 Summer Paralympics" />
+      <node id="COVID-19 pandemic in Scotland" label="COVID-19 pandemic in Scotland" />
+      <node id="Gendered impact of the COVID-19 pandemic" label="Gendered impact of the COVID-19 pandemic" />
+      <node id="Timeline of the COVID-19 pandemic in India (January–May 2020)" label="Timeline of the COVID-19 pandemic in India (January–May 2020)" />
+      <node id="COVID-19 pandemic in Andhra Pradesh" label="COVID-19 pandemic in Andhra Pradesh" />
+      <node id="COVID-19 pandemic in Jharkhand" label="COVID-19 pandemic in Jharkhand" />
+      <node id="COVID-19 pandemic in Mizoram" label="COVID-19 pandemic in Mizoram" />
+      <node id="COVID-19 vaccination in Senegal" label="COVID-19 vaccination in Senegal" />
+      <node id="COVID-19 pandemic in the Northern Territory" label="COVID-19 pandemic in the Northern Territory" />
+      <node id="2021–2023 global energy crisis" label="2021–2023 global energy crisis" />
+      <node id="COVID-19 pandemic in Georgia (U.S. state)" label="COVID-19 pandemic in Georgia (U.S. state)" />
+      <node id="Responses to the COVID-19 pandemic in October 2021" label="Responses to the COVID-19 pandemic in October 2021" />
+      <node id="Soberana Plus" label="Soberana Plus" />
+      <node id="Timeline of the COVID-19 pandemic" label="Timeline of the COVID-19 pandemic" />
+      <node id="Zhong Nanshan" label="Zhong Nanshan" />
+      <node id="COH04S1" label="COH04S1" />
+      <node id="COVID-19 pandemic in Madhya Pradesh" label="COVID-19 pandemic in Madhya Pradesh" />
+      <node id="COVID-19 pandemic in South Africa" label="COVID-19 pandemic in South Africa" />
+      <node id="COVID-19 pandemic in Portland, Oregon" label="COVID-19 pandemic in Portland, Oregon" />
+      <node id="COVID-19 pandemic in Trinidad and Tobago" label="COVID-19 pandemic in Trinidad and Tobago" />
+      <node id="COVID-19 pandemic in Uttar Pradesh" label="COVID-19 pandemic in Uttar Pradesh" />
+      <node id="COVID-19 pandemic in Eastern Visayas" label="COVID-19 pandemic in Eastern Visayas" />
+      <node id="Investigations into the origin of COVID-19" label="Investigations into the origin of COVID-19" />
+      <node id="Origin of SARS-CoV-2" label="Origin of SARS-CoV-2" />
+      <node id="COVID-19 misinformation" label="COVID-19 misinformation" />
+      <node id="Timeline of the COVID-19 pandemic in Wales (2020)" label="Timeline of the COVID-19 pandemic in Wales (2020)" />
+      <node id="Fallacy" label="Fallacy" />
+      <node id="Timeline of the COVID-19 pandemic in July 2022" label="Timeline of the COVID-19 pandemic in July 2022" />
+      <node id="Sotiris Tsiodras" label="Sotiris Tsiodras" />
+      <node id="COVID-19 pandemic in Tonga" label="COVID-19 pandemic in Tonga" />
+      <node id="Allegations of CIA assistance to Osama bin Laden" label="Allegations of CIA assistance to Osama bin Laden" />
+      <node id="Drugs Controller General of India" label="Drugs Controller General of India" />
+      <node id="Impact of the COVID-19 pandemic on aviation" label="Impact of the COVID-19 pandemic on aviation" />
+      <node id="COVID-19 drug repurposing research" label="COVID-19 drug repurposing research" />
+      <node id="COVID-19 pandemic in the Federated States of Micronesia" label="COVID-19 pandemic in the Federated States of Micronesia" />
+      <node id="COVID-19 pandemic in Virginia" label="COVID-19 pandemic in Virginia" />
+      <node id="Lawrence Wong" label="Lawrence Wong" />
+      <node id="Moldovan–Romanian collaboration during the COVID-19 pandemic" label="Moldovan–Romanian collaboration during the COVID-19 pandemic" />
+      <node id="Deployment of COVID-19 vaccines" label="Deployment of COVID-19 vaccines" />
+      <node id="Political impact of the COVID-19 pandemic" label="Political impact of the COVID-19 pandemic" />
+      <node id="COVID-19 pandemic in Lithuania" label="COVID-19 pandemic in Lithuania" />
+      <node id="Timeline of the COVID-19 pandemic in Indonesia (2021)" label="Timeline of the COVID-19 pandemic in Indonesia (2021)" />
+      <node id="Impact of the COVID-19 pandemic on animals" label="Impact of the COVID-19 pandemic on animals" />
+      <node id="Law of declining virulence" label="Law of declining virulence" />
+      <node id="Theobald Smith" label="Theobald Smith" />
+      <node id="Theory of virulence" label="Theory of virulence" />
+      <node id="Paul W. Ewald" label="Paul W. Ewald" />
+      <node id="1:99 Concert" label="1:99 Concert" />
+      <node id="2002–2004 SARS outbreak among healthcare workers" label="2002–2004 SARS outbreak among healthcare workers" />
+      <node id="Kary Ng" label="Kary Ng" />
+      <node id="Eason Chan" label="Eason Chan" />
+      <node id="List of medical professionals who died during the SARS outbreak" label="List of medical professionals who died during the SARS outbreak" />
+      <node id="Health in China" label="Health in China" />
+      <node id="2002–2004 SARS outbreak" label="2002–2004 SARS outbreak" />
+      <node id="Joey Yung" label="Joey Yung" />
+      <node id="MERS" label="MERS" />
+      <node id="Molson Canadian Rocks for Toronto" label="Molson Canadian Rocks for Toronto" />
+      <node id="Middle East respiratory syndrome-related coronavirus" label="Middle East respiratory syndrome-related coronavirus" />
+      <node id="Chang'e 3" label="Chang'e 3" />
+      <node id="China–United States trade war" label="China–United States trade war" />
+      <node id="Special economic zones of China" label="Special economic zones of China" />
+      <node id="Three Communiqués" label="Three Communiqués" />
+      <node id="Hubei" label="Hubei" />
+      <node id="Stroke in China" label="Stroke in China" />
+      <node id="Betaarterivirus suid 1" label="Betaarterivirus suid 1" />
+      <node id="Canada" label="Canada" />
+      <node id="1853 Stockholm cholera outbreak" label="1853 Stockholm cholera outbreak" />
+      <node id="Plague City: SARS in Toronto" label="Plague City: SARS in Toronto" />
+      <node id="Ernie Eves" label="Ernie Eves" />
+      <node id="Hong Kong" label="Hong Kong" />
+      <node id="SARS conspiracy theory" label="SARS conspiracy theory" />
+      <node id="Fomite" label="Fomite" />
+      <node id="Severe acute respiratory syndrome coronavirus 1" label="Severe acute respiratory syndrome coronavirus 1" />
+      <node id="Birchmount Hospital" label="Birchmount Hospital" />
+      <node id="2020 Danish mink cull" label="2020 Danish mink cull" />
+      <node id="Danish language" label="Danish language" />
+      <node id="2022 Danish general election" label="2022 Danish general election" />
+      <node id="Kåre Mølbak" label="Kåre Mølbak" />
+      <node id="Moderates (Denmark)" label="Moderates (Denmark)" />
+      <node id="TV 2 Nyhederne" label="TV 2 Nyhederne" />
+      <node id="Jeppe Kofod" label="Jeppe Kofod" />
+      <node id="Marienborg" label="Marienborg" />
+      <node id="Statistics Denmark" label="Statistics Denmark" />
+      <node id="Vendsyssel" label="Vendsyssel" />
+      <node id="2021–2022 global supply chain crisis" label="2021–2022 global supply chain crisis" />
+      <node id="2021–2023 global supply chain crisis" label="2021–2023 global supply chain crisis" />
+      <node id="ACE inhibitor" label="ACE inhibitor" />
+      <node id="Glomerular filtration rate" label="Glomerular filtration rate" />
+      <node id="Glucocorticoid" label="Glucocorticoid" />
+      <node id="Bradykinin" label="Bradykinin" />
+      <node id="Oxford University Press" label="Oxford University Press" />
+      <node id="Monoamine oxidase inhibitor" label="Monoamine oxidase inhibitor" />
+      <node id="Corticosteroid" label="Corticosteroid" />
+      <node id="Antineoplastic" label="Antineoplastic" />
+      <node id="Ectoparasiticide" label="Ectoparasiticide" />
+      <node id="Arfalasin" label="Arfalasin" />
+      <node id="Valsartan/lercanidipine" label="Valsartan/lercanidipine" />
+      <node id="Ab Osterhaus" label="Ab Osterhaus" />
+      <node id="Dutch Health Council" label="Dutch Health Council" />
+      <node id="SARS coronavirus" label="SARS coronavirus" />
+      <node id="Contagion (2011 film)" label="Contagion (2011 film)" />
+      <node id="Utrecht University" label="Utrecht University" />
+      <node id="M.W. Beijerinck" label="M.W. Beijerinck" />
+      <node id="2009 flu pandemic" label="2009 flu pandemic" />
+      <node id="Erasmus University Rotterdam" label="Erasmus University Rotterdam" />
+      <node id="Grand Prix scientifique de la Fondation Louis D." label="Grand Prix scientifique de la Fondation Louis D." />
+      <node id="Royal Netherlands Academy of Arts and Sciences" label="Royal Netherlands Academy of Arts and Sciences" />
+      <node id="Acute (medicine)" label="Acute (medicine)" />
+      <node id="Inflammation" label="Inflammation" />
+      <node id="Medical diagnosis" label="Medical diagnosis" />
+      <node id="Medicine" label="Medicine" />
+      <node id="Chronic periodontitis" label="Chronic periodontitis" />
+      <node id="Acute hepatitis" label="Acute hepatitis" />
+      <node id="Quantification (science)" label="Quantification (science)" />
+      <node id="Acute gastroenteritis" label="Acute gastroenteritis" />
+      <node id="Medical sign" label="Medical sign" />
+      <node id="Mass noun" label="Mass noun" />
+      <node id="Syndrome" label="Syndrome" />
+      <node id="Acute kidney injury" label="Acute kidney injury" />
+      <node id="Tumor lysis syndrome" label="Tumor lysis syndrome" />
+      <node id="Potassium" label="Potassium" />
+      <node id="Renal function" label="Renal function" />
+      <node id="Rash" label="Rash" />
+      <node id="Respiratory failure" label="Respiratory failure" />
+      <node id="Patient UK" label="Patient UK" />
+      <node id="Amoxicillin/clavulanic acid" label="Amoxicillin/clavulanic acid" />
+      <node id="Renal failure" label="Renal failure" />
+      <node id="Cardiorenal syndrome" label="Cardiorenal syndrome" />
+      <node id="Pallor" label="Pallor" />
+      <node id="Acute respiratory distress syndrome" label="Acute respiratory distress syndrome" />
+      <node id="Pulmonary wedge pressure" label="Pulmonary wedge pressure" />
+      <node id="Cardiopulmonary bypass" label="Cardiopulmonary bypass" />
+      <node id="Airway pressure release ventilation" label="Airway pressure release ventilation" />
+      <node id="Sedative" label="Sedative" />
+      <node id="Altered level of consciousness" label="Altered level of consciousness" />
+      <node id="Prognosis" label="Prognosis" />
+      <node id="Hospital-acquired pneumonia" label="Hospital-acquired pneumonia" />
+      <node id="Lobar pneumonia" label="Lobar pneumonia" />
+      <node id="Pneumoperitoneum" label="Pneumoperitoneum" />
+      <node id="Chronic atrophic rhinitis" label="Chronic atrophic rhinitis" />
+      <node id="Adaptive immune system" label="Adaptive immune system" />
+      <node id="Human eye" label="Human eye" />
+      <node id="Antigen" label="Antigen" />
+      <node id="Immune complex" label="Immune complex" />
+      <node id="Polyclonal antibodies" label="Polyclonal antibodies" />
+      <node id="Human mouth" label="Human mouth" />
+      <node id="Affinity maturation" label="Affinity maturation" />
+      <node id="IgA" label="IgA" />
+      <node id="Follicular B helper T cells" label="Follicular B helper T cells" />
+      <node id="Somatic hypermutation" label="Somatic hypermutation" />
+      <node id="MHC class II" label="MHC class II" />
+      <node id="Adenovirus" label="Adenovirus" />
+      <node id="Adenoviridae" label="Adenoviridae" />
+      <node id="Aerosol" label="Aerosol" />
+      <node id="Nonpoint source pollution" label="Nonpoint source pollution" />
+      <node id="Smog" label="Smog" />
+      <node id="Drop (liquid)" label="Drop (liquid)" />
+      <node id="Urban runoff" label="Urban runoff" />
+      <node id="Volcanic ash" label="Volcanic ash" />
+      <node id="Laser particle counter" label="Laser particle counter" />
+      <node id="Micro-Orifice Uniform Deposit Impactor" label="Micro-Orifice Uniform Deposit Impactor" />
+      <node id="Persistent organic pollutant" label="Persistent organic pollutant" />
+      <node id="Brown waste" label="Brown waste" />
+      <node id="Ageusia" label="Ageusia" />
+      <node id="Suicidal ideation" label="Suicidal ideation" />
+      <node id="Hyposmia" label="Hyposmia" />
+      <node id="Bitter (taste)" label="Bitter (taste)" />
+      <node id="Verbosity" label="Verbosity" />
+      <node id="Dysgeusia" label="Dysgeusia" />
+      <node id="Soft palate" label="Soft palate" />
+      <node id="Retrograde amnesia" label="Retrograde amnesia" />
+      <node id="Aftertaste" label="Aftertaste" />
+      <node id="Neurology" label="Neurology" />
+      <node id="Ai Fen" label="Ai Fen" />
+      <node id="COVID-19 pandemic in Caraga" label="COVID-19 pandemic in Caraga" />
+      <node id="COVID-19 pandemic in Colorado" label="COVID-19 pandemic in Colorado" />
+      <node id="National Cabinet (Australia)" label="National Cabinet (Australia)" />
+      <node id="COVID-19 pandemic in Africa" label="COVID-19 pandemic in Africa" />
+      <node id="COVID-19 pandemic in Moldova" label="COVID-19 pandemic in Moldova" />
+      <node id="Subunit vaccine" label="Subunit vaccine" />
+      <node id="Social stigma associated with COVID-19" label="Social stigma associated with COVID-19" />
+      <node id="Timeline of the COVID-19 pandemic in the United Kingdom (July–December 2020)" label="Timeline of the COVID-19 pandemic in the United Kingdom (July–December 2020)" />
+      <node id="Responses to the COVID-19 pandemic in February 2022" label="Responses to the COVID-19 pandemic in February 2022" />
+      <node id="Hamad Hasan" label="Hamad Hasan" />
+    </nodes>
+    <edges>
+      <edge source="COVID-19" target="Anthony Fauci" id="0" />
+      <edge source="COVID-19" target="ArXiv (identifier)" id="1" />
+      <edge source="COVID-19" target="ArcGIS" id="2" />
+      <edge source="COVID-19" target="BBC" id="3" />
+      <edge source="COVID-19" target="BBC News" id="4" />
+      <edge source="COVID-19" target="BBC News Online" id="5" />
+      <edge source="COVID-19" target="Bibcode (identifier)" id="6" />
+      <edge source="COVID-19" target="Caixin" id="7" />
+      <edge source="COVID-19" target="Centers for Disease Control and Prevention" id="8" />
+      <edge source="COVID-19" target="Doi (identifier)" id="9" />
+      <edge source="COVID-19" target="Donald McNeil Jr." id="10" />
+      <edge source="COVID-19" target="Encyclopædia Britannica" id="11" />
+      <edge source="COVID-19" target="European Centre for Disease Prevention and Control" id="12" />
+      <edge source="COVID-19" target="Food and Drug Administration" id="13" />
+      <edge source="COVID-19" target="Hannah Ritchie" id="14" />
+      <edge source="COVID-19" target="Hdl (identifier)" id="15" />
+      <edge source="COVID-19" target="ISSN (identifier)" id="16" />
+      <edge source="COVID-19" target="Istituto Superiore di Sanità" id="17" />
+      <edge source="COVID-19" target="Johns Hopkins University" id="18" />
+      <edge source="COVID-19" target="Knowable Magazine" id="19" />
+      <edge source="COVID-19" target="LCCN (identifier)" id="20" />
+      <edge source="COVID-19" target="National COVID-19 Clinical Evidence Taskforce" id="21" />
+      <edge source="COVID-19" target="National Geographic" id="22" />
+      <edge source="COVID-19" target="National Institute for Health Research" id="23" />
+      <edge source="COVID-19" target="Nature (journal)" id="24" />
+      <edge source="COVID-19" target="Nature Portfolio" id="25" />
+      <edge source="COVID-19" target="OCLC (identifier)" id="26" />
+      <edge source="COVID-19" target="Our World in Data" id="27" />
+      <edge source="COVID-19" target="Oxford English Dictionary" id="28" />
+      <edge source="COVID-19" target="PMC (identifier)" id="29" />
+      <edge source="COVID-19" target="PMID (identifier)" id="30" />
+      <edge source="COVID-19" target="Politico" id="31" />
+      <edge source="COVID-19" target="ResearchGate" id="32" />
+      <edge source="COVID-19" target="Reuters" id="33" />
+      <edge source="COVID-19" target="Richard Horton (editor)" id="34" />
+      <edge source="COVID-19" target="S2CID (identifier)" id="35" />
+      <edge source="COVID-19" target="SSRN (identifier)" id="36" />
+      <edge source="COVID-19" target="Science-Based Medicine" id="37" />
+      <edge source="COVID-19" target="Science (journal)" id="38" />
+      <edge source="COVID-19" target="Scientific American" id="39" />
+      <edge source="COVID-19" target="The Economist" id="40" />
+      <edge source="COVID-19" target="The Globe and Mail" id="41" />
+      <edge source="COVID-19" target="The Guardian" id="42" />
+      <edge source="COVID-19" target="The New York Times" id="43" />
+      <edge source="COVID-19" target="The Wall Street Journal" id="44" />
+      <edge source="COVID-19" target="The Washington Post" id="45" />
+      <edge source="COVID-19" target="University of Washington" id="46" />
+      <edge source="COVID-19" target="UpToDate" id="47" />
+      <edge source="COVID-19" target="Wayback Machine" id="48" />
+      <edge source="COVID-19" target="World Health Organization" id="49" />
+      <edge source="COVID-19" target="YouTube" id="50" />
+      <edge source="COVID-19" target="SARS-CoV-2" id="51" />
+      <edge source="COVID-19" target="COVID-19 pandemic" id="52" />
+      <edge source="COVID-19" target="Coronavirus diseases" id="53" />
+      <edge source="COVID-19" target="Symptoms of COVID-19" id="54" />
+      <edge source="COVID-19" target="Long COVID" id="55" />
+      <edge source="COVID-19" target="COVID-19 vaccine" id="56" />
+      <edge source="COVID-19" target="Transmission of COVID-19" id="57" />
+      <edge source="COVID-19" target="COVID-19 testing" id="58" />
+      <edge source="COVID-19" target="Pandemic prevention" id="59" />
+      <edge source="COVID-19" target="Face masks during the COVID-19 pandemic" id="60" />
+      <edge source="COVID-19" target="Hand washing" id="61" />
+      <edge source="COVID-19" target="COVID-19 drug development" id="62" />
+      <edge source="COVID-19" target="Treatment and management of COVID-19" id="63" />
+      <edge source="COVID-19" target="COVID-19 naming" id="64" />
+      <edge source="COVID-19" target="Variants of SARS-CoV-2" id="65" />
+      <edge source="COVID-19" target="Clouding of consciousness" id="66" />
+      <edge source="COVID-19" target="Workplace hazard controls for COVID-19" id="67" />
+      <edge source="COVID-19" target="Non-pharmaceutical intervention (epidemiology)" id="68" />
+      <edge source="COVID-19" target="Pandemic predictions and preparations prior to the COVID-19 pandemic" id="69" />
+      <edge source="COVID-19" target="COVID-19 surveillance" id="70" />
+      <edge source="COVID-19" target="COVID-19 apps" id="71" />
+      <edge source="COVID-19" target="Social distancing measures related to the COVID-19 pandemic" id="72" />
+      <edge source="COVID-19" target="COVID-19 pandemic death rates by country" id="73" />
+      <edge source="COVID-19" target="Relationship between blood group and COVID-19" id="74" />
+      <edge source="COVID-19" target="Impact of the COVID-19 pandemic on children" id="75" />
+      <edge source="COVID-19" target="Gendered impact of the COVID-19 pandemic" id="76" />
+      <edge source="COVID-19" target="Timeline of the COVID-19 pandemic" id="77" />
+      <edge source="COVID-19" target="Investigations into the origin of COVID-19" id="78" />
+      <edge source="COVID-19" target="COVID-19 misinformation" id="79" />
+      <edge source="COVID-19" target="COVID-19 drug repurposing research" id="80" />
+      <edge source="COVID-19" target="Impact of the COVID-19 pandemic on animals" id="81" />
+      <edge source="COVID-19" target="Law of declining virulence" id="82" />
+      <edge source="COVID-19" target="Theory of virulence" id="83" />
+      <edge source="COVID-19" target="1:99 Concert" id="84" />
+      <edge source="COVID-19" target="2002–2004 SARS outbreak" id="85" />
+      <edge source="COVID-19" target="2002–2004 SARS outbreak among healthcare workers" id="86" />
+      <edge source="COVID-19" target="2020 Danish mink cull" id="87" />
+      <edge source="COVID-19" target="2021–2022 global supply chain crisis" id="88" />
+      <edge source="COVID-19" target="ACE inhibitor" id="89" />
+      <edge source="COVID-19" target="Ab Osterhaus" id="90" />
+      <edge source="COVID-19" target="Acute (medicine)" id="91" />
+      <edge source="COVID-19" target="Acute kidney injury" id="92" />
+      <edge source="COVID-19" target="Acute respiratory distress syndrome" id="93" />
+      <edge source="COVID-19" target="Adaptive immune system" id="94" />
+      <edge source="COVID-19" target="Adenovirus" id="95" />
+      <edge source="COVID-19" target="Aerosol" id="96" />
+      <edge source="COVID-19" target="Ageusia" id="97" />
+      <edge source="COVID-19" target="Ai Fen" id="98" />
+      <edge source="Anthony Fauci" target="NZ COVID Tracer" id="99" />
+      <edge source="Anthony Fauci" target="Economic impact of the COVID-19 pandemic in Malaysia" id="100" />
+      <edge source="Anthony Fauci" target="George Dantzig" id="101" />
+      <edge source="Anthony Fauci" target="COVID-19 pandemic in Romania" id="102" />
+      <edge source="Anthony Fauci" target="National responses to the COVID-19 pandemic in Africa" id="103" />
+      <edge source="Anthony Fauci" target="COVID-19 pandemic in Russia" id="104" />
+      <edge source="Anthony Fauci" target="George Armitage Miller" id="105" />
+      <edge source="Anthony Fauci" target="A Parks and Recreation Special" id="106" />
+      <edge source="Anthony Fauci" target="Shelley E. Taylor" id="107" />
+      <edge source="Anthony Fauci" target="Edwin M. McMillan" id="108" />
+      <edge source="ArXiv (identifier)" target="ArXiv" id="109" />
+      <edge source="ArcGIS" target="ArcGIS Server" id="110" />
+      <edge source="ArcGIS" target="SUSE Linux Enterprise Server" id="111" />
+      <edge source="ArcGIS" target="Dataset" id="112" />
+      <edge source="ArcGIS" target="Oracle Database" id="113" />
+      <edge source="ArcGIS" target="Doi (identifier)" id="114" />
+      <edge source="ArcGIS" target="Map projection" id="115" />
+      <edge source="ArcGIS" target="Perl" id="116" />
+      <edge source="ArcGIS" target="ISBN (identifier)" id="117" />
+      <edge source="ArcGIS" target="FME (software)" id="118" />
+      <edge source="ArcGIS" target="Metadata" id="119" />
+      <edge source="Doi (identifier)" target="Digital object identifier" id="120" />
+      <edge source="BBC" target="FreeTV Australia" id="121" />
+      <edge source="BBC" target="BBC Micro" id="122" />
+      <edge source="BBC" target="5IT" id="123" />
+      <edge source="BBC" target="BBC Brit" id="124" />
+      <edge source="BBC" target="Auntie (song)" id="125" />
+      <edge source="BBC" target="Fundação Padre Anchieta" id="126" />
+      <edge source="BBC" target="BBC America" id="127" />
+      <edge source="BBC" target="Terabytes" id="128" />
+      <edge source="BBC" target="VisitBritain" id="129" />
+      <edge source="BBC" target="Khabar Agency" id="130" />
+      <edge source="BBC News" target="BBC West" id="131" />
+      <edge source="BBC News" target="The World Tonight" id="132" />
+      <edge source="BBC News" target="STORYFix" id="133" />
+      <edge source="BBC News" target="Morecambe and Wise" id="134" />
+      <edge source="BBC News" target="Voice of America" id="135" />
+      <edge source="BBC News" target="Helen Boaden" id="136" />
+      <edge source="BBC News" target="Everywoman (radio programme)" id="137" />
+      <edge source="BBC News" target="NBC News" id="138" />
+      <edge source="BBC News" target="Save the Children" id="139" />
+      <edge source="BBC News" target="Coat of arms of the BBC" id="140" />
+      <edge source="BBC News Online" target="Business Today (BBC News programme)" id="141" />
+      <edge source="BBC News Online" target="Ivan Noble" id="142" />
+      <edge source="BBC News Online" target="RealPlayer" id="143" />
+      <edge source="BBC News Online" target="Newsbeat" id="144" />
+      <edge source="BBC News Online" target="Broadcasting House (radio programme)" id="145" />
+      <edge source="BBC News Online" target="Adobe Flash" id="146" />
+      <edge source="BBC News Online" target="Wake Up to Money" id="147" />
+      <edge source="BBC News Online" target="BAFTA Interactive Entertainment Awards" id="148" />
+      <edge source="BBC News Online" target="Any Questions?" id="149" />
+      <edge source="BBC News Online" target="BBC News" id="150" />
+      <edge source="Bibcode (identifier)" target="Bibcode" id="151" />
+      <edge source="Caixin" target="IHS Markit" id="152" />
+      <edge source="Caixin" target="Paywall" id="153" />
+      <edge source="Caixin" target="Hankou" id="154" />
+      <edge source="Caixin" target="Princeton University" id="155" />
+      <edge source="Caixin" target="HSBC" id="156" />
+      <edge source="Caixin" target="Jeremy Goldkorn" id="157" />
+      <edge source="Caixin" target="Funeral urn" id="158" />
+      <edge source="Caixin" target="Stock Exchange Executive Council" id="159" />
+      <edge source="Caixin" target="Simplified Chinese characters" id="160" />
+      <edge source="Caixin" target="Beijing" id="161" />
+      <edge source="Centers for Disease Control and Prevention" target="OCLC (identifier)" id="162" />
+      <edge source="Centers for Disease Control and Prevention" target="The Wall Street Journal" id="163" />
+      <edge source="Centers for Disease Control and Prevention" target="Council on Environmental Quality" id="164" />
+      <edge source="Centers for Disease Control and Prevention" target="Radium Girls" id="165" />
+      <edge source="Centers for Disease Control and Prevention" target="Administration for Native Americans" id="166" />
+      <edge source="Centers for Disease Control and Prevention" target="Lawrenceville, Georgia" id="167" />
+      <edge source="Centers for Disease Control and Prevention" target="Health Resources and Services Administration" id="168" />
+      <edge source="Centers for Disease Control and Prevention" target="Domestic military deployments by the second Trump administration" id="169" />
+      <edge source="Centers for Disease Control and Prevention" target="Ricin" id="170" />
+      <edge source="Centers for Disease Control and Prevention" target="Smallpox" id="171" />
+      <edge source="OCLC (identifier)" target="OCLC" id="172" />
+      <edge source="OCLC (identifier)" target="HTML element" id="173" />
+      <edge source="The Wall Street Journal" target="Rand Paul" id="174" />
+      <edge source="The Wall Street Journal" target="Rush Limbaugh" id="175" />
+      <edge source="The Wall Street Journal" target="Alex Tizon" id="176" />
+      <edge source="The Wall Street Journal" target="Progressive conservatism" id="177" />
+      <edge source="The Wall Street Journal" target="Pulitzer Prize for Investigative Reporting" id="178" />
+      <edge source="The Wall Street Journal" target="Federal Bureau of Investigation" id="179" />
+      <edge source="The Wall Street Journal" target="Arkansas Gazette" id="180" />
+      <edge source="The Wall Street Journal" target="Europe" id="181" />
+      <edge source="The Wall Street Journal" target="Harold Evans" id="182" />
+      <edge source="The Wall Street Journal" target="The Washington Free Beacon" id="183" />
+      <edge source="Donald McNeil Jr." target="Donald G. McNeil Jr." id="184" />
+      <edge source="Encyclopædia Britannica" target="Adam Black" id="185" />
+      <edge source="Encyclopædia Britannica" target="Emperor of India" id="186" />
+      <edge source="Encyclopædia Britannica" target="Peter Ritchie Calder" id="187" />
+      <edge source="Encyclopædia Britannica" target="James Clerk Maxwell" id="188" />
+      <edge source="Encyclopædia Britannica" target="Thomas Young (scientist)" id="189" />
+      <edge source="Encyclopædia Britannica" target="ISSN (identifier)" id="190" />
+      <edge source="Encyclopædia Britannica" target="The New York Times" id="191" />
+      <edge source="Encyclopædia Britannica" target="Encyclopedia of China Publishing House" id="192" />
+      <edge source="Encyclopædia Britannica" target="Door-to-door" id="193" />
+      <edge source="Encyclopædia Britannica" target="Philip W. Goetz" id="194" />
+      <edge source="ISSN (identifier)" target="ISSN" id="195" />
+      <edge source="The New York Times" target="Margaret Widdemer" id="196" />
+      <edge source="The New York Times" target="Joel Waldfogel" id="197" />
+      <edge source="The New York Times" target="Japan" id="198" />
+      <edge source="The New York Times" target="Frank Longo" id="199" />
+      <edge source="The New York Times" target="Jim Hoagland" id="200" />
+      <edge source="The New York Times" target="International Herald Tribune" id="201" />
+      <edge source="The New York Times" target="Deepa Seetharaman" id="202" />
+      <edge source="The New York Times" target="App Store (Apple)" id="203" />
+      <edge source="The New York Times" target="Assault weapons legislation in the United States" id="204" />
+      <edge source="The New York Times" target="General relativity" id="205" />
+      <edge source="European Centre for Disease Prevention and Control" target="Cultural competence in health care" id="206" />
+      <edge source="European Centre for Disease Prevention and Control" target="European Chemicals Agency" id="207" />
+      <edge source="European Centre for Disease Prevention and Control" target="European Agency for Safety and Health at Work" id="208" />
+      <edge source="European Centre for Disease Prevention and Control" target="Euro" id="209" />
+      <edge source="European Centre for Disease Prevention and Control" target="Health care reform" id="210" />
+      <edge source="European Centre for Disease Prevention and Control" target="Health departments in the United States" id="211" />
+      <edge source="European Centre for Disease Prevention and Control" target="Erie County Democratic Committee" id="212" />
+      <edge source="European Centre for Disease Prevention and Control" target="Social cognitive theory" id="213" />
+      <edge source="European Centre for Disease Prevention and Control" target="Health Protection Agency" id="214" />
+      <edge source="European Centre for Disease Prevention and Control" target="Innovative Medicines Initiative" id="215" />
+      <edge source="Food and Drug Administration" target="Fraudulent intent" id="216" />
+      <edge source="Food and Drug Administration" target="List of foodborne illness outbreaks" id="217" />
+      <edge source="Food and Drug Administration" target="COVID-19 pandemic" id="218" />
+      <edge source="Food and Drug Administration" target="Seafood fraud" id="219" />
+      <edge source="Food and Drug Administration" target="Bad Pharma" id="220" />
+      <edge source="Food and Drug Administration" target="Alexander M. Schmidt" id="221" />
+      <edge source="Food and Drug Administration" target="Food and Drug Administration Modernization Act" id="222" />
+      <edge source="Food and Drug Administration" target="National Center for Toxicological Research" id="223" />
+      <edge source="Food and Drug Administration" target="Big Pharma (book)" id="224" />
+      <edge source="Food and Drug Administration" target="Mycotoxin" id="225" />
+      <edge source="COVID-19 pandemic" target="Xenophobia and racism related to the COVID-19 pandemic" id="226" />
+      <edge source="COVID-19 pandemic" target="Zoe Health Study" id="227" />
+      <edge source="COVID-19 pandemic" target="Mental health during the COVID-19 pandemic" id="228" />
+      <edge source="COVID-19 pandemic" target="Gourock, Scotland" id="229" />
+      <edge source="COVID-19 pandemic" target="SARS-CoV-2 Epsilon variant" id="230" />
+      <edge source="COVID-19 pandemic" target="Muhyiddin Yassin" id="231" />
+      <edge source="COVID-19 pandemic" target="TousAntiCovid" id="232" />
+      <edge source="COVID-19 pandemic" target="COVID-19 pandemic in Sweden" id="233" />
+      <edge source="COVID-19 pandemic" target="Timeline of the COVID-19 pandemic in 2019" id="234" />
+      <edge source="COVID-19 pandemic" target="Impact of the COVID-19 pandemic on the environment" id="235" />
+      <edge source="Hannah Ritchie" target="Electric car" id="236" />
+      <edge source="Hannah Ritchie" target="Solar energy" id="237" />
+      <edge source="Hannah Ritchie" target="Penguin Random House" id="238" />
+      <edge source="Hannah Ritchie" target="The Guardian" id="239" />
+      <edge source="Hannah Ritchie" target="Wind energy" id="240" />
+      <edge source="Hannah Ritchie" target="Deforestation" id="241" />
+      <edge source="Hannah Ritchie" target="ORCID (identifier)" id="242" />
+      <edge source="Hannah Ritchie" target="Doi (identifier)" id="243" />
+      <edge source="Hannah Ritchie" target="Scientific American" id="244" />
+      <edge source="Hannah Ritchie" target="Veganism" id="245" />
+      <edge source="The Guardian" target="Respect Party" id="246" />
+      <edge source="The Guardian" target="Northern Ireland" id="247" />
+      <edge source="The Guardian" target="Financial Times" id="248" />
+      <edge source="The Guardian" target="CNN" id="249" />
+      <edge source="The Guardian" target="Milwaukee Journal Sentinel" id="250" />
+      <edge source="The Guardian" target="Richard Gott" id="251" />
+      <edge source="The Guardian" target="Stamp duty" id="252" />
+      <edge source="The Guardian" target="Hay Festival" id="253" />
+      <edge source="The Guardian" target="David Conn" id="254" />
+      <edge source="The Guardian" target="New York Review of Books" id="255" />
+      <edge source="Scientific American" target="W. H. Freeman" id="256" />
+      <edge source="Scientific American" target="Charles Goodyear" id="257" />
+      <edge source="Scientific American" target="Taipei" id="258" />
+      <edge source="Scientific American" target="NBC News" id="259" />
+      <edge source="Scientific American" target="Scientific American Frontiers" id="260" />
+      <edge source="Scientific American" target="First Second Books" id="261" />
+      <edge source="Scientific American" target="361 Broadway" id="262" />
+      <edge source="Scientific American" target="Frank Winfield Woolworth" id="263" />
+      <edge source="Scientific American" target="Alan Alda" id="264" />
+      <edge source="Scientific American" target="Picador (imprint)" id="265" />
+      <edge source="Hdl (identifier)" target="Handle System" id="266" />
+      <edge source="Istituto Superiore di Sanità" target="National Institute of Health (Italy)" id="267" />
+      <edge source="Johns Hopkins University" target="Massachusetts College of Art and Design" id="268" />
+      <edge source="Johns Hopkins University" target="Economic diversity" id="269" />
+      <edge source="Johns Hopkins University" target="Gertrude Stein" id="270" />
+      <edge source="Johns Hopkins University" target="The truth will set you free" id="271" />
+      <edge source="Johns Hopkins University" target="Cornell University" id="272" />
+      <edge source="Johns Hopkins University" target="The Johns Hopkins News-Letter" id="273" />
+      <edge source="Johns Hopkins University" target="University of Maryland Biotechnology Institute" id="274" />
+      <edge source="Johns Hopkins University" target="American Broadcasting Company" id="275" />
+      <edge source="Johns Hopkins University" target="Suburban Hospital" id="276" />
+      <edge source="Johns Hopkins University" target="Doctor of Philosophy" id="277" />
+      <edge source="Knowable Magazine" target="Annual Review of Vision Science" id="278" />
+      <edge source="Knowable Magazine" target="Annual Review of Linguistics" id="279" />
+      <edge source="Knowable Magazine" target="Newswomen's Club of New York" id="280" />
+      <edge source="Knowable Magazine" target="American Society of Journalists and Authors" id="281" />
+      <edge source="Knowable Magazine" target="Annual Review of Psychology" id="282" />
+      <edge source="Knowable Magazine" target="Annual Review of Phytopathology" id="283" />
+      <edge source="Knowable Magazine" target="Annual Review of Resource Economics" id="284" />
+      <edge source="Knowable Magazine" target="Annual Review of Analytical Chemistry" id="285" />
+      <edge source="Knowable Magazine" target="Derivative works" id="286" />
+      <edge source="Knowable Magazine" target="ISSN (identifier)" id="287" />
+      <edge source="LCCN (identifier)" target="Library of Congress Control Number" id="288" />
+      <edge source="National COVID-19 Clinical Evidence Taskforce" target="COVID-19 pandemic in Australia" id="289" />
+      <edge source="National Geographic" target="Iron Curtain" id="290" />
+      <edge source="National Geographic" target="Deforestation" id="291" />
+      <edge source="National Geographic" target="CD-ROM" id="292" />
+      <edge source="National Geographic" target="WWII" id="293" />
+      <edge source="National Geographic" target="Florida Keys" id="294" />
+      <edge source="National Geographic" target="Ukrainian language" id="295" />
+      <edge source="National Geographic" target="The Wolf (magazine)" id="296" />
+      <edge source="National Geographic" target="Dian Fossey Gorilla Fund International" id="297" />
+      <edge source="National Geographic" target="National Geographic (Scandinavian TV channel)" id="298" />
+      <edge source="National Geographic" target="Biological Conservation (journal)" id="299" />
+      <edge source="National Institute for Health Research" target="National Institute for Health and Care Research" id="300" />
+      <edge source="Nature (journal)" target="Wayback Machine" id="301" />
+      <edge source="Nature (journal)" target="Scientific journal" id="302" />
+      <edge source="Nature (journal)" target="Basophils" id="303" />
+      <edge source="Nature (journal)" target="Jean Daniel" id="304" />
+      <edge source="Nature (journal)" target="Hans Magnus Enzensberger" id="305" />
+      <edge source="Nature (journal)" target="Positive feedback" id="306" />
+      <edge source="Nature (journal)" target="Google" id="307" />
+      <edge source="Nature (journal)" target="Retraction in academic publishing" id="308" />
+      <edge source="Nature (journal)" target="Palgrave Macmillan" id="309" />
+      <edge source="Nature (journal)" target="S2CID (identifier)" id="310" />
+      <edge source="Wayback Machine" target="Universal Music Group v. Internet Archive" id="311" />
+      <edge source="Wayback Machine" target="Ars Technica" id="312" />
+      <edge source="Wayback Machine" target="Digital preservation" id="313" />
+      <edge source="Wayback Machine" target="Glennys McVeigh" id="314" />
+      <edge source="Wayback Machine" target="The Daily Beast" id="315" />
+      <edge source="Wayback Machine" target="GreatFire" id="316" />
+      <edge source="Wayback Machine" target="Library Freedom Project" id="317" />
+      <edge source="Wayback Machine" target="National Archives and Records Administration" id="318" />
+      <edge source="Wayback Machine" target="Ad server" id="319" />
+      <edge source="Wayback Machine" target="Digital forensics" id="320" />
+      <edge source="S2CID (identifier)" target="Semantic Scholar" id="321" />
+      <edge source="Nature Portfolio" target="Henry Holt and Company" id="322" />
+      <edge source="Nature Portfolio" target="Magazine" id="323" />
+      <edge source="Nature Portfolio" target="Palgrave Macmillan" id="324" />
+      <edge source="Nature Portfolio" target="National Human Genome Research Institute" id="325" />
+      <edge source="Nature Portfolio" target="Gutefrage.net" id="326" />
+      <edge source="Nature Portfolio" target="Alexander MacMillan (publisher)" id="327" />
+      <edge source="Nature Portfolio" target="Pan Books" id="328" />
+      <edge source="Nature Portfolio" target="ISSN (identifier)" id="329" />
+      <edge source="Nature Portfolio" target="Learned society" id="330" />
+      <edge source="Nature Portfolio" target="Rod Campbell" id="331" />
+      <edge source="Our World in Data" target="FTX" id="332" />
+      <edge source="Our World in Data" target="Hannah Ritchie" id="333" />
+      <edge source="Our World in Data" target="Poverty" id="334" />
+      <edge source="Our World in Data" target="Disease" id="335" />
+      <edge source="Our World in Data" target="Hank Green" id="336" />
+      <edge source="Our World in Data" target="List of global issues" id="337" />
+      <edge source="Our World in Data" target="Revenue" id="338" />
+      <edge source="Our World in Data" target="Kurzgesagt" id="339" />
+      <edge source="Our World in Data" target="World Health Organization" id="340" />
+      <edge source="Our World in Data" target="Hetan Shah" id="341" />
+      <edge source="World Health Organization" target="United Nations Division for Palestinian Rights" id="342" />
+      <edge source="World Health Organization" target="Commission on Sustainable Development" id="343" />
+      <edge source="World Health Organization" target="Deutsche Gesellschaft für Internationale Zusammenarbeit" id="344" />
+      <edge source="World Health Organization" target="Mosquito net" id="345" />
+      <edge source="World Health Organization" target="Annalena Baerbock" id="346" />
+      <edge source="World Health Organization" target="Institut Bioforce" id="347" />
+      <edge source="World Health Organization" target="Office of the Special Representative of the Secretary-General on Sexual Violence in Conflict" id="348" />
+      <edge source="World Health Organization" target="Information and communications technology" id="349" />
+      <edge source="World Health Organization" target="List of open-source health software" id="350" />
+      <edge source="World Health Organization" target="Celestial Sphere Woodrow Wilson Memorial" id="351" />
+      <edge source="Oxford English Dictionary" target="British English" id="352" />
+      <edge source="Oxford English Dictionary" target="Francis George Fowler" id="353" />
+      <edge source="Oxford English Dictionary" target="Big Ideas (TV series)" id="354" />
+      <edge source="Oxford English Dictionary" target="HathiTrust" id="355" />
+      <edge source="Oxford English Dictionary" target="Dewey Decimal Classification" id="356" />
+      <edge source="Oxford English Dictionary" target="HarperCollins" id="357" />
+      <edge source="Oxford English Dictionary" target="Headword" id="358" />
+      <edge source="Oxford English Dictionary" target="Grimm brothers" id="359" />
+      <edge source="Oxford English Dictionary" target="George Eliot" id="360" />
+      <edge source="Oxford English Dictionary" target="ISBN (identifier)" id="361" />
+      <edge source="PMC (identifier)" target="PubMed Central" id="362" />
+      <edge source="PMID (identifier)" target="PubMed" id="363" />
+      <edge source="Politico" target="Party divisions of United States Congresses" id="364" />
+      <edge source="Politico" target="The Hill (newspaper)" id="365" />
+      <edge source="Politico" target="Politico Europe" id="366" />
+      <edge source="Politico" target="RealClearPolitics" id="367" />
+      <edge source="Politico" target="Robert Allbritton" id="368" />
+      <edge source="Politico" target="Sonia Sotomayor" id="369" />
+      <edge source="Politico" target="John F. Harris" id="370" />
+      <edge source="Politico" target="Clerk of the United States House of Representatives" id="371" />
+      <edge source="Politico" target="Chaplain of the United States House of Representatives" id="372" />
+      <edge source="Politico" target="Democratic Women's Caucus" id="373" />
+      <edge source="ResearchGate" target="Snapchat" id="374" />
+      <edge source="ResearchGate" target="Matt Cohler" id="375" />
+      <edge source="ResearchGate" target="ITunes Ping" id="376" />
+      <edge source="ResearchGate" target="Ease of use" id="377" />
+      <edge source="ResearchGate" target="Scientometrics (journal)" id="378" />
+      <edge source="ResearchGate" target="Billie J. Swalla" id="379" />
+      <edge source="ResearchGate" target="Multiply (website)" id="380" />
+      <edge source="ResearchGate" target="Idka" id="381" />
+      <edge source="ResearchGate" target="Yik Yak" id="382" />
+      <edge source="ResearchGate" target="Quacquarelli Symonds" id="383" />
+      <edge source="Reuters" target="Newsweek" id="384" />
+      <edge source="Reuters" target="CNN" id="385" />
+      <edge source="Reuters" target="Derek Watkins (graphics editor)" id="386" />
+      <edge source="Reuters" target="Zenit News Agency" id="387" />
+      <edge source="Reuters" target="Fernando Henrique Cardoso" id="388" />
+      <edge source="Reuters" target="Challenge (TV channel)" id="389" />
+      <edge source="Reuters" target="Anadolu Agency" id="390" />
+      <edge source="Reuters" target="Freesat from Sky" id="391" />
+      <edge source="Reuters" target="Time Person of the Year" id="392" />
+      <edge source="Reuters" target="BBC Radio Cymru 2" id="393" />
+      <edge source="Richard Horton (editor)" target="Internship (medicine)" id="394" />
+      <edge source="Richard Horton (editor)" target="Fellow of the Academy of Medical Sciences" id="395" />
+      <edge source="Richard Horton (editor)" target="Financial Times" id="396" />
+      <edge source="Richard Horton (editor)" target="Physicians for Human Rights" id="397" />
+      <edge source="Richard Horton (editor)" target="ISSN (identifier)" id="398" />
+      <edge source="Richard Horton (editor)" target="WHO regions" id="399" />
+      <edge source="Richard Horton (editor)" target="Editor-in-chief" id="400" />
+      <edge source="Richard Horton (editor)" target="Academy of Medical Sciences" id="401" />
+      <edge source="Richard Horton (editor)" target="Brian Deer" id="402" />
+      <edge source="Richard Horton (editor)" target="Tony Blair" id="403" />
+      <edge source="SSRN (identifier)" target="Social Science Research Network" id="404" />
+      <edge source="Science-Based Medicine" target="Skeptic (U.S. magazine)" id="405" />
+      <edge source="Science-Based Medicine" target="Quackwatch" id="406" />
+      <edge source="Science-Based Medicine" target="Neurologist" id="407" />
+      <edge source="Science-Based Medicine" target="Yale University" id="408" />
+      <edge source="Science-Based Medicine" target="Nonprofit corporation" id="409" />
+      <edge source="Science-Based Medicine" target="Psychology Today" id="410" />
+      <edge source="Science-Based Medicine" target="NPR" id="411" />
+      <edge source="Science-Based Medicine" target="Off-label use" id="412" />
+      <edge source="Science-Based Medicine" target="Etanercept" id="413" />
+      <edge source="Science-Based Medicine" target="The San Diego Union-Tribune" id="414" />
+      <edge source="Science (journal)" target="Gloria Steinem" id="415" />
+      <edge source="Science (journal)" target="Interdisciplinarity" id="416" />
+      <edge source="Science (journal)" target="Fondo de Cultura Económica" id="417" />
+      <edge source="Science (journal)" target="Princess of Asturias Awards" id="418" />
+      <edge source="Science (journal)" target="Neutron star merger" id="419" />
+      <edge source="Science (journal)" target="Hay Festival" id="420" />
+      <edge source="Science (journal)" target="Lenacapavir" id="421" />
+      <edge source="Science (journal)" target="Leland Ossian Howard" id="422" />
+      <edge source="Science (journal)" target="Prince of Asturias Awards" id="423" />
+      <edge source="Science (journal)" target="Evolution" id="424" />
+      <edge source="The Economist" target="Climate crisis" id="425" />
+      <edge source="The Economist" target="2020 Malawian presidential election" id="426" />
+      <edge source="The Economist" target="Salomon Mayer von Rothschild" id="427" />
+      <edge source="The Economist" target="Nadine de Rothschild" id="428" />
+      <edge source="The Economist" target="Undergraduate education" id="429" />
+      <edge source="The Economist" target="Emperor Ferdinand Northern Railway" id="430" />
+      <edge source="The Economist" target="Classical liberalism" id="431" />
+      <edge source="The Economist" target="Francis Wrigley Hirst" id="432" />
+      <edge source="The Economist" target="George Kennan" id="433" />
+      <edge source="The Economist" target="Château de la Muette" id="434" />
+      <edge source="The Globe and Mail" target="Toronto Daily Star" id="435" />
+      <edge source="The Globe and Mail" target="List of radio stations in Canada" id="436" />
+      <edge source="The Globe and Mail" target="William Henry Wright" id="437" />
+      <edge source="The Globe and Mail" target="Clear Grits" id="438" />
+      <edge source="The Globe and Mail" target="The Gazette (Montreal)" id="439" />
+      <edge source="The Globe and Mail" target="Rebel News" id="440" />
+      <edge source="The Globe and Mail" target="List of Canadian journalists" id="441" />
+      <edge source="The Globe and Mail" target="Newspapers in Canada" id="442" />
+      <edge source="The Globe and Mail" target="First Canadian Place" id="443" />
+      <edge source="The Globe and Mail" target="Transcontinental (company)" id="444" />
+      <edge source="The Washington Post" target="White House Correspondents' Association" id="445" />
+      <edge source="The Washington Post" target="2008 United States presidential election" id="446" />
+      <edge source="The Washington Post" target="Eileen Welsome" id="447" />
+      <edge source="The Washington Post" target="Roll Call" id="448" />
+      <edge source="The Washington Post" target="The Boston Post" id="449" />
+      <edge source="The Washington Post" target="Nils Bruzelius" id="450" />
+      <edge source="The Washington Post" target="Edith Galt" id="451" />
+      <edge source="The Washington Post" target="Clifford K. Berryman" id="452" />
+      <edge source="The Washington Post" target="CNBC" id="453" />
+      <edge source="The Washington Post" target="Amber Heard" id="454" />
+      <edge source="University of Washington" target="B1G Super Saturday" id="455" />
+      <edge source="University of Washington" target="Walla Walla University" id="456" />
+      <edge source="University of Washington" target="Bibcode (identifier)" id="457" />
+      <edge source="University of Washington" target="Pike Street (Seattle)" id="458" />
+      <edge source="University of Washington" target="Kyushu University" id="459" />
+      <edge source="University of Washington" target="Hec Edmundson Pavilion" id="460" />
+      <edge source="University of Washington" target="Serial killer" id="461" />
+      <edge source="University of Washington" target="College of William &amp; Mary" id="462" />
+      <edge source="University of Washington" target="Henry Suzzallo" id="463" />
+      <edge source="University of Washington" target="Revised Code of Washington" id="464" />
+      <edge source="UpToDate" target="Wolters Kluwer Health" id="465" />
+      <edge source="UpToDate" target="United States" id="466" />
+      <edge source="UpToDate" target="PMID (identifier)" id="467" />
+      <edge source="UpToDate" target="Scholarly peer review" id="468" />
+      <edge source="UpToDate" target="Lexicomp" id="469" />
+      <edge source="UpToDate" target="EMedicine" id="470" />
+      <edge source="UpToDate" target="Norway" id="471" />
+      <edge source="UpToDate" target="S2CID (identifier)" id="472" />
+      <edge source="UpToDate" target="Journal of Medical Ethics" id="473" />
+      <edge source="UpToDate" target="Nephrology" id="474" />
+      <edge source="YouTube" target="Google Cloud Shell" id="475" />
+      <edge source="YouTube" target="Chechnya" id="476" />
+      <edge source="YouTube" target="Like.com" id="477" />
+      <edge source="YouTube" target="CNNMoney" id="478" />
+      <edge source="YouTube" target="Google ATAP" id="479" />
+      <edge source="YouTube" target="Recode" id="480" />
+      <edge source="YouTube" target="Lazy Sunday (The Lonely Island song)" id="481" />
+      <edge source="YouTube" target="ESPN+" id="482" />
+      <edge source="YouTube" target="AlphaGo versus Lee Sedol" id="483" />
+      <edge source="YouTube" target="Chrome Web Store" id="484" />
+      <edge source="SARS-CoV-2" target="COVID-19 pandemic in New Hampshire" id="485" />
+      <edge source="SARS-CoV-2" target="COVID-19 pandemic in Finland" id="486" />
+      <edge source="SARS-CoV-2" target="IVX-411" id="487" />
+      <edge source="SARS-CoV-2" target="COVID-19 pandemic and animals" id="488" />
+      <edge source="SARS-CoV-2" target="COVID-19 pandemic in Kiribati" id="489" />
+      <edge source="SARS-CoV-2" target="COVID-19 pandemic in Christmas Island" id="490" />
+      <edge source="SARS-CoV-2" target="COVID-19 pandemic in Kentucky" id="491" />
+      <edge source="SARS-CoV-2" target="Timeline of the COVID-19 pandemic in April 2020" id="492" />
+      <edge source="SARS-CoV-2" target="Binding domain" id="493" />
+      <edge source="SARS-CoV-2" target="Responses to the COVID-19 pandemic in August 2022" id="494" />
+      <edge source="Coronavirus diseases" target="ISBN (identifier)" id="495" />
+      <edge source="Coronavirus diseases" target="Feline infectious peritonitis" id="496" />
+      <edge source="Coronavirus diseases" target="Cats" id="497" />
+      <edge source="Coronavirus diseases" target="Stellar corona" id="498" />
+      <edge source="Coronavirus diseases" target="Dictionary.com" id="499" />
+      <edge source="Coronavirus diseases" target="SARS" id="500" />
+      <edge source="Coronavirus diseases" target="Pycnonotus sinensis" id="501" />
+      <edge source="Coronavirus diseases" target="Mice" id="502" />
+      <edge source="Coronavirus diseases" target="History of coronavirus" id="503" />
+      <edge source="Coronavirus diseases" target="JSTOR (identifier)" id="504" />
+      <edge source="Symptoms of COVID-19" target="COVID-19 pandemic in Assam" id="505" />
+      <edge source="Symptoms of COVID-19" target="Awang Bulgiba Awang Mahmud" id="506" />
+      <edge source="Symptoms of COVID-19" target="Impact of the COVID-19 pandemic on abortion in the United States" id="507" />
+      <edge source="Symptoms of COVID-19" target="Treatment and management of COVID-19" id="508" />
+      <edge source="Symptoms of COVID-19" target="COVID-19 pandemic in Florida" id="509" />
+      <edge source="Symptoms of COVID-19" target="Responses to the COVID-19 pandemic in July 2021" id="510" />
+      <edge source="Symptoms of COVID-19" target="COVID-19 pandemic in Manitoba" id="511" />
+      <edge source="Symptoms of COVID-19" target="Timeline of the COVID-19 pandemic in May 2022" id="512" />
+      <edge source="Symptoms of COVID-19" target="Timeline of the COVID-19 pandemic in Belarus (2022)" id="513" />
+      <edge source="Symptoms of COVID-19" target="COVID-19 pandemic in Croatia" id="514" />
+      <edge source="Treatment and management of COVID-19" target="Bio-secure bubble" id="515" />
+      <edge source="Treatment and management of COVID-19" target="Social impact of the COVID-19 pandemic in the United Kingdom" id="516" />
+      <edge source="Treatment and management of COVID-19" target="Soberana 02" id="517" />
+      <edge source="Treatment and management of COVID-19" target="PREPARE" id="518" />
+      <edge source="Treatment and management of COVID-19" target="COVID-19 pandemic in the Sahrawi Arab Democratic Republic" id="519" />
+      <edge source="Treatment and management of COVID-19" target="Nguyễn Thanh Long" id="520" />
+      <edge source="Treatment and management of COVID-19" target="Mike Tildesley" id="521" />
+      <edge source="Treatment and management of COVID-19" target="Food security during the COVID-19 pandemic" id="522" />
+      <edge source="Treatment and management of COVID-19" target="COVID-19 pandemic in Manipur" id="523" />
+      <edge source="Treatment and management of COVID-19" target="COVID-19 pandemic in Cuba" id="524" />
+      <edge source="Long COVID" target="2020–2023 global chip shortage" id="525" />
+      <edge source="Long COVID" target="Mega Ligtas COVID Centers" id="526" />
+      <edge source="Long COVID" target="Impact of the COVID-19 pandemic on female education" id="527" />
+      <edge source="Long COVID" target="PTX-COVID19-B" id="528" />
+      <edge source="Long COVID" target="Caregiver" id="529" />
+      <edge source="Long COVID" target="Economic impact of the COVID-19 pandemic in the Republic of Ireland" id="530" />
+      <edge source="Long COVID" target="Responses to the COVID-19 pandemic in February 2020" id="531" />
+      <edge source="Long COVID" target="Responses to the COVID-19 pandemic in August 2021" id="532" />
+      <edge source="Long COVID" target="COVID-19 pandemic in Italy" id="533" />
+      <edge source="Long COVID" target="Responses to the COVID-19 pandemic in May 2020" id="534" />
+      <edge source="COVID-19 vaccine" target="COVID-19 pandemic in the Isle of Man" id="535" />
+      <edge source="COVID-19 vaccine" target="Human rights issues related to the COVID-19 pandemic" id="536" />
+      <edge source="COVID-19 vaccine" target="COVID-19 pandemic in Sint Eustatius" id="537" />
+      <edge source="COVID-19 vaccine" target="European Union response to the COVID-19 pandemic" id="538" />
+      <edge source="COVID-19 vaccine" target="COVID-19 pandemic in Iceland" id="539" />
+      <edge source="COVID-19 vaccine" target="Timeline of the COVID-19 pandemic in May 2021" id="540" />
+      <edge source="COVID-19 vaccine" target="Impact of the COVID-19 pandemic on tourism" id="541" />
+      <edge source="COVID-19 vaccine" target="Virology" id="542" />
+      <edge source="COVID-19 vaccine" target="The Bahamas" id="543" />
+      <edge source="COVID-19 vaccine" target="Luxembourg" id="544" />
+      <edge source="Transmission of COVID-19" target="Zeng Guang" id="545" />
+      <edge source="Transmission of COVID-19" target="COVID-19 pandemic in Bolivia" id="546" />
+      <edge source="Transmission of COVID-19" target="COVID-19 pandemic in the British Virgin Islands" id="547" />
+      <edge source="Transmission of COVID-19" target="Timeline of the COVID-19 pandemic in Mexico" id="548" />
+      <edge source="Transmission of COVID-19" target="COVID-19 pandemic in Fiji" id="549" />
+      <edge source="Transmission of COVID-19" target="Vehicle" id="550" />
+      <edge source="Transmission of COVID-19" target="2022 Wellington protest" id="551" />
+      <edge source="Transmission of COVID-19" target="Solidarity trial" id="552" />
+      <edge source="Transmission of COVID-19" target="Andrea Crisanti (scientist)" id="553" />
+      <edge source="Transmission of COVID-19" target="Bamlanivimab" id="554" />
+      <edge source="COVID-19 testing" target="COVID-19 pandemic in Kyrgyzstan" id="555" />
+      <edge source="COVID-19 testing" target="List of American television series impacted by the COVID-19 pandemic" id="556" />
+      <edge source="COVID-19 testing" target="COVID-19 pandemic in Åland" id="557" />
+      <edge source="COVID-19 testing" target="COVID-19 vaccination in Greece" id="558" />
+      <edge source="COVID-19 testing" target="New York state government response to the COVID-19 pandemic" id="559" />
+      <edge source="COVID-19 testing" target="2021 Abkhazia unrest" id="560" />
+      <edge source="COVID-19 testing" target="Impact of the COVID-19 pandemic on social media" id="561" />
+      <edge source="COVID-19 testing" target="Noor Hisham Abdullah" id="562" />
+      <edge source="COVID-19 testing" target="Responses to the COVID-19 pandemic in May 2021" id="563" />
+      <edge source="COVID-19 testing" target="COVID-19 pandemic in Malta" id="564" />
+      <edge source="Pandemic prevention" target="Protein" id="565" />
+      <edge source="Pandemic prevention" target="Biosurveillance" id="566" />
+      <edge source="Pandemic prevention" target="Global Health Innovative Technology Fund (GHIT)" id="567" />
+      <edge source="Pandemic prevention" target="Human–wildlife conflict" id="568" />
+      <edge source="Pandemic prevention" target="PMID (identifier)" id="569" />
+      <edge source="Pandemic prevention" target="United Nations" id="570" />
+      <edge source="Pandemic prevention" target="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" id="571" />
+      <edge source="Pandemic prevention" target="CDC" id="572" />
+      <edge source="Pandemic prevention" target="Biotechnology risk" id="573" />
+      <edge source="Pandemic prevention" target="Climate change and biodiversity loss" id="574" />
+      <edge source="Face masks during the COVID-19 pandemic" target="2021 Greek protests" id="575" />
+      <edge source="Face masks during the COVID-19 pandemic" target="Shi Zhengli" id="576" />
+      <edge source="Face masks during the COVID-19 pandemic" target="COVID-19 pandemic in Iceland" id="577" />
+      <edge source="Face masks during the COVID-19 pandemic" target="Fahrettin Koca" id="578" />
+      <edge source="Face masks during the COVID-19 pandemic" target="COVID-19 pandemic in Maldives" id="579" />
+      <edge source="Face masks during the COVID-19 pandemic" target="Impact of the COVID-19 pandemic on science and technology" id="580" />
+      <edge source="Face masks during the COVID-19 pandemic" target="NDV-HXP-S" id="581" />
+      <edge source="Face masks during the COVID-19 pandemic" target="COVID-19 pandemic in Latvia" id="582" />
+      <edge source="Face masks during the COVID-19 pandemic" target="First COVID-19 tier regulations in England" id="583" />
+      <edge source="Face masks during the COVID-19 pandemic" target="Timeline of the COVID-19 pandemic in August 2020" id="584" />
+      <edge source="Hand washing" target="Mental health" id="585" />
+      <edge source="Hand washing" target="Stay-at-home order" id="586" />
+      <edge source="Hand washing" target="Medication costs" id="587" />
+      <edge source="Hand washing" target="Emoji" id="588" />
+      <edge source="Hand washing" target="List of epidemics and pandemics" id="589" />
+      <edge source="Hand washing" target="Sexually transmitted infection" id="590" />
+      <edge source="Hand washing" target="PMID (identifier)" id="591" />
+      <edge source="Hand washing" target="Howard Markel" id="592" />
+      <edge source="Hand washing" target="Chlorhexidine" id="593" />
+      <edge source="Hand washing" target="Agent-based model in biology" id="594" />
+      <edge source="COVID-19 drug development" target="COVID-19 pandemic in Belize" id="595" />
+      <edge source="COVID-19 drug development" target="COVID-19 protests in New Zealand" id="596" />
+      <edge source="COVID-19 drug development" target="COVID-19 pandemic in Armenia" id="597" />
+      <edge source="COVID-19 drug development" target="RNA" id="598" />
+      <edge source="COVID-19 drug development" target="Abdala (vaccine)" id="599" />
+      <edge source="COVID-19 drug development" target="European Medicines Agency" id="600" />
+      <edge source="COVID-19 drug development" target="COVID-19 vaccination in South Africa" id="601" />
+      <edge source="COVID-19 drug development" target="COVID-19 pandemic in Belarus" id="602" />
+      <edge source="COVID-19 drug development" target="Social distancing" id="603" />
+      <edge source="COVID-19 drug development" target="Dutch government response to the COVID-19 pandemic" id="604" />
+      <edge source="COVID-19 naming" target="Wuhan" id="605" />
+      <edge source="COVID-19 naming" target="Gay Related Immune Deficiency" id="606" />
+      <edge source="COVID-19 naming" target="Politico" id="607" />
+      <edge source="COVID-19 naming" target="Vox (political party)" id="608" />
+      <edge source="COVID-19 naming" target="SARS-CoV-2" id="609" />
+      <edge source="COVID-19 naming" target="European Centre for Disease Prevention and Control" id="610" />
+      <edge source="COVID-19 naming" target="Fairleigh Dickinson University" id="611" />
+      <edge source="COVID-19 naming" target="Kraken" id="612" />
+      <edge source="COVID-19 naming" target="NPR" id="613" />
+      <edge source="COVID-19 naming" target="Oxford English Dictionary" id="614" />
+      <edge source="Variants of SARS-CoV-2" target="Bio-secure bubble" id="615" />
+      <edge source="Variants of SARS-CoV-2" target="Impact of the COVID-19 pandemic on disc golf" id="616" />
+      <edge source="Variants of SARS-CoV-2" target="COVID-19 pandemic in the Cocos (Keeling) Islands" id="617" />
+      <edge source="Variants of SARS-CoV-2" target="COVID-19 vaccination in the Republic of Ireland" id="618" />
+      <edge source="Variants of SARS-CoV-2" target="COVID-19 pandemic in Mexico" id="619" />
+      <edge source="Variants of SARS-CoV-2" target="Evacuations by the Philippines related to the COVID-19 pandemic" id="620" />
+      <edge source="Variants of SARS-CoV-2" target="Molnupiravir" id="621" />
+      <edge source="Variants of SARS-CoV-2" target="COVID-19 pandemic in France" id="622" />
+      <edge source="Variants of SARS-CoV-2" target="COVID-19 vaccine hesitancy in the United States" id="623" />
+      <edge source="Variants of SARS-CoV-2" target="COVID-19 pandemic in the Kurdistan Region" id="624" />
+      <edge source="Clouding of consciousness" target="Autistic burnout" id="625" />
+      <edge source="Clouding of consciousness" target="Interoception" id="626" />
+      <edge source="Clouding of consciousness" target="Brain fag syndrome" id="627" />
+      <edge source="Clouding of consciousness" target="Orientation (mental)" id="628" />
+      <edge source="Clouding of consciousness" target="Diencephalon" id="629" />
+      <edge source="Clouding of consciousness" target="Attention" id="630" />
+      <edge source="Clouding of consciousness" target="The Menopause Society" id="631" />
+      <edge source="Clouding of consciousness" target="Menopause" id="632" />
+      <edge source="Clouding of consciousness" target="Vagus nerve" id="633" />
+      <edge source="Clouding of consciousness" target="Olfactory system" id="634" />
+      <edge source="Workplace hazard controls for COVID-19" target="COVID-19 pandemic in Tunisia" id="635" />
+      <edge source="Workplace hazard controls for COVID-19" target="Anthony Fauci" id="636" />
+      <edge source="Workplace hazard controls for COVID-19" target="COVID-19 pandemic in Northern Cyprus" id="637" />
+      <edge source="Workplace hazard controls for COVID-19" target="Skycovione" id="638" />
+      <edge source="Workplace hazard controls for COVID-19" target="Impact of the COVID-19 pandemic on Native American tribes and tribal communities" id="639" />
+      <edge source="Workplace hazard controls for COVID-19" target="U.S. state and local government responses to the COVID-19 pandemic" id="640" />
+      <edge source="Workplace hazard controls for COVID-19" target="COVID-19 pandemic in Saint Kitts and Nevis" id="641" />
+      <edge source="Workplace hazard controls for COVID-19" target="COVID-19 pandemic in the Dominican Republic" id="642" />
+      <edge source="Workplace hazard controls for COVID-19" target="COVID-19 pandemic in Samoa" id="643" />
+      <edge source="Workplace hazard controls for COVID-19" target="COVID-19 pandemic in Soccsksargen" id="644" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="Superinfection" id="645" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="COVID-19 protests in Israel" id="646" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="Social impact of the COVID-19 pandemic in New Zealand" id="647" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="Shortages related to the COVID-19 pandemic" id="648" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="Timeline of the COVID-19 pandemic in Ontario (2022)" id="649" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="Walvax COVID-19 vaccine" id="650" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="SARS-CoV-2 Iota variant" id="651" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="Symptoms of COVID-19" id="652" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="COVID-19 pandemic in Ontario" id="653" />
+      <edge source="Non-pharmaceutical intervention (epidemiology)" target="Christian Drosten" id="654" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="France convoy protest" id="655" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="Malaysian movement control order" id="656" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="COVID-19 pandemic in New York (state)" id="657" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="Azra Ghani" id="658" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="PREDICT (USAID)" id="659" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="CureVac COVID-19 vaccine" id="660" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="COVID-19 pandemic in Normandy" id="661" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="Taiwan Centers for Disease Control" id="662" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="List of countries by hospital beds" id="663" />
+      <edge source="Pandemic predictions and preparations prior to the COVID-19 pandemic" target="Impact of the COVID-19 pandemic on the cannabis industry" id="664" />
+      <edge source="COVID-19 surveillance" target="COVID-19 pandemic in Israel" id="665" />
+      <edge source="COVID-19 surveillance" target="COVID-19 pandemic in Zimbabwe" id="666" />
+      <edge source="COVID-19 surveillance" target="COVID-19 pandemic in the Dominican Republic" id="667" />
+      <edge source="COVID-19 surveillance" target="Timeline of the COVID-19 pandemic in February 2020" id="668" />
+      <edge source="COVID-19 surveillance" target="Coronavirus Scientific Advisory Board" id="669" />
+      <edge source="COVID-19 surveillance" target="Public health surveillance" id="670" />
+      <edge source="COVID-19 surveillance" target="COVID-19 pandemic in the Guantanamo Bay Naval Base" id="671" />
+      <edge source="COVID-19 surveillance" target="Timeline of the COVID-19 pandemic in Australia (2020)" id="672" />
+      <edge source="COVID-19 surveillance" target="COVID-19 pandemic in Hawaii" id="673" />
+      <edge source="COVID-19 surveillance" target="2021 Cuban protests" id="674" />
+      <edge source="COVID-19 apps" target="CareFIJI" id="675" />
+      <edge source="COVID-19 apps" target="University of Erfurt" id="676" />
+      <edge source="COVID-19 apps" target="Angola" id="677" />
+      <edge source="COVID-19 apps" target="Market penetration" id="678" />
+      <edge source="COVID-19 apps" target="Boston University" id="679" />
+      <edge source="COVID-19 apps" target="Asymptomatic" id="680" />
+      <edge source="COVID-19 apps" target="ACLU" id="681" />
+      <edge source="COVID-19 apps" target="Digital contact tracing" id="682" />
+      <edge source="COVID-19 apps" target="University of Waterloo" id="683" />
+      <edge source="COVID-19 apps" target="The Hague" id="684" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="Impact of the COVID-19 pandemic on children" id="685" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="COVID-19 misinformation in Canada" id="686" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="Disease X" id="687" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="COVID-19 vaccination in Spain" id="688" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="German government response to the COVID-19 pandemic" id="689" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="Impact of the COVID-19 pandemic on the performing arts" id="690" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="COVID-19 pandemic in Cagayan Valley" id="691" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="COVID-19 pandemic in Minnesota" id="692" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="Operation Moonshot" id="693" />
+      <edge source="Social distancing measures related to the COVID-19 pandemic" target="Immuni" id="694" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="COVID-19 pandemic in Jordan" id="695" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="COVID-19 pandemic in West Bengal" id="696" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="SwissCovid" id="697" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="COVID-19 pandemic in Cambodia" id="698" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="COVID-19 pandemic in Sweden" id="699" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="Impact of the COVID-19 pandemic on foster care in the United States" id="700" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="United Kingdom responses to the COVID-19 pandemic" id="701" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="Nasal congestion" id="702" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="COVID-19 cases at the 2020 Summer Olympics and 2020 Summer Paralympics" id="703" />
+      <edge source="Impact of the COVID-19 pandemic on children" target="COVID-19 pandemic in Scotland" id="704" />
+      <edge source="COVID-19 pandemic death rates by country" target="Impact of the COVID-19 pandemic on the food industry" id="705" />
+      <edge source="COVID-19 pandemic death rates by country" target="International aid related to the COVID-19 pandemic" id="706" />
+      <edge source="COVID-19 pandemic death rates by country" target="COVID-19 pandemic in Portugal" id="707" />
+      <edge source="COVID-19 pandemic death rates by country" target="COVID-19 pandemic in Mexico" id="708" />
+      <edge source="COVID-19 pandemic death rates by country" target="Economic impact of the COVID-19 pandemic in New Zealand" id="709" />
+      <edge source="COVID-19 pandemic death rates by country" target="Doni Monardo" id="710" />
+      <edge source="COVID-19 pandemic death rates by country" target="Impact of the COVID-19 pandemic on pregnant women" id="711" />
+      <edge source="COVID-19 pandemic death rates by country" target="UK Rapid Test Consortium" id="712" />
+      <edge source="COVID-19 pandemic death rates by country" target="COVID-19 pandemic in Indonesia" id="713" />
+      <edge source="COVID-19 pandemic death rates by country" target="COVID-19 pandemic in Wallis and Futuna" id="714" />
+      <edge source="Relationship between blood group and COVID-19" target="Wuhan" id="715" />
+      <edge source="Relationship between blood group and COVID-19" target="COVID-19 pandemic in China" id="716" />
+      <edge source="Relationship between blood group and COVID-19" target="Darmankade Medical Magazine" id="717" />
+      <edge source="Relationship between blood group and COVID-19" target="Protein" id="718" />
+      <edge source="Relationship between blood group and COVID-19" target="O-linked glycosylation" id="719" />
+      <edge source="Relationship between blood group and COVID-19" target="Blood type" id="720" />
+      <edge source="Relationship between blood group and COVID-19" target="New England Journal of Medicine" id="721" />
+      <edge source="Relationship between blood group and COVID-19" target="PMID (identifier)" id="722" />
+      <edge source="Relationship between blood group and COVID-19" target="PMC (identifier)" id="723" />
+      <edge source="Relationship between blood group and COVID-19" target="China" id="724" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="Timeline of the COVID-19 pandemic in India (January–May 2020)" id="725" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="COVID-19 pandemic in Andhra Pradesh" id="726" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="COVID-19 pandemic in Jharkhand" id="727" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="COVID-19 pandemic in Mizoram" id="728" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="COVID-19 vaccination in Senegal" id="729" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="COVID-19 pandemic in the Northern Territory" id="730" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="2021–2023 global energy crisis" id="731" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="COVID-19 pandemic in Georgia (U.S. state)" id="732" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="Responses to the COVID-19 pandemic in October 2021" id="733" />
+      <edge source="Gendered impact of the COVID-19 pandemic" target="Soberana Plus" id="734" />
+      <edge source="Timeline of the COVID-19 pandemic" target="Zhong Nanshan" id="735" />
+      <edge source="Timeline of the COVID-19 pandemic" target="Noor Hisham Abdullah" id="736" />
+      <edge source="Timeline of the COVID-19 pandemic" target="COH04S1" id="737" />
+      <edge source="Timeline of the COVID-19 pandemic" target="COVID-19 pandemic in Madhya Pradesh" id="738" />
+      <edge source="Timeline of the COVID-19 pandemic" target="COVID-19 pandemic in South Africa" id="739" />
+      <edge source="Timeline of the COVID-19 pandemic" target="UK Rapid Test Consortium" id="740" />
+      <edge source="Timeline of the COVID-19 pandemic" target="COVID-19 pandemic in Portland, Oregon" id="741" />
+      <edge source="Timeline of the COVID-19 pandemic" target="COVID-19 pandemic in Trinidad and Tobago" id="742" />
+      <edge source="Timeline of the COVID-19 pandemic" target="COVID-19 pandemic in Uttar Pradesh" id="743" />
+      <edge source="Timeline of the COVID-19 pandemic" target="COVID-19 pandemic in Eastern Visayas" id="744" />
+      <edge source="Investigations into the origin of COVID-19" target="Origin of SARS-CoV-2" id="745" />
+      <edge source="COVID-19 misinformation" target="Timeline of the COVID-19 pandemic in Wales (2020)" id="746" />
+      <edge source="COVID-19 misinformation" target="Fallacy" id="747" />
+      <edge source="COVID-19 misinformation" target="Timeline of the COVID-19 pandemic in July 2022" id="748" />
+      <edge source="COVID-19 misinformation" target="Sotiris Tsiodras" id="749" />
+      <edge source="COVID-19 misinformation" target="Transmission of COVID-19" id="750" />
+      <edge source="COVID-19 misinformation" target="COVID-19 pandemic in Tonga" id="751" />
+      <edge source="COVID-19 misinformation" target="Allegations of CIA assistance to Osama bin Laden" id="752" />
+      <edge source="COVID-19 misinformation" target="Drugs Controller General of India" id="753" />
+      <edge source="COVID-19 misinformation" target="Impact of the COVID-19 pandemic on aviation" id="754" />
+      <edge source="COVID-19 misinformation" target="Federal Bureau of Investigation" id="755" />
+      <edge source="COVID-19 drug repurposing research" target="COVID-19 pandemic in the Federated States of Micronesia" id="756" />
+      <edge source="COVID-19 drug repurposing research" target="COVID-19 pandemic in Virginia" id="757" />
+      <edge source="COVID-19 drug repurposing research" target="Lawrence Wong" id="758" />
+      <edge source="COVID-19 drug repurposing research" target="Moldovan–Romanian collaboration during the COVID-19 pandemic" id="759" />
+      <edge source="COVID-19 drug repurposing research" target="COVID-19 vaccine hesitancy in the United States" id="760" />
+      <edge source="COVID-19 drug repurposing research" target="Deployment of COVID-19 vaccines" id="761" />
+      <edge source="COVID-19 drug repurposing research" target="The New York Times" id="762" />
+      <edge source="COVID-19 drug repurposing research" target="Political impact of the COVID-19 pandemic" id="763" />
+      <edge source="COVID-19 drug repurposing research" target="COVID-19 pandemic in Lithuania" id="764" />
+      <edge source="COVID-19 drug repurposing research" target="Timeline of the COVID-19 pandemic in Indonesia (2021)" id="765" />
+      <edge source="Impact of the COVID-19 pandemic on animals" target="COVID-19 pandemic and animals" id="766" />
+      <edge source="Law of declining virulence" target="Theobald Smith" id="767" />
+      <edge source="Theory of virulence" target="Paul W. Ewald" id="768" />
+      <edge source="1:99 Concert" target="2002–2004 SARS outbreak among healthcare workers" id="769" />
+      <edge source="1:99 Concert" target="Kary Ng" id="770" />
+      <edge source="1:99 Concert" target="Eason Chan" id="771" />
+      <edge source="1:99 Concert" target="List of medical professionals who died during the SARS outbreak" id="772" />
+      <edge source="1:99 Concert" target="Health in China" id="773" />
+      <edge source="1:99 Concert" target="2002–2004 SARS outbreak" id="774" />
+      <edge source="1:99 Concert" target="Joey Yung" id="775" />
+      <edge source="1:99 Concert" target="MERS" id="776" />
+      <edge source="1:99 Concert" target="Molson Canadian Rocks for Toronto" id="777" />
+      <edge source="1:99 Concert" target="Middle East respiratory syndrome-related coronavirus" id="778" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="PMC (identifier)" id="779" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="Plague City: SARS in Toronto" id="780" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="Ernie Eves" id="781" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="1:99 Concert" id="782" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="Hong Kong" id="783" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="S2CID (identifier)" id="784" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="SARS conspiracy theory" id="785" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="Fomite" id="786" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="Severe acute respiratory syndrome coronavirus 1" id="787" />
+      <edge source="2002–2004 SARS outbreak among healthcare workers" target="Birchmount Hospital" id="788" />
+      <edge source="2002–2004 SARS outbreak" target="Chang'e 3" id="789" />
+      <edge source="2002–2004 SARS outbreak" target="China–United States trade war" id="790" />
+      <edge source="2002–2004 SARS outbreak" target="Special economic zones of China" id="791" />
+      <edge source="2002–2004 SARS outbreak" target="Three Communiqués" id="792" />
+      <edge source="2002–2004 SARS outbreak" target="Hubei" id="793" />
+      <edge source="2002–2004 SARS outbreak" target="Molson Canadian Rocks for Toronto" id="794" />
+      <edge source="2002–2004 SARS outbreak" target="Stroke in China" id="795" />
+      <edge source="2002–2004 SARS outbreak" target="Betaarterivirus suid 1" id="796" />
+      <edge source="2002–2004 SARS outbreak" target="Canada" id="797" />
+      <edge source="2002–2004 SARS outbreak" target="1853 Stockholm cholera outbreak" id="798" />
+      <edge source="2020 Danish mink cull" target="Danish language" id="799" />
+      <edge source="2020 Danish mink cull" target="2022 Danish general election" id="800" />
+      <edge source="2020 Danish mink cull" target="Kåre Mølbak" id="801" />
+      <edge source="2020 Danish mink cull" target="Moderates (Denmark)" id="802" />
+      <edge source="2020 Danish mink cull" target="TV 2 Nyhederne" id="803" />
+      <edge source="2020 Danish mink cull" target="Jeppe Kofod" id="804" />
+      <edge source="2020 Danish mink cull" target="Marienborg" id="805" />
+      <edge source="2020 Danish mink cull" target="Statistics Denmark" id="806" />
+      <edge source="2020 Danish mink cull" target="COVID-19" id="807" />
+      <edge source="2020 Danish mink cull" target="Vendsyssel" id="808" />
+      <edge source="2021–2022 global supply chain crisis" target="2021–2023 global supply chain crisis" id="809" />
+      <edge source="ACE inhibitor" target="Glomerular filtration rate" id="810" />
+      <edge source="ACE inhibitor" target="Glucocorticoid" id="811" />
+      <edge source="ACE inhibitor" target="Bradykinin" id="812" />
+      <edge source="ACE inhibitor" target="Oxford University Press" id="813" />
+      <edge source="ACE inhibitor" target="Monoamine oxidase inhibitor" id="814" />
+      <edge source="ACE inhibitor" target="Corticosteroid" id="815" />
+      <edge source="ACE inhibitor" target="Antineoplastic" id="816" />
+      <edge source="ACE inhibitor" target="Ectoparasiticide" id="817" />
+      <edge source="ACE inhibitor" target="Arfalasin" id="818" />
+      <edge source="ACE inhibitor" target="Valsartan/lercanidipine" id="819" />
+      <edge source="Ab Osterhaus" target="Dutch Health Council" id="820" />
+      <edge source="Ab Osterhaus" target="SARS coronavirus" id="821" />
+      <edge source="Ab Osterhaus" target="Contagion (2011 film)" id="822" />
+      <edge source="Ab Osterhaus" target="Utrecht University" id="823" />
+      <edge source="Ab Osterhaus" target="M.W. Beijerinck" id="824" />
+      <edge source="Ab Osterhaus" target="2002–2004 SARS outbreak" id="825" />
+      <edge source="Ab Osterhaus" target="2009 flu pandemic" id="826" />
+      <edge source="Ab Osterhaus" target="Erasmus University Rotterdam" id="827" />
+      <edge source="Ab Osterhaus" target="Grand Prix scientifique de la Fondation Louis D." id="828" />
+      <edge source="Ab Osterhaus" target="Royal Netherlands Academy of Arts and Sciences" id="829" />
+      <edge source="Acute (medicine)" target="Inflammation" id="830" />
+      <edge source="Acute (medicine)" target="Medical diagnosis" id="831" />
+      <edge source="Acute (medicine)" target="Medicine" id="832" />
+      <edge source="Acute (medicine)" target="Chronic periodontitis" id="833" />
+      <edge source="Acute (medicine)" target="Acute hepatitis" id="834" />
+      <edge source="Acute (medicine)" target="Quantification (science)" id="835" />
+      <edge source="Acute (medicine)" target="Acute gastroenteritis" id="836" />
+      <edge source="Acute (medicine)" target="Medical sign" id="837" />
+      <edge source="Acute (medicine)" target="Mass noun" id="838" />
+      <edge source="Acute (medicine)" target="Syndrome" id="839" />
+      <edge source="Acute kidney injury" target="Tumor lysis syndrome" id="840" />
+      <edge source="Acute kidney injury" target="Potassium" id="841" />
+      <edge source="Acute kidney injury" target="Renal function" id="842" />
+      <edge source="Acute kidney injury" target="Rash" id="843" />
+      <edge source="Acute kidney injury" target="Respiratory failure" id="844" />
+      <edge source="Acute kidney injury" target="Patient UK" id="845" />
+      <edge source="Acute kidney injury" target="Amoxicillin/clavulanic acid" id="846" />
+      <edge source="Acute kidney injury" target="Renal failure" id="847" />
+      <edge source="Acute kidney injury" target="Cardiorenal syndrome" id="848" />
+      <edge source="Acute kidney injury" target="Pallor" id="849" />
+      <edge source="Acute respiratory distress syndrome" target="Pulmonary wedge pressure" id="850" />
+      <edge source="Acute respiratory distress syndrome" target="Cardiopulmonary bypass" id="851" />
+      <edge source="Acute respiratory distress syndrome" target="Airway pressure release ventilation" id="852" />
+      <edge source="Acute respiratory distress syndrome" target="Sedative" id="853" />
+      <edge source="Acute respiratory distress syndrome" target="Altered level of consciousness" id="854" />
+      <edge source="Acute respiratory distress syndrome" target="Prognosis" id="855" />
+      <edge source="Acute respiratory distress syndrome" target="Hospital-acquired pneumonia" id="856" />
+      <edge source="Acute respiratory distress syndrome" target="Lobar pneumonia" id="857" />
+      <edge source="Acute respiratory distress syndrome" target="Pneumoperitoneum" id="858" />
+      <edge source="Acute respiratory distress syndrome" target="Chronic atrophic rhinitis" id="859" />
+      <edge source="Adaptive immune system" target="Human eye" id="860" />
+      <edge source="Adaptive immune system" target="Antigen" id="861" />
+      <edge source="Adaptive immune system" target="Immune complex" id="862" />
+      <edge source="Adaptive immune system" target="Polyclonal antibodies" id="863" />
+      <edge source="Adaptive immune system" target="Human mouth" id="864" />
+      <edge source="Adaptive immune system" target="Affinity maturation" id="865" />
+      <edge source="Adaptive immune system" target="IgA" id="866" />
+      <edge source="Adaptive immune system" target="Follicular B helper T cells" id="867" />
+      <edge source="Adaptive immune system" target="Somatic hypermutation" id="868" />
+      <edge source="Adaptive immune system" target="MHC class II" id="869" />
+      <edge source="Adenovirus" target="Adenoviridae" id="870" />
+      <edge source="Aerosol" target="Nonpoint source pollution" id="871" />
+      <edge source="Aerosol" target="Smog" id="872" />
+      <edge source="Aerosol" target="Drop (liquid)" id="873" />
+      <edge source="Aerosol" target="Urban runoff" id="874" />
+      <edge source="Aerosol" target="Volcanic ash" id="875" />
+      <edge source="Aerosol" target="Wayback Machine" id="876" />
+      <edge source="Aerosol" target="Laser particle counter" id="877" />
+      <edge source="Aerosol" target="Micro-Orifice Uniform Deposit Impactor" id="878" />
+      <edge source="Aerosol" target="Persistent organic pollutant" id="879" />
+      <edge source="Aerosol" target="Brown waste" id="880" />
+      <edge source="Ageusia" target="Suicidal ideation" id="881" />
+      <edge source="Ageusia" target="Hyposmia" id="882" />
+      <edge source="Ageusia" target="Bitter (taste)" id="883" />
+      <edge source="Ageusia" target="Verbosity" id="884" />
+      <edge source="Ageusia" target="Dysgeusia" id="885" />
+      <edge source="Ageusia" target="Soft palate" id="886" />
+      <edge source="Ageusia" target="Retrograde amnesia" id="887" />
+      <edge source="Ageusia" target="Aftertaste" id="888" />
+      <edge source="Ageusia" target="Variants of SARS-CoV-2" id="889" />
+      <edge source="Ageusia" target="Neurology" id="890" />
+      <edge source="Ai Fen" target="COVID-19 pandemic in Caraga" id="891" />
+      <edge source="Ai Fen" target="COVID-19 pandemic in Colorado" id="892" />
+      <edge source="Ai Fen" target="National Cabinet (Australia)" id="893" />
+      <edge source="Ai Fen" target="COVID-19 pandemic in Africa" id="894" />
+      <edge source="Ai Fen" target="COVID-19 pandemic in Moldova" id="895" />
+      <edge source="Ai Fen" target="Subunit vaccine" id="896" />
+      <edge source="Ai Fen" target="Social stigma associated with COVID-19" id="897" />
+      <edge source="Ai Fen" target="Timeline of the COVID-19 pandemic in the United Kingdom (July–December 2020)" id="898" />
+      <edge source="Ai Fen" target="Responses to the COVID-19 pandemic in February 2022" id="899" />
+      <edge source="Ai Fen" target="Hamad Hasan" id="900" />
+    </edges>
+  </graph>
+</gexf>

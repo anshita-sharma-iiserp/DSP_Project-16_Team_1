@@ -46,7 +46,7 @@ def load_snapshots():
       snapshots[year] = nx.read_gexf(filename)     # file in gexf format
     else:
       st.warning(f"file not found: {filename}")
-    return snapshots
+  return snapshots
 
 
 # to get node metrics
@@ -64,7 +64,7 @@ def compute_metrics(_G):     # the underscore allows for mutability
 
   nodes = _G.nodes()
   df = pd.DataFrame({
-      "article": list(nodes),
+      "article": list(_G.nodes()),
       "pagerank": [pagerank.get(n, 0) for n in nodes],
       "in_degree": [in_degree.get(n, 0) for n in nodes],
       "out_degree": [out_degree.get(n, 0) for n in nodes]
@@ -103,54 +103,55 @@ def build_networks(G, metrics_df, top_n=40):
       hoverinfo="none"
   )
 
-# nodes
-nodes = subgraph.nodes()
-node_x = [pos[n][0] for n in nodes]
-node_y = [pos[n][1] for n in nodes]
-node_sizes = [max(8, pagerank.get(n, 0)*3000) for n in nodes]     # size is a scaled up measure of page rank, with a least count
-node_colors = [in_degree.get(n, 0) for n in nodes]
-node_text = [
-    f"<b>{n}<b><br>Pagerank: {pagerank.get(n, 0):.4f}<br>In-degree: {in_degree.get(n, 0)}"     # <b> is to make bold
-    for n in nodes
-]
 
-node_scatter = go.Scatter(
-    x = node_x, y=node_y,
-    mode="markers+text",
-    hoverinfo="text",
-    text=[n if pagerank.get(n, 0 > metrics_df["pagerank".quanitile(0.75) else "" for n in nodes])],     # top 25th percentile's text is seen
-    textposition="top center",
-    textfont=dict(size=8, color="#e6edf3"),
-    marker=dict(
-        size=node_sizes,
-        color=node_colors,
-        colorscale="YlOrRd",
-        showscale=True,
-        colorbar=dict(
-            title="In-degree",
-            titlefont=dict(color="#8b949e"),
-            tickfont=dict(color="#8b949e"),
-            bgcolor="#161b22",
-            bordercolor="#30363d"
-        ),
-        line=dict(width=1, color="#30363d")
-    )
-)
+  # nodes
+  nodes = subgraph.nodes()
+  node_x = [pos[n][0] for n in nodes]
+  node_y = [pos[n][1] for n in nodes]
+  node_sizes = [max(8, pagerank.get(n, 0)*3000) for n in nodes]     # size is a scaled up measure of page rank, with a least count
+  node_colors = [in_degree.get(n, 0) for n in nodes]
+  node_text = [
+      f"<b>{n}<b><br>Pagerank: {pagerank.get(n, 0):.4f}<br>In-degree: {in_degree.get(n, 0)}"     # <b> is to make bold
+      for n in nodes
+  ]
 
-fig = go.Figure(
-    data=[edge_scatter, node_scatter],
-    layout=go.Layout(
-        paper_bgcolor="#0d1117",
-        plot_bgcolor="#0d111",
-        showlegend=False,
-        hovermode="closest",
-        margin=dict(b=0, l=0, r=0, t=0),
-        xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-        yaxis=dict(showgrid=False, zeroline=False showticklabels=False),
-        height=550
-    )
-)
-return fig
+  node_scatter = go.Scatter(
+      x=node_x, y=node_y,
+      mode="markers+text",
+      hoverinfo="text",
+      text=[n if pagerank.get(n, 0) > metrics_df["pagerank"].quanitile(0.75) else "" for n in subgraph.nodes()],     # top 25th percentile's text is seen
+      textposition="top center",
+      textfont=dict(size=8, color="#e6edf3"),
+      marker=dict(
+          size=node_sizes,
+          color=node_colors,
+          colorscale="YlOrRd",
+          showscale=True,
+          colorbar=dict(
+              title="In-degree",
+              titlefont=dict(color="#8b949e"),
+              tickfont=dict(color="#8b949e"),
+              bgcolor="#161b22",
+              bordercolor="#30363d"
+          ),
+          line=dict(width=1, color="#30363d")
+      )
+  )
+
+  fig = go.Figure(
+      data=[edge_scatter, node_scatter],
+      layout=go.Layout(
+          paper_bgcolor="#0d1117",
+          plot_bgcolor="#0d1117",
+          showlegend=False,
+          hovermode="closest",
+          margin=dict(b=0, l=0, r=0, t=0),
+          xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+          yaxis=dict(showgrid=False, zeroline=False showticklabels=False),
+          height=550
+      )
+  )
+  return fig
 
 
 # ─────────────────────────────────────────────
@@ -222,7 +223,7 @@ def compute_link_changes(snapshots):
                     "net": len(added) - len(removed)
                 })
         records.append({
-            "period": f"{y1} to {y2}"
+            "period": f"{y1} → {y2}"
             "links_added": total_added,
             "links_removed": total_removed,
             "net_change": total_added - total_removed,
@@ -260,3 +261,136 @@ def build_changes_chart(change_records):
     )
 
     return fig
+
+
+# ─────────────────────────────────────────────
+
+# to create the UI
+def main():
+  # header
+  # st.markdown is like a print statement, below is in html script for customized markdown
+  st.markdown("""
+  <div style='padding: 20px 0 0'>
+      <h1 style='font-family: Space Mono, monospace:
+          Wikipedia Knowledge Flow
+      </h>
+      <p style='color: #8b949e; margin: 6px 0 0 0; font-size: 0.95rem'>
+          Link Structure & Network Analysis Dashboard
+      </p>
+  </div>
+  """, unsafe_allow_html=True)     # 'true' states that its safe to run
+
+  # to load data
+  with st.spinner("loading snapshot data..."):
+    snapshot=load_snapshots()
+
+  if not snapshots:
+    st.error("No snapshot JSON files found. Make sure JSON files are in the same directory.")
+    return
+
+  available_years = sorted(snapshots.key())     # creates a list in ascending order
+
+  # creating the sidebar
+  with st.sidebar:
+    st.markdown("### Controls")     # '###' is to define size of text
+    selcted_year=st.select_slider(
+        "Select Year",
+        options=available_years
+        value=available_years[-1]     # -1 is get the slider from oldest to newest
+    )
+    top_n_network=st.slider("Nodes in Network Graph", 10, 800, 400, 5)     # lower limit, upper limit, default, step size
+    top_n_table = st.slider("Articles in Rankings Table", 5,30,10,5)
+    top_n_lines=st.slider("Articles in Centrality Chart",3,15,8,1)
+    metric_choice = st.selectbox(
+        "Centrality Metric",
+        ["pagerank","in_degree","betweenness"]     # betweeness measures how often a node occurs on the shortest path between two nodes
+        format_func=lambda x: x.replace("_"," ").title()     # replace underscore with face
+    )
+
+    st.markdown("---")
+    st.markdown("### Loaded Snapshots")
+    for y in available_years:
+      n_articles = snapshots[y].number_of_nodes()
+      n_edges = snapshots[y].number_of_edges()
+      st.markdown(f"**{y}** - {n_articles} articles, {n_edges:,} edges")     # asterisk for formating
+
+  # computing metrics for year that is selected
+  G = snapshots[selected_year]
+  metrics_df, G = compute_metrics(G)
+
+  # top metrics
+  st.markdown(f",div class = 'section-header'> Network Overview - {selected_year}</div", unsafe_allow_html=True)
+
+  c1,c2,c3,c4 = st.columns(4)
+  with c1:
+    st.metric("Articles (Nodes)", f"{G.number_of_nodes():,}")
+  with c2:
+    st.metric("Links (Edges)", f"{G.number_of_edges():,}")
+  with c3:
+    density = nx.density(G)
+    st.metric("Network Density", f"{density:.4f}")
+  with C4:
+    top_article=metrics_df.iloc[0]["articles"]     # iloc is used to pick a specific column
+    st.metric("Top Hub", top_article[:25] + "..." if len(top_article) > 25 else top_article)
+
+  # building the network graph
+  st.markdown(f"<div class='section-header'> Network Graph - Top {top_n_network} Articles </div>", unsafe_allow_html=True)
+  st.caption("Node size = PageRank importance · Node colour = In-degree · Hover for details")
+
+  with st.spinner("Rending network..."):
+    network_fig = build_plotly_network(G, metrics_df, top_n=top_n_network)
+    st.plotly_chart(network_fig, use_container_width=True)
+
+  # table for top articles and centrality chart
+  col_left, col_right = st.columns([1,1])
+  with col_left:
+    st.markdown(f"<div class='section-header'> Top {top_n_table} Articles by {metric_choice.replace('_',' ').title()}</div>", unsafe_allow_html=True)
+    display_df= metrics_df[["articles","pagerank",  "in_degree", "out_degree", "betweeness"]].head(top_n_table).copy()
+    display_df["pagerank"]=display_df["pagerank"].apply(lambda x: f"{x:.4f}")
+    display_df["betweenness"]=display_df["betweenness"].apply(lambda x: f"{x:.4f}")
+    display_df.index = range(1, len(dispaly_df)+1)
+    display_df.columns = ["Article", "PageRank", "In-Degree", "Out-Degree", " Betweeness"]
+    st.dataframe(display_df, use_container_width=True, height=350)
+
+  with col_right:
+    st.markdown(f"<div class='section-header'> {metric_choice.replace('_',' ').title()} Over Time,/div>", unsafe_allow_html=True)
+    centrality_fig = build_centraility_chart(snapshots, metric=metric_choice, top_n=top_n_lines)
+    st.plotly_chart(centralitu_fig, use_container_width=True)
+
+  # link changes
+  st.markdown("<div class='section-header'> Link Changes Between Years</div>", unsafe_allow_html=True)
+
+  change_records=compute_link_changes(snapshots)
+  changes_fig = biold_changes_chart(change_records)
+  st.plotly_chart(changes_fig, use_container_width=True)
+
+  # for per article changes
+  st.markdown("#### Per Article Changes")
+  period_labels=[r["period"] for r in change_records]
+  sel_perid=st.selectbox("Select Period", period_labels)
+  sel_record = nect(r for r in change_records if r["period"] == sel_period)
+
+  if sel_record["article_changes"]:
+    for item in sel_record["article_changes"][:10]:
+      with st.expander(f"{item['article']} (+{len(item['added'])} / -{len(item['removed'])})"):
+        ca, cr = st.columns(2)
+        with ca:
+          st.markdown("**Added Links:**")
+          for link in item["added"][:15]:
+            st.markdown(f"<span class='added-link'>+{link}</span>", unsafe_allow_html=True)
+        with cr:
+          st.markdown("**Removed Links:**")
+          for link in item["removed"][:15]:
+            st.markdown(f"<span class='removed-link'>+{link}</span>", unsafe_allow_html=True)
+    else:
+      st.info("no linke changes found for this period.")
+
+    # footer
+    st.markdown("---")
+    st.markdown(
+        "<p style='text-align:centre; color:#8b949e; font-size:0.8rem'>DS3294 · Wikepedia Link Structure & Knowldedge Flow</p>",
+        unsafe_allow_html=True
+    )
+
+if __name__ == "__main__":
+  main()

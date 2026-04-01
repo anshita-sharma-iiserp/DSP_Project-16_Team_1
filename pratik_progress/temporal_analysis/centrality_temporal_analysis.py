@@ -39,11 +39,12 @@ def generate_temporal_analysis_report():
         report_lines.append("")
         
     # 3. INTERPRETATION
-    report_lines.append("## 3. Interpretation & Structural Shifts")
-    report_lines.append("- **Knowledge Redistribution:** By tracking the PageRank evolution from 2024 to 2026, we can observe whether knowledge distribution is consolidating into a few central pillar 'super-articles' or fragmenting into multiple specific sub-domain articles.")
-    report_lines.append("- **Emerging Topics:** A rapid spike in Betweenness Centrality for an article from one year to the next indicates it has newly become a critical bridge. This often represents an emerging overarching topic that connects previously disjointed concepts.")
+    report_lines.append("## 3. Interpretation & Structural Context")
+    report_lines.append("### Why these specific articles?")
+    report_lines.append("- **The Maturation of PageRank (Hubs):** In early graphs (2024), the top hubs were dedicated to initial virus biology (e.g., *Origin of COVID-19*, evolutionary biologists) and immediate logistical fallouts (*global supply chain crisis*). However, by 2025 and 2026, the Wikipedia knowledge base had profoundly matured. The top hubs transitioned completely to referencing authorities (*Digital object identifier*, *PubMed*, *Semantic Scholar*, *WHO*). This indicates COVID-19 articles shifted from breaking news architectures to heavily cited, scientifically peer-reviewed architectures.")
+    report_lines.append("- **The Evolution of Bottlenecks (Bridges):** In 2024, Betweenness bridges focused on merging the biological virus with societal impacts (e.g., bridging *COVID-19* with *Gendered impact of the COVID-19 pandemic* or specific biological indicators like *Ageusia*). By 2025 and 2026, the bridges shifted toward institutional trackers (*Johns Hopkins University*), major journalistic pillars (*The Washington Post*), historical comparisons (*2002–2004 SARS outbreak*), and archival curation (*Wayback Machine*). The navigational flow thus shifted from 'what is happening now' to 'how we are actively tracking, managing, and archiving the pandemic historically'.")
 
-    report_path = "pratik_progress/centrality_interpretation_report.md"
+    report_path = "pratik_progress/temporal_analysis/centrality_interpretation_report.md"
     with open(report_path, "w", encoding="utf-8") as f:
         f.write("\n".join(report_lines))
         

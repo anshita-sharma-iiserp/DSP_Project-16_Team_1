@@ -169,9 +169,7 @@ def compute_clustering_and_paths(G, year):
     }
 
 
-# ============================================
-# STEP 3: COMMUNITY DETECTION
-# ============================================
+#COMMUNITY DETECTION
 
 def detect_communities(G, year):
     """Detect communities using Louvain algorithm"""

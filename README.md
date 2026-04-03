@@ -28,7 +28,7 @@ The final compiled project is spread across four primary pipelines designed by o
 - **Output:** Outputs the structured mathematical proof `centrality_master_export.csv` which perfectly aligns temporal features into dataframes for the application frontend.
 
 ### 3. Temporal Graph Level Analysis 
-- Extracts macro-level architectural transitions over the timeline using the `updated gexf files`.
+- Extracts macro-level architectural transitions over the timeline using the `COVID_19_YYYY.gexf`.
 - **`Graph_math.py` & `take_in_gexf.py`:** Reads the historical snapshots and computes:
   - Strong/Weak Connected Components (SCC/WCC) to track network Consolidation and Fragmentation shifts.
   - Overall Density and Network Densification tracking.

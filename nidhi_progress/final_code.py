@@ -227,15 +227,21 @@ edge_lists = edge_lists(graphs)
 
 # saving outputs
 
+# saving outputs
+
+# adjacency list
 with open("adj_lists.json", "w") as f:
     json.dump(adj_lists, f, indent=2)
 
+# edge list
 with open("edge_lists.json", "w") as f:
     json.dump(edge_lists, f, indent=2)
 
+# gexf file 
 for year, G in graphs.items():
     nx.write_gexf(G, f"COVID_19_{year}.gexf")
 
+# adjacency matrix
 for year, data in adj_matrices.items():
     matrix = data["matrix"]
     nodes = data["nodes"]
@@ -245,6 +251,13 @@ for year, data in adj_matrices.items():
 
     with open(f"nodes_{year}.json", "w") as f:
         json.dump(nodes, f)
+
+# sparse matrix 
+for year, data in adj_matrices.items():
+    matrix = data["matrix"]
+
+    sparse_matrix = csr_matrix(matrix)
+    save_npz(f"adj_matrix_{year}_sparse.npz", sparse_matrix)
 
 # printing number of nodes and edges for each timepoint
 for year, G in graphs.items():
@@ -258,10 +271,13 @@ print("adj_lists.json:", os.path.getsize("adj_lists.json"), "bytes")
 # edge list
 print("edge_lists.json:", os.path.getsize("edge_lists.json"), "bytes")
 
-# per-year matrix sizes
+# matrix files
 for year in adj_matrices:
-    npy_file = f"adj_matrix_{year}.npy"
-    
-    if os.path.exists(npy_file):
-        size = os.path.getsize(npy_file)
-        print(f"{npy_file}:", size, "bytes")
+    dense_file = f"adj_matrix_{year}.npy"
+    sparse_file = f"adj_matrix_{year}_sparse.npz"
+
+    if os.path.exists(dense_file):
+        print(f"{dense_file}:", os.path.getsize(dense_file), "bytes")
+
+    if os.path.exists(sparse_file):
+        print(f"{sparse_file}:", os.path.getsize(sparse_file), "bytes")

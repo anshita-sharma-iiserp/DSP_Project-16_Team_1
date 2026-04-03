@@ -5,9 +5,13 @@ import os
 
 # Paths to the graphs Nidhi provided
 graphs_to_process = {
-    "2024": "nidhi_progress/wiki_graph_2024.gexf",
-    "2025": "nidhi_progress/wiki_graph_2025.gexf",
-    "2026": "nidhi_progress/wiki_graph_2026.gexf"
+    "2020": "nidhi_progress/gexf_version_8/COVID_19_2020.gexf",
+    "2021": "nidhi_progress/gexf_version_8/COVID_19_2021.gexf",
+    "2022": "nidhi_progress/gexf_version_8/COVID_19_2022.gexf",
+    "2023": "nidhi_progress/gexf_version_8/COVID_19_2023.gexf",
+    "2024": "nidhi_progress/gexf_version_8/COVID_19_2024.gexf",
+    "2025": "nidhi_progress/gexf_version_8/COVID_19_2025.gexf",
+    "2026": "nidhi_progress/gexf_version_8/COVID_19_2026.gexf"
 }
 
 def analyze_centrality(filepath, year):

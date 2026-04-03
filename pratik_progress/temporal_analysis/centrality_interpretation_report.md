@@ -4,50 +4,106 @@
 ## 1. Top Knowledge Hubs over time (PageRank)
 PageRank measures global importance. An article with a high PageRank is linked to by other highly important articles, acting as a foundational pillar of the knowledge flow.
 
+**2020 Top Hubs:**
+- **Coronavirus disease 2019** (Score: 0.000436)
+- **COVID-19 pandemic** (Score: 0.000256)
+- **World Health Organization** (Score: 0.000256)
+- **SARS-CoV-2** (Score: 0.000256)
+- **Coronavirus** (Score: 0.000256)
+
+**2021 Top Hubs:**
+- **Coronavirus** (Score: 0.000242)
+- **COVID-19 pandemic** (Score: 0.000242)
+- **COVID-19 vaccine** (Score: 0.000242)
+- **SARS-CoV-2** (Score: 0.000240)
+- **World Health Organization** (Score: 0.000240)
+
+**2022 Top Hubs:**
+- **COVID-19 pandemic** (Score: 0.000224)
+- **COVID-19 vaccine** (Score: 0.000224)
+- **Coronavirus** (Score: 0.000223)
+- **SARS-CoV-2** (Score: 0.000222)
+- **World Health Organization** (Score: 0.000222)
+
+**2023 Top Hubs:**
+- **COVID-19 pandemic** (Score: 0.000219)
+- **COVID-19 vaccine** (Score: 0.000219)
+- **Coronavirus** (Score: 0.000219)
+- **SARS-CoV-2** (Score: 0.000218)
+- **World Health Organization** (Score: 0.000218)
+
 **2024 Top Hubs:**
-- **Origin of COVID-19** (Score: 0.004072)
-- **COVID-19 pandemic and animals** (Score: 0.004072)
-- **Theobald Smith** (Score: 0.004072)
-- **Paul W. Ewald** (Score: 0.004072)
-- **2021–2023 global supply chain crisis** (Score: 0.004072)
+- **COVID-19 pandemic** (Score: 0.000215)
+- **COVID-19 vaccine** (Score: 0.000215)
+- **Coronavirus** (Score: 0.000215)
+- **SARS-CoV-2** (Score: 0.000214)
+- **World Health Organization** (Score: 0.000214)
 
 **2025 Top Hubs:**
-- **Digital object identifier** (Score: 0.002385)
-- **Semantic Scholar** (Score: 0.002385)
-- **ISSN** (Score: 0.002145)
-- **PubMed** (Score: 0.002145)
-- **World Health Organization** (Score: 0.002092)
+- **COVID-19 pandemic** (Score: 0.000212)
+- **COVID-19 vaccine** (Score: 0.000212)
+- **Coronavirus** (Score: 0.000211)
+- **SARS-CoV-2** (Score: 0.000210)
+- **World Health Organization** (Score: 0.000210)
 
 **2026 Top Hubs:**
-- **ISSN** (Score: 0.002320)
-- **PubMed** (Score: 0.002320)
-- **Semantic Scholar** (Score: 0.002249)
-- **Digital object identifier** (Score: 0.002171)
-- **PubMed Central** (Score: 0.002171)
+- **COVID-19 pandemic** (Score: 0.000216)
+- **COVID-19 vaccine** (Score: 0.000216)
+- **Coronavirus** (Score: 0.000215)
+- **SARS-CoV-2** (Score: 0.000214)
+- **World Health Organization** (Score: 0.000214)
 
 ## 2. Navigational Bottlenecks over time (Betweenness Centrality)
 Betweenness Centrality reveals navigational 'bridges'. Articles with high betweenness connect disparate clusters of Wikipedia topics. If these articles were removed, navigating between different knowledge domains would become significantly harder.
 
+**2020 Top Bridges:**
+- **World Health Organization** (Score: 0.000828)
+- **COVID-19 pandemic** (Score: 0.000777)
+- **COVID-19 vaccine** (Score: 0.000581)
+- **SARS-CoV-2** (Score: 0.000423)
+- **COVID-19** (Score: 0.000190)
+
+**2021 Top Bridges:**
+- **COVID-19 vaccine** (Score: 0.000890)
+- **World Health Organization** (Score: 0.000784)
+- **COVID-19 pandemic** (Score: 0.000596)
+- **SARS-CoV-2** (Score: 0.000390)
+- **Contagious disease** (Score: 0.000115)
+
+**2022 Top Bridges:**
+- **World Health Organization** (Score: 0.000941)
+- **COVID-19 pandemic** (Score: 0.000687)
+- **COVID-19 vaccine** (Score: 0.000621)
+- **SARS-CoV-2** (Score: 0.000459)
+- **COVID-19 testing** (Score: 0.000115)
+
+**2023 Top Bridges:**
+- **World Health Organization** (Score: 0.000923)
+- **COVID-19 pandemic** (Score: 0.000740)
+- **COVID-19 vaccine** (Score: 0.000621)
+- **SARS-CoV-2** (Score: 0.000444)
+- **COVID-19 testing** (Score: 0.000106)
+
 **2024 Top Bridges:**
-- **COVID-19** (Score: 0.002184)
-- **Gendered impact of the COVID-19 pandemic** (Score: 0.000269)
-- **Variants of SARS-CoV-2** (Score: 0.000220)
-- **Ageusia** (Score: 0.000174)
-- **COVID-19 pandemic** (Score: 0.000171)
+- **World Health Organization** (Score: 0.000915)
+- **COVID-19 pandemic** (Score: 0.000766)
+- **COVID-19 vaccine** (Score: 0.000658)
+- **SARS-CoV-2** (Score: 0.000340)
+- **Contagious disease** (Score: 0.000230)
 
 **2025 Top Bridges:**
-- **COVID-19** (Score: 0.001954)
-- **The Washington Post** (Score: 0.000093)
-- **World Health Organization** (Score: 0.000071)
-- **Johns Hopkins University** (Score: 0.000071)
-- **Transmission of COVID-19** (Score: 0.000071)
+- **World Health Organization** (Score: 0.000907)
+- **COVID-19 pandemic** (Score: 0.000793)
+- **COVID-19 vaccine** (Score: 0.000643)
+- **SARS-CoV-2** (Score: 0.000342)
+- **Contagious disease** (Score: 0.000229)
 
 **2026 Top Bridges:**
-- **COVID-19** (Score: 0.001982)
-- **2002–2004 SARS outbreak** (Score: 0.000113)
-- **Wayback Machine** (Score: 0.000096)
-- **Treatment and management of COVID-19** (Score: 0.000093)
-- **Symptoms of COVID-19** (Score: 0.000091)
+- **World Health Organization** (Score: 0.000842)
+- **COVID-19 pandemic** (Score: 0.000814)
+- **COVID-19 vaccine** (Score: 0.000650)
+- **SARS-CoV-2** (Score: 0.000351)
+- **Contagious disease** (Score: 0.000234)
 
 ## 3. Interpretation & Structural Context
 ### Why these specific articles?

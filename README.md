@@ -65,7 +65,7 @@ The final compiled project is spread across four primary pipelines designed by o
    ```
 
 3. **Running the Application**
-   Ensure the present working directory is \\ DSP_Project-16_Team_1
+   Ensure the present working directory is `\\ DSP_Project-16_Team_1\Final_ready_to _run`
    All graph centrality measures and matrices have been pre-computed offline. To explore the timeline, launch the visual dashboard using:
    ```bash
    python Anshita_progress/take_in_gexf

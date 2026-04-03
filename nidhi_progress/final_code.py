@@ -236,6 +236,32 @@ with open("edge_lists.json", "w") as f:
 for year, G in graphs.items():
     nx.write_gexf(G, f"COVID_19_{year}.gexf")
 
+for year, data in adj_matrices.items():
+    matrix = data["matrix"]
+    nodes = data["nodes"]
+
+    np.save(f"adj_matrix_{year}.npy", matrix)
+    np.savetxt(f"adj_matrix_{year}.csv", matrix, delimiter=",")
+
+    with open(f"nodes_{year}.json", "w") as f:
+        json.dump(nodes, f)
+
 # printing number of nodes and edges for each timepoint
 for year, G in graphs.items():
     print(f"{year}: nodes={len(G.nodes())}, edges={len(G.edges())}")
+
+print ()
+  
+# adjacency list
+print("adj_lists.json:", os.path.getsize("adj_lists.json"), "bytes")
+
+# edge list
+print("edge_lists.json:", os.path.getsize("edge_lists.json"), "bytes")
+
+# per-year matrix sizes
+for year in adj_matrices:
+    npy_file = f"adj_matrix_{year}.npy"
+    
+    if os.path.exists(npy_file):
+        size = os.path.getsize(npy_file)
+        print(f"{npy_file}:", size, "bytes")

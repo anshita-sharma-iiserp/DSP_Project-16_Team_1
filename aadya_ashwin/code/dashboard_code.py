@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# the above is used to read special characters
 """
 Dashboard for Wikipedia knowledge flow and link structure
 """

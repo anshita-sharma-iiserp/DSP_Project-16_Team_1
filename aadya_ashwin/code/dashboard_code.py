@@ -119,6 +119,7 @@ def build_networks(G, metrics_df, top_n=40):
       x=node_x, y=node_y,
       mode="markers+text",
       hoverinfo="text",
+      hovertext=node_text,
       text=[n if pagerank.get(n, 0) > metrics_df["pagerank"].quantile(0.75) else "" for n in subgraph.nodes()],     # top 25th percentile's text is seen
       textposition="top center",
       textfont=dict(size=8, color="#e6edf3"),

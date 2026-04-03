@@ -1,30 +1,80 @@
-# ***DSP Project***
+# Link Structure & Knowledge Flow Dashboard (Wikipedia Internal Link Analysis)
 
-***Data Source***
+![Status Completed](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python) ![NetworkX](https://img.shields.io/badge/NetworkX-Graph_Math-yellow?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
 
-Pick wikipedia categories falling under the COVID-19 Wikipedia Article 
+##  Project Overview
+This project models Wikipedia's internal link structure as a temporal, dynamic directed graph. We specifically focus on the evolution of COVID-19 knowledge across a multi-year baseline (2020-2026), tracking the emergence and decay of central authorities and navigational bottlenecks over time.
 
-Categories chosen: 
-- COVID-19 Testing (https://en.wikipedia.org/wiki/COVID-19_testing)
-- Symptomps of COVID-19 (https://en.wikipedia.org/wiki/Symptoms_of_COVID-19)
-- COVID-19 vaccine (https://en.wikipedia.org/wiki/COVID-19_vaccine)
-- SARS-CoV-2 (https://en.wikipedia.org/wiki/SARS-CoV-2)
+By splitting our data pipeline into robust independent modules, we extract time-consistent Wikipedia snapshots, compute heavy mathematical network topologies offline (like PageRank and Betweenness approximations), extract macro structural shifts (consolidation vs. fragmentation), and map them dynamically within an interactive web dashboard.
 
-***Preprocessing Plan***
+---
 
-Ingest internal link data for the selected articles using requests (wikipedia API does not give revision history)
+##  Repository Structure & Pipeline Flow
 
-***Code Structure Plan***
+The final compiled project is spread across four primary pipelines designed by our team, executed sequentially:
 
-* Data Ingestion: `requests` (Wikimedia API)
-* Data Processing: `pandas`, `re` (Regex parsed Wikitext)
-* Graph Mathematics: `networkx`
-  * Construction of graph for four separate categories
-  * Unification of graph 
-* Interactive Visualisation: `streamlit`, `plotly`, `pyvis`
+### 1. Data Extraction & Matrix Storage 
+- Handles Wikipedia API ingestion extracting raw graph edges and nodes per year.
+- Computes various data structuring formats comparing Adjacency Lists (`trial adj_list.json`), Sparse Matrices (`adj_matrix_sparse.npz`), and the final standard Graph Exchange XML Formats (`wiki_graph_YYYY.gexf`, `COVID-19_YYYY.gexf`, etc.).
+- **Output:** Staged `.gexf` files covering all temporal snapshots from 2020 to 2026.
 
+### 2. Centrality Graph Mathematics 
+- Executes massive topological calculations loading Nidhi's `gexf_version_8` temporal snapshots.
+- **`centrality_measure.py`:** Calculates mathematically complex metrics per node including:
+  - PageRank (Global importance α=0.85).
+  - Out/In-Degree Centrality (Immediate network dominance).
+  - Betweenness Centrality (Approximation sampling $k=500$ to identify structural bottlenecks bridging topics securely).
+  - Eigenvector Centrality.
+- **Output:** Outputs the structured mathematical proof `centrality_master_export.csv` which perfectly aligns temporal features into dataframes for the application frontend.
 
-***Debugging Plan***
+### 3. Temporal Graph Level Analysis 
+- Extracts macro-level architectural transitions over the timeline using the `updated gexf files`.
+- **`Graph_math.py` & `take_in_gexf.py`:** Reads the historical snapshots and computes:
+  - Strong/Weak Connected Components (SCC/WCC) to track network Consolidation and Fragmentation shifts.
+  - Overall Density and Network Densification tracking.
+  - Structural hub evolution delta changes (new hubs vs. lost hubs).
+- **Output:** Autogenerates analytical graphs detailing connectivity transitions inside the `analysis_plots` directory.
 
-Add errors and exceptions to the code to make sure that the code can run for any other set of wikipedia articles.
+### 4. Interactive Dashboard Frontend 
+- The culminating Streamlit UI consolidating all raw mathematical data into intuitive visualization components.
+- **`code/dashboard_code.py`** Streams the metrics (such as the `centrality_master_export.csv`) into interactive visual plots and temporal sliders. Enables interactive graph exploration without continuously halting the underlying heavy python simulations.
 
+---
+
+##  Tech Stack & Dependencies
+
+- **Data Processing:** `pandas`, `json`, `numpy`, `re`
+- **Mathematics & Algorithms:** `networkx`
+- **Data Engineering Visualization:** `matplotlib`, `plotly`, `pyvis`
+- **Application Web Framework:** `streamlit`
+
+---
+
+##  Installation & Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/anshita-sharma-iiserp/DSP_Project-16_Team_1.git
+   cd DSP_Project-16_Team_1
+   ```
+
+2. **Install Required Libraries**
+   Ensure you have a modern Python 3 instance running (virtual environments are recommended).
+   ```bash
+   pip install networkx pandas numpy matplotlib streamlit plotly pyvis
+   ```
+
+3. **Running the Application**
+   All graph centrality measures and matrices have been pre-computed offline. To explore the timeline, launch the visual dashboard using:
+   ```bash
+   streamlit run aadya_ashwin/code/dashboard_code.py
+   ```
+   *(The application will automatically boot in your browser at `http://localhost:8501`)*
+
+---
+
+##  Team Members & Specific Contributions
+- **Nidhi Bhagwat:** API Integration, GEXF generation, storage scaling strategies, snapshot exports.
+- **Pratik Kumar Sahoo:** Algorithmic mathematics, PageRank, approximate Betweenness bottlenecks computation and pandas data normalization.
+- **Anshita Sharma:** Structural network shifts, SCC analysis, temporal macro-architecture visualizations.
+- **Aadya Ashwin:** Frontend integration, complex data streamlining, interactive Streamlit UX design.

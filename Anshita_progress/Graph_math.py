@@ -582,9 +582,12 @@ def run_analysis_pipeline(file_dict, output_dir="analysis_plots"):
 if __name__ == "__main__":
     # Define your GEXF files here
     gexf_files = {
-        "2024": "nidhi_progress/wiki_graph_2024.gexf",
-        "2025": "nidhi_progress/wiki_graph_2025.gexf",
-        "2026": "nidhi_progress/wiki_graph_2026.gexf"
+        "2021": "nidhi_progress/COVID-19-updated gexf files/COVID-19_2021.gexf",
+        "2022": "nidhi_progress/COVID-19-updated gexf files/COVID-19_2022.gexf",
+        "2023": "nidhi_progress/COVID-19-updated gexf files/COVID-19_2023.gexf",
+        "2024": "nidhi_progress/COVID-19-updated gexf files/COVID-19_2024.gexf",
+        "2025": "nidhi_progress/COVID-19-updated gexf files/COVID-19_2025.gexf",
+        "2026": "nidhi_progress/COVID-19-updated gexf files/COVID-19_2026.gexf",
     }
     
     # Run the analysis pipeline

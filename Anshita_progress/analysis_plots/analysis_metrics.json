@@ -1,158 +1,455 @@
 {
   "metrics": {
-    "2024": {
-      "year": "2024",
-      "n_nodes": 417,
-      "n_edges": 446,
-      "density": 0.002571,
-      "avg_in_degree": 1.07,
-      "avg_out_degree": 1.07,
-      "scc_count": 416,
-      "largest_scc_size": 2,
+    "2021": {
+      "year": "2021",
+      "n_nodes": 4646,
+      "n_edges": 5233,
+      "density": 0.000242,
+      "avg_in_degree": 1.13,
+      "avg_out_degree": 1.13,
+      "scc_count": 4641,
+      "largest_scc_size": 4,
       "wcc_count": 1,
-      "largest_wcc_size": 417,
-      "avg_clustering": 0.0008,
-      "avg_path_length": 3.71,
+      "largest_wcc_size": 4646,
+      "avg_clustering": 0.0761,
+      "avg_path_length": 3.16,
       "diameter": 4,
       "top_hubs": [
         [
+          "Anthony Fauci",
+          2195
+        ],
+        [
+          "BBC",
+          1491
+        ],
+        [
+          "BBC News",
+          613
+        ],
+        [
+          "Centers for Disease Control and Prevention",
+          512
+        ],
+        [
+          "BBC News Online",
+          237
+        ],
+        [
+          "ArcGIS",
+          132
+        ],
+        [
+          "Caixin",
+          40
+        ],
+        [
           "COVID-19",
-          47
-        ],
-        [
-          "COVID-19 pandemic",
           10
         ],
         [
-          "Coronavirus diseases",
-          10
+          "ArXiv",
+          1
         ],
         [
-          "SARS-CoV-2",
-          10
-        ],
-        [
-          "Symptoms of COVID-19",
-          10
-        ],
-        [
-          "Long COVID",
-          10
-        ],
-        [
-          "Ageusia",
-          10
-        ],
-        [
-          "COVID-19 vaccine",
-          10
-        ],
-        [
-          "Transmission of COVID-19",
-          10
-        ],
-        [
-          "COVID-19 testing",
-          10
+          "Bibcode",
+          1
         ]
       ],
       "top_authorities": [
         [
-          "COVID-19 pandemic",
+          "Doi",
+          5
+        ],
+        [
+          "ISBN",
+          5
+        ],
+        [
+          "ISSN",
+          5
+        ],
+        [
+          "Wayback Machine",
+          4
+        ],
+        [
+          "BBC",
           3
         ],
         [
-          "PMC",
+          "BBC News",
           3
         ],
         [
-          "COVID-19 pandemic in South Australia",
+          "BBC News Online",
           3
         ],
         [
-          "Gendered impact of the COVID-19 pandemic",
+          "S2CID",
           3
         ],
         [
-          "AdCLD-CoV19",
-          2
+          "United Kingdom",
+          3
         ],
         [
-          "Air purifier",
-          2
+          "CNN",
+          3
+        ]
+      ]
+    },
+    "2022": {
+      "year": "2022",
+      "n_nodes": 4735,
+      "n_edges": 5331,
+      "density": 0.000238,
+      "avg_in_degree": 1.13,
+      "avg_out_degree": 1.13,
+      "scc_count": 4730,
+      "largest_scc_size": 4,
+      "wcc_count": 1,
+      "largest_wcc_size": 4735,
+      "avg_clustering": 0.0752,
+      "avg_path_length": 3.16,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "Anthony Fauci",
+          2225
         ],
         [
-          "COVID-19 pandemic in the United Kingdom",
-          2
+          "BBC",
+          1488
         ],
         [
-          "Timeline of the COVID-19 pandemic in April 2020",
-          2
+          "BBC News",
+          611
         ],
         [
-          "J\u00e9r\u00f4me Salomon",
-          2
+          "Centers for Disease Control and Prevention",
+          583
         ],
         [
-          "Sinopharm BIBP COVID-19 vaccine",
-          2
+          "BBC News Online",
+          238
+        ],
+        [
+          "ArcGIS",
+          133
+        ],
+        [
+          "Caixin",
+          40
+        ],
+        [
+          "COVID-19",
+          10
+        ],
+        [
+          "ArXiv",
+          1
+        ],
+        [
+          "Bibcode",
+          1
+        ]
+      ],
+      "top_authorities": [
+        [
+          "Doi",
+          5
+        ],
+        [
+          "ISBN",
+          5
+        ],
+        [
+          "ISSN",
+          5
+        ],
+        [
+          "Wayback Machine",
+          4
+        ],
+        [
+          "BBC",
+          3
+        ],
+        [
+          "BBC News",
+          3
+        ],
+        [
+          "BBC News Online",
+          3
+        ],
+        [
+          "Financial Times",
+          3
+        ],
+        [
+          "S2CID",
+          3
+        ],
+        [
+          "The Guardian",
+          3
+        ]
+      ]
+    },
+    "2023": {
+      "year": "2023",
+      "n_nodes": 4818,
+      "n_edges": 5425,
+      "density": 0.000234,
+      "avg_in_degree": 1.13,
+      "avg_out_degree": 1.13,
+      "scc_count": 4813,
+      "largest_scc_size": 4,
+      "wcc_count": 1,
+      "largest_wcc_size": 4818,
+      "avg_clustering": 0.0752,
+      "avg_path_length": 3.15,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "Anthony Fauci",
+          2297
+        ],
+        [
+          "BBC",
+          1489
+        ],
+        [
+          "BBC News",
+          621
+        ],
+        [
+          "Centers for Disease Control and Prevention",
+          590
+        ],
+        [
+          "BBC News Online",
+          239
+        ],
+        [
+          "ArcGIS",
+          137
+        ],
+        [
+          "Caixin",
+          39
+        ],
+        [
+          "COVID-19",
+          10
+        ],
+        [
+          "ArXiv",
+          1
+        ],
+        [
+          "Bibcode",
+          1
+        ]
+      ],
+      "top_authorities": [
+        [
+          "Doi",
+          5
+        ],
+        [
+          "ISBN",
+          5
+        ],
+        [
+          "ISSN",
+          5
+        ],
+        [
+          "Wayback Machine",
+          4
+        ],
+        [
+          "COVID-19",
+          3
+        ],
+        [
+          "BBC",
+          3
+        ],
+        [
+          "BBC News",
+          3
+        ],
+        [
+          "BBC News Online",
+          3
+        ],
+        [
+          "Financial Times",
+          3
+        ],
+        [
+          "S2CID",
+          3
+        ]
+      ]
+    },
+    "2024": {
+      "year": "2024",
+      "n_nodes": 4924,
+      "n_edges": 5540,
+      "density": 0.000229,
+      "avg_in_degree": 1.13,
+      "avg_out_degree": 1.13,
+      "scc_count": 4919,
+      "largest_scc_size": 4,
+      "wcc_count": 1,
+      "largest_wcc_size": 4924,
+      "avg_clustering": 0.0753,
+      "avg_path_length": 3.12,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "Anthony Fauci",
+          2390
+        ],
+        [
+          "BBC",
+          1464
+        ],
+        [
+          "BBC News",
+          629
+        ],
+        [
+          "Centers for Disease Control and Prevention",
+          618
+        ],
+        [
+          "BBC News Online",
+          239
+        ],
+        [
+          "ArcGIS",
+          143
+        ],
+        [
+          "Caixin",
+          44
+        ],
+        [
+          "COVID-19",
+          10
+        ],
+        [
+          "ArXiv",
+          1
+        ],
+        [
+          "Bibcode",
+          1
+        ]
+      ],
+      "top_authorities": [
+        [
+          "Doi",
+          5
+        ],
+        [
+          "ISBN",
+          5
+        ],
+        [
+          "ISSN",
+          5
+        ],
+        [
+          "Wayback Machine",
+          5
+        ],
+        [
+          "BBC",
+          4
+        ],
+        [
+          "BBC News",
+          4
+        ],
+        [
+          "World War II",
+          4
+        ],
+        [
+          "CNN",
+          4
+        ],
+        [
+          "COVID-19",
+          3
+        ],
+        [
+          "BBC News Online",
+          3
         ]
       ]
     },
     "2025": {
       "year": "2025",
-      "n_nodes": 845,
-      "n_edges": 894,
-      "density": 0.001254,
-      "avg_in_degree": 1.06,
-      "avg_out_degree": 1.06,
-      "scc_count": 844,
-      "largest_scc_size": 2,
+      "n_nodes": 4932,
+      "n_edges": 5546,
+      "density": 0.000228,
+      "avg_in_degree": 1.12,
+      "avg_out_degree": 1.12,
+      "scc_count": 4927,
+      "largest_scc_size": 4,
       "wcc_count": 1,
-      "largest_wcc_size": 845,
-      "avg_clustering": 0.0038,
-      "avg_path_length": 3.73,
+      "largest_wcc_size": 4932,
+      "avg_clustering": 0.0752,
+      "avg_path_length": 3.12,
       "diameter": 4,
       "top_hubs": [
         [
-          "COVID-19",
-          99
-        ],
-        [
           "Anthony Fauci",
-          10
-        ],
-        [
-          "ArcGIS",
-          10
+          2392
         ],
         [
           "BBC",
-          10
-        ],
-        [
-          "BBC News",
-          10
-        ],
-        [
-          "BBC News Online",
-          10
-        ],
-        [
-          "Caixin",
-          10
+          1458
         ],
         [
           "Centers for Disease Control and Prevention",
+          640
+        ],
+        [
+          "BBC News",
+          614
+        ],
+        [
+          "BBC News Online",
+          237
+        ],
+        [
+          "ArcGIS",
+          146
+        ],
+        [
+          "Caixin",
+          46
+        ],
+        [
+          "COVID-19",
           10
         ],
         [
-          "Encyclop\u00e6dia Britannica",
-          10
+          "ArXiv",
+          1
         ],
         [
-          "European Centre for Disease Prevention and Control",
-          10
+          "Bibcode",
+          1
         ]
       ],
       "top_authorities": [
@@ -161,177 +458,184 @@
           6
         ],
         [
-          "S2CID",
-          6
-        ],
-        [
-          "COVID-19 vaccine",
-          3
+          "ISBN",
+          5
         ],
         [
           "ISSN",
-          3
+          5
         ],
         [
-          "The Washington Post",
-          3
-        ],
-        [
-          "PMID",
-          3
-        ],
-        [
-          "World Health Organization",
-          3
-        ],
-        [
-          "COVID-19 testing",
-          3
+          "Wayback Machine",
+          5
         ],
         [
           "BBC",
-          2
+          4
         ],
         [
           "BBC News",
-          2
+          4
+        ],
+        [
+          "World War II",
+          4
+        ],
+        [
+          "CNN",
+          4
+        ],
+        [
+          "COVID-19",
+          3
+        ],
+        [
+          "BBC News Online",
+          3
         ]
       ]
     },
     "2026": {
       "year": "2026",
-      "n_nodes": 837,
-      "n_edges": 901,
-      "density": 0.001288,
-      "avg_in_degree": 1.08,
-      "avg_out_degree": 1.08,
-      "scc_count": 835,
-      "largest_scc_size": 2,
+      "n_nodes": 5134,
+      "n_edges": 5769,
+      "density": 0.000219,
+      "avg_in_degree": 1.12,
+      "avg_out_degree": 1.12,
+      "scc_count": 5129,
+      "largest_scc_size": 4,
       "wcc_count": 1,
-      "largest_wcc_size": 837,
-      "avg_clustering": 0.0049,
-      "avg_path_length": 3.73,
+      "largest_wcc_size": 5134,
+      "avg_clustering": 0.0747,
+      "avg_path_length": 3.12,
       "diameter": 4,
       "top_hubs": [
         [
-          "COVID-19",
-          99
-        ],
-        [
           "Anthony Fauci",
-          10
-        ],
-        [
-          "ArcGIS",
-          10
+          2394
         ],
         [
           "BBC",
-          10
-        ],
-        [
-          "BBC News",
-          10
-        ],
-        [
-          "BBC News Online",
-          10
-        ],
-        [
-          "Caixin",
-          10
+          1496
         ],
         [
           "Centers for Disease Control and Prevention",
+          809
+        ],
+        [
+          "BBC News",
+          616
+        ],
+        [
+          "BBC News Online",
+          248
+        ],
+        [
+          "ArcGIS",
+          146
+        ],
+        [
+          "Caixin",
+          47
+        ],
+        [
+          "COVID-19",
           10
         ],
         [
-          "The Wall Street Journal",
-          10
+          "ArXiv",
+          1
         ],
         [
-          "Encyclop\u00e6dia Britannica",
-          10
+          "Bibcode",
+          1
         ]
       ],
       "top_authorities": [
         [
-          "ISSN",
-          5
-        ],
-        [
-          "PMID",
-          5
-        ],
-        [
-          "S2CID",
-          4
-        ],
-        [
           "Doi",
-          3
+          6
+        ],
+        [
+          "ISSN",
+          6
         ],
         [
           "ISBN",
-          3
-        ],
-        [
-          "The New York Times",
-          3
+          5
         ],
         [
           "Wayback Machine",
-          3
+          5
         ],
         [
-          "PMC",
-          3
+          "BBC",
+          4
         ],
         [
-          "2002\u20132004 SARS outbreak",
-          3
+          "BBC News",
+          4
         ],
         [
-          "Anthony Fauci",
-          2
+          "The Guardian",
+          4
+        ],
+        [
+          "World War II",
+          4
+        ],
+        [
+          "CNN",
+          4
+        ],
+        [
+          "COVID-19",
+          3
         ]
       ]
     }
   },
   "changes": {
+    "2021_to_2022": {
+      "nodes_added": 142,
+      "nodes_removed": 53,
+      "edges_added": 155,
+      "edges_removed": 57,
+      "new_hubs": [],
+      "lost_hubs": []
+    },
+    "2022_to_2023": {
+      "nodes_added": 137,
+      "nodes_removed": 54,
+      "edges_added": 154,
+      "edges_removed": 60,
+      "new_hubs": [],
+      "lost_hubs": []
+    },
+    "2023_to_2024": {
+      "nodes_added": 217,
+      "nodes_removed": 111,
+      "edges_added": 236,
+      "edges_removed": 121,
+      "new_hubs": [],
+      "lost_hubs": []
+    },
     "2024_to_2025": {
-      "nodes_added": 746,
-      "nodes_removed": 318,
-      "edges_added": 833,
-      "edges_removed": 385,
-      "new_hubs": [
-        "BBC",
-        "BBC News",
-        "Anthony Fauci",
-        "ArcGIS"
-      ],
-      "lost_hubs": [
-        "COVID-19 pandemic",
-        "SARS-CoV-2",
-        "Symptoms of COVID-19",
-        "Coronavirus diseases"
-      ]
+      "nodes_added": 79,
+      "nodes_removed": 71,
+      "edges_added": 89,
+      "edges_removed": 83,
+      "new_hubs": [],
+      "lost_hubs": []
     },
     "2025_to_2026": {
-      "nodes_added": 643,
-      "nodes_removed": 651,
-      "edges_added": 755,
-      "edges_removed": 748,
+      "nodes_added": 245,
+      "nodes_removed": 43,
+      "edges_added": 266,
+      "edges_removed": 43,
       "new_hubs": [],
       "lost_hubs": []
     }
   },
-  "structural_shifts": [
-    {
-      "year": "2025",
-      "type": "fragmentation",
-      "description": "SCC count increased from 416 to 844",
-      "magnitude": 428
-    }
-  ]
+  "structural_shifts": []
 }

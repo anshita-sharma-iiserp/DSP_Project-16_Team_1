@@ -312,7 +312,7 @@ def main():
           value=available_years[-1]     # -1 is get the slider from oldest to newest
       )
       top_n_network=st.slider("Nodes in Network Graph", 10, 200, 100, 5)     # lower limit, upper limit, default, step size
-      top_n_table = st.slider("Articles in Rankings Table", 5,30,10,5)
+      top_n_table = st.slider("Articles in Rankings Table", 5,30,10,5)      # cutoff or top articles is based on centrality measure chosen
       top_n_lines=st.slider("Articles in Centrality Chart",3,15,8,1)
       metric_choice = st.selectbox(
           "Centrality Metric",

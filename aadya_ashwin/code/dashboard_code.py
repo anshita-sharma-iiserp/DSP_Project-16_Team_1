@@ -4,11 +4,9 @@
 Dashboard for Wikipedia knowledge flow and link structure
 """
 
-"""
-1) make sure take_in_gexf.py, dashboard_code.py and all the gexf files are in the same directory
-2) run the take_in_gexf.py using python take_in_gexf.py
-3) run the dashboard_code.py using streamlit run dashboard_code.py
-"""
+# 1) make sure take_in_gexf.py, dashboard_code.py and all the gexf files are in the same directory
+# 2) run the take_in_gexf.py using python take_in_gexf.py
+# 3) run the dashboard_code.py using streamlit run dashboard_code.py
 
 import streamlit as st     # to build the UI
 

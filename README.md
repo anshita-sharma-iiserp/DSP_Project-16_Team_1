@@ -15,7 +15,7 @@ The final compiled project is spread across four primary pipelines designed by o
 
 ### 1. Data Extraction & Matrix Storage 
 - Handles Wikipedia API ingestion extracting raw graph edges and nodes per year.
-- Computes various data structuring formats comparing adjacency lists (`adj_lists.json`), edge lists ('edge_lists.json'), sparse matrices (`adj_matrix_YYYY_sparse.npz`), and the final standard Graph Exchange XML Formats (`COVID_19_YYYY.gexf`).
+- Computes various data structuring formats comparing adjacency lists (`adj_lists.json`), edge lists (`edge_lists.json`), sparse matrices (`adj_matrix_YYYY_sparse.npz`), and the final standard Graph Exchange XML Formats (`COVID_19_YYYY.gexf`).
 - **Output:** Staged `.gexf` files covering all temporal snapshots from 2020 to 2026.
 
 ### 2. Centrality Graph Mathematics 

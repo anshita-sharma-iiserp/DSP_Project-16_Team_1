@@ -77,7 +77,14 @@ The final compiled project is spread across four primary pipelines designed by o
 
 
 ##  Team Members & Specific Contributions
-- **Nidhi Bhagwat:** API Integration, GEXF generation, storage scaling strategies, snapshot exports.
-- **Pratik Kumar Sahoo:** Algorithmic mathematics, PageRank, approximate Betweenness bottlenecks computation and pandas data normalization.
-- **Anshita Sharma:** Structural network shifts, SCC analysis, temporal macro-architecture visualizations.
-- **Aadya Ashwin:** Frontend integration, complex data streamlining, interactive Streamlit UX design.
+- **Nidhi Bhagwat:** Data collection, Wikimedia API integration, adjacency matrix
+storage, GEXF generation, storage strategy comparison, report writing (Results,
+Conclusion, Algorithms)
+- **Pratik Kumar Sahoo:** Graph mathematics, centrality measures (PageRank, be
+tweenness), report writing (Results, Conclusion)
+- **Anshita Sharma:** Graph analysis, temporal metrics computation, structural shift
+detection, report writing (Introduction, Related work, Methods, Results, Conclu
+sion)
+- **Aadya Ashwin:**  Enriched GEXF with node metadata, dashboard data preparation,
+interactive dashboard development using Streamlit, visualization design, frontend
+implementation, user interaction features, report writing (Results, Conclusion)

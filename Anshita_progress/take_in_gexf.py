@@ -618,16 +618,16 @@ if __name__ == "__main__":
     # Define your GEXF files here
     # Update paths to match your actual file locations
 
-    gexf_files = {
-        "2020": "covid_2020.gexf",
-        "2021": "covid_2021.gexf",
-        "2022": "covid_2022.gexf",
-        "2023": "covid_2023.gexf",
-        "2024": "covid_2024.gexf",
-        "2025": "covid_2025.gexf",
-        "2026": "covid_2026.gexf",
-    }
 
+    gexf_files = {
+        "2020": "COVID_19_2020.gexf",
+        "2021": "COVID_19_2021.gexf",
+        "2022": "COVID_19_2022.gexf",
+        "2023": "COVID_19_2023.gexf",
+        "2024": "COVID_19_2024.gexf",
+        "2025": "COVID_19_2025.gexf",
+        "2026": "COVID_19_2026.gexf",
+    }
     # Run the pipeline
     run_pipeline(
         file_dict=gexf_files,

@@ -3,9 +3,9 @@
 ![Status Completed](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python) ![NetworkX](https://img.shields.io/badge/NetworkX-Graph_Math-yellow?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
 
 ##  Project Overview
-This project models Wikipedia's internal link structure as a temporal, dynamic directed graph. We specifically focus on the evolution of COVID-19 knowledge across a multi-year baseline (2020-2026), tracking the emergence and decay of central authorities and navigational bottlenecks over time.
+This project models Wikipedia’s internal link structure as a temporal directed graph. We select the topic “COVID”-19, ingest historical link data via the Wikimedia API, and construct yearly time-snapshot graphs for the years 2020-2026. Using graph metrics such as degree centrality, PageRank, betweenness, and strongly connected components, we characterise structural properties and temporal changes between snapshots.
 
-By splitting our data pipeline into robust independent modules, we extract time-consistent Wikipedia snapshots, compute heavy mathematical network topologies offline (like PageRank and Betweenness approximations), extract macro structural shifts (consolidation vs. fragmentation), and map them dynamically within an interactive web dashboard.
+Our contributions are threefold: (1) a reproducible pipeline for extracting temporally consistent link neighborhoods, (2) a comparative analysis of graph storage strategies (adjacency lists, sparse matrices, GEXF), and (3) an interactive dashboard visualising the evolving link network with key hubs and bottlenecks.
 
 ---
 
@@ -15,11 +15,11 @@ The final compiled project is spread across four primary pipelines designed by o
 
 ### 1. Data Extraction & Matrix Storage 
 - Handles Wikipedia API ingestion extracting raw graph edges and nodes per year.
-- Computes various data structuring formats comparing Adjacency Lists (`trial adj_list.json`), Sparse Matrices (`adj_matrix_sparse.npz`), and the final standard Graph Exchange XML Formats (`wiki_graph_YYYY.gexf`, `COVID-19_YYYY.gexf`, etc.).
+- Computes various data structuring formats comparing adjacency lists (`adj_lists.json`), edge lists ('edge_lists.json'), sparse matrices (`adj_matrix_YYYY_sparse.npz`), and the final standard Graph Exchange XML Formats (`COVID_19_YYYY.gexf`).
 - **Output:** Staged `.gexf` files covering all temporal snapshots from 2020 to 2026.
 
 ### 2. Centrality Graph Mathematics 
-- Executes massive topological calculations loading Nidhi's `gexf_version_8` temporal snapshots.
+- Executes massive topological calculations loading Nidhi's `COVID_19_YYYY.gexf` temporal snapshots.
 - **`centrality_measure.py`:** Calculates mathematically complex metrics per node including:
   - PageRank (Global importance α=0.85).
   - Out/In-Degree Centrality (Immediate network dominance).

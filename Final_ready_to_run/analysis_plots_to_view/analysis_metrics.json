@@ -1,0 +1,771 @@
+{
+  "metrics": {
+    "2020": {
+      "year": "2020",
+      "n_nodes": 4260,
+      "n_edges": 7786,
+      "density": 0.000429,
+      "avg_in_degree": 1.83,
+      "avg_out_degree": 1.83,
+      "scc_count": 4253,
+      "largest_scc_size": 8,
+      "wcc_count": 1,
+      "largest_wcc_size": 4260,
+      "avg_clustering": 0.3979,
+      "avg_path_length": 2.67,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "SARS-CoV-2",
+          1738
+        ],
+        [
+          "COVID-19 vaccine",
+          1693
+        ],
+        [
+          "COVID-19 testing",
+          1514
+        ],
+        [
+          "COVID-19 pandemic",
+          1139
+        ],
+        [
+          "World Health Organization",
+          941
+        ],
+        [
+          "Coronavirus",
+          384
+        ],
+        [
+          "Coronavirus diseases",
+          215
+        ],
+        [
+          "Contagious disease",
+          151
+        ],
+        [
+          "COVID-19",
+          10
+        ],
+        [
+          "Symptoms of COVID-19",
+          1
+        ]
+      ],
+      "top_authorities": [
+        [
+          "World Health Organization",
+          7
+        ],
+        [
+          "COVID-19 pandemic",
+          7
+        ],
+        [
+          "Doi",
+          7
+        ],
+        [
+          "PMC",
+          7
+        ],
+        [
+          "PMID",
+          7
+        ],
+        [
+          "ISSN",
+          7
+        ],
+        [
+          "COVID-19",
+          6
+        ],
+        [
+          "Coronavirus disease 2019",
+          6
+        ],
+        [
+          "Bibcode",
+          6
+        ],
+        [
+          "SARS",
+          6
+        ]
+      ]
+    },
+    "2021": {
+      "year": "2021",
+      "n_nodes": 4539,
+      "n_edges": 11479,
+      "density": 0.000557,
+      "avg_in_degree": 2.53,
+      "avg_out_degree": 2.53,
+      "scc_count": 4529,
+      "largest_scc_size": 11,
+      "wcc_count": 1,
+      "largest_wcc_size": 4539,
+      "avg_clustering": 0.401,
+      "avg_path_length": 2.59,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "COVID-19 vaccine",
+          2140
+        ],
+        [
+          "SARS-CoV-2",
+          1868
+        ],
+        [
+          "COVID-19 testing",
+          1522
+        ],
+        [
+          "Symptoms of COVID-19",
+          1442
+        ],
+        [
+          "Transmission of COVID-19",
+          1442
+        ],
+        [
+          "COVID-19 pandemic",
+          1396
+        ],
+        [
+          "World Health Organization",
+          957
+        ],
+        [
+          "Coronavirus",
+          462
+        ],
+        [
+          "Contagious disease",
+          150
+        ],
+        [
+          "Coronavirus diseases",
+          90
+        ]
+      ],
+      "top_authorities": [
+        [
+          "Doi",
+          10
+        ],
+        [
+          "COVID-19 pandemic",
+          9
+        ],
+        [
+          "Bibcode",
+          9
+        ],
+        [
+          "PMC",
+          9
+        ],
+        [
+          "PMID",
+          9
+        ],
+        [
+          "S2CID",
+          9
+        ],
+        [
+          "ISSN",
+          9
+        ],
+        [
+          "COVID-19",
+          8
+        ],
+        [
+          "COVID-19 vaccine",
+          8
+        ],
+        [
+          "MERS",
+          8
+        ]
+      ]
+    },
+    "2022": {
+      "year": "2022",
+      "n_nodes": 4899,
+      "n_edges": 11503,
+      "density": 0.000479,
+      "avg_in_degree": 2.35,
+      "avg_out_degree": 2.35,
+      "scc_count": 4890,
+      "largest_scc_size": 10,
+      "wcc_count": 1,
+      "largest_wcc_size": 4899,
+      "avg_clustering": 0.3689,
+      "avg_path_length": 2.65,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "SARS-CoV-2",
+          1906
+        ],
+        [
+          "COVID-19 vaccine",
+          1604
+        ],
+        [
+          "COVID-19 pandemic",
+          1581
+        ],
+        [
+          "COVID-19 testing",
+          1542
+        ],
+        [
+          "Symptoms of COVID-19",
+          1479
+        ],
+        [
+          "Transmission of COVID-19",
+          1443
+        ],
+        [
+          "World Health Organization",
+          1225
+        ],
+        [
+          "Coronavirus",
+          462
+        ],
+        [
+          "Contagious disease",
+          146
+        ],
+        [
+          "Coronavirus diseases",
+          105
+        ]
+      ],
+      "top_authorities": [
+        [
+          "COVID-19 pandemic",
+          9
+        ],
+        [
+          "Bibcode",
+          9
+        ],
+        [
+          "Doi",
+          9
+        ],
+        [
+          "ISSN",
+          9
+        ],
+        [
+          "PMC",
+          9
+        ],
+        [
+          "PMID",
+          9
+        ],
+        [
+          "S2CID",
+          9
+        ],
+        [
+          "COVID-19",
+          8
+        ],
+        [
+          "COVID-19 vaccine",
+          8
+        ],
+        [
+          "MERS",
+          8
+        ]
+      ]
+    },
+    "2023": {
+      "year": "2023",
+      "n_nodes": 4999,
+      "n_edges": 11628,
+      "density": 0.000465,
+      "avg_in_degree": 2.33,
+      "avg_out_degree": 2.33,
+      "scc_count": 4990,
+      "largest_scc_size": 10,
+      "wcc_count": 1,
+      "largest_wcc_size": 4999,
+      "avg_clustering": 0.3662,
+      "avg_path_length": 2.65,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "SARS-CoV-2",
+          1904
+        ],
+        [
+          "COVID-19 pandemic",
+          1652
+        ],
+        [
+          "COVID-19 vaccine",
+          1625
+        ],
+        [
+          "COVID-19 testing",
+          1529
+        ],
+        [
+          "Symptoms of COVID-19",
+          1483
+        ],
+        [
+          "Transmission of COVID-19",
+          1483
+        ],
+        [
+          "World Health Organization",
+          1226
+        ],
+        [
+          "Coronavirus",
+          465
+        ],
+        [
+          "Contagious disease",
+          146
+        ],
+        [
+          "Coronavirus diseases",
+          105
+        ]
+      ],
+      "top_authorities": [
+        [
+          "COVID-19 pandemic",
+          9
+        ],
+        [
+          "Bibcode",
+          9
+        ],
+        [
+          "Doi",
+          9
+        ],
+        [
+          "ISSN",
+          9
+        ],
+        [
+          "PMC",
+          9
+        ],
+        [
+          "PMID",
+          9
+        ],
+        [
+          "S2CID",
+          9
+        ],
+        [
+          "COVID-19",
+          8
+        ],
+        [
+          "COVID-19 vaccine",
+          8
+        ],
+        [
+          "MERS",
+          8
+        ]
+      ]
+    },
+    "2024": {
+      "year": "2024",
+      "n_nodes": 5093,
+      "n_edges": 12673,
+      "density": 0.000489,
+      "avg_in_degree": 2.49,
+      "avg_out_degree": 2.49,
+      "scc_count": 5084,
+      "largest_scc_size": 10,
+      "wcc_count": 1,
+      "largest_wcc_size": 5093,
+      "avg_clustering": 0.3539,
+      "avg_path_length": 2.64,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "COVID-19 pandemic",
+          2110
+        ],
+        [
+          "COVID-19 vaccine",
+          2009
+        ],
+        [
+          "SARS-CoV-2",
+          1873
+        ],
+        [
+          "COVID-19 testing",
+          1531
+        ],
+        [
+          "Symptoms of COVID-19",
+          1494
+        ],
+        [
+          "Transmission of COVID-19",
+          1470
+        ],
+        [
+          "World Health Organization",
+          1237
+        ],
+        [
+          "Coronavirus",
+          463
+        ],
+        [
+          "Contagious disease",
+          378
+        ],
+        [
+          "Coronavirus diseases",
+          98
+        ]
+      ],
+      "top_authorities": [
+        [
+          "COVID-19 pandemic",
+          9
+        ],
+        [
+          "Doi",
+          9
+        ],
+        [
+          "PMC",
+          9
+        ],
+        [
+          "PMID",
+          9
+        ],
+        [
+          "S2CID",
+          9
+        ],
+        [
+          "COVID-19",
+          8
+        ],
+        [
+          "COVID-19 vaccine",
+          8
+        ],
+        [
+          "MERS",
+          8
+        ],
+        [
+          "SARS",
+          8
+        ],
+        [
+          "Antiviral drug",
+          8
+        ]
+      ]
+    },
+    "2025": {
+      "year": "2025",
+      "n_nodes": 5180,
+      "n_edges": 12840,
+      "density": 0.000479,
+      "avg_in_degree": 2.48,
+      "avg_out_degree": 2.48,
+      "scc_count": 5170,
+      "largest_scc_size": 11,
+      "wcc_count": 1,
+      "largest_wcc_size": 5180,
+      "avg_clustering": 0.3544,
+      "avg_path_length": 2.63,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "COVID-19 pandemic",
+          2181
+        ],
+        [
+          "COVID-19 vaccine",
+          2012
+        ],
+        [
+          "SARS-CoV-2",
+          1906
+        ],
+        [
+          "COVID-19 testing",
+          1531
+        ],
+        [
+          "Symptoms of COVID-19",
+          1494
+        ],
+        [
+          "Transmission of COVID-19",
+          1492
+        ],
+        [
+          "World Health Organization",
+          1264
+        ],
+        [
+          "Coronavirus",
+          464
+        ],
+        [
+          "Contagious disease",
+          389
+        ],
+        [
+          "Coronavirus diseases",
+          97
+        ]
+      ],
+      "top_authorities": [
+        [
+          "COVID-19",
+          10
+        ],
+        [
+          "COVID-19 pandemic",
+          9
+        ],
+        [
+          "Bibcode",
+          9
+        ],
+        [
+          "Doi",
+          9
+        ],
+        [
+          "ISSN",
+          9
+        ],
+        [
+          "PMC",
+          9
+        ],
+        [
+          "PMID",
+          9
+        ],
+        [
+          "S2CID",
+          9
+        ],
+        [
+          "SARS-CoV-2",
+          8
+        ],
+        [
+          "World Health Organization",
+          8
+        ]
+      ]
+    },
+    "2026": {
+      "year": "2026",
+      "n_nodes": 5086,
+      "n_edges": 12744,
+      "density": 0.000493,
+      "avg_in_degree": 2.51,
+      "avg_out_degree": 2.51,
+      "scc_count": 5076,
+      "largest_scc_size": 11,
+      "wcc_count": 1,
+      "largest_wcc_size": 5086,
+      "avg_clustering": 0.3616,
+      "avg_path_length": 2.62,
+      "diameter": 4,
+      "top_hubs": [
+        [
+          "COVID-19 pandemic",
+          2188
+        ],
+        [
+          "COVID-19 vaccine",
+          2005
+        ],
+        [
+          "SARS-CoV-2",
+          1910
+        ],
+        [
+          "COVID-19 testing",
+          1532
+        ],
+        [
+          "Symptoms of COVID-19",
+          1500
+        ],
+        [
+          "Transmission of COVID-19",
+          1492
+        ],
+        [
+          "World Health Organization",
+          1159
+        ],
+        [
+          "Coronavirus",
+          462
+        ],
+        [
+          "Contagious disease",
+          389
+        ],
+        [
+          "Coronavirus diseases",
+          97
+        ]
+      ],
+      "top_authorities": [
+        [
+          "COVID-19",
+          10
+        ],
+        [
+          "COVID-19 pandemic",
+          9
+        ],
+        [
+          "Bibcode",
+          9
+        ],
+        [
+          "Doi",
+          9
+        ],
+        [
+          "PMC",
+          9
+        ],
+        [
+          "PMID",
+          9
+        ],
+        [
+          "SARS-CoV-2",
+          8
+        ],
+        [
+          "World Health Organization",
+          8
+        ],
+        [
+          "COVID-19 vaccine",
+          8
+        ],
+        [
+          "MERS",
+          8
+        ]
+      ]
+    }
+  },
+  "changes": {
+    "2020_to_2021": {
+      "nodes_added": 788,
+      "nodes_removed": 509,
+      "edges_added": 4774,
+      "edges_removed": 1081,
+      "new_hubs": [
+        "Symptoms of COVID-19",
+        "Transmission of COVID-19"
+      ],
+      "lost_hubs": [
+        "World Health Organization",
+        "COVID-19 pandemic"
+      ]
+    },
+    "2021_to_2022": {
+      "nodes_added": 863,
+      "nodes_removed": 503,
+      "edges_added": 1073,
+      "edges_removed": 1049,
+      "new_hubs": [
+        "COVID-19 pandemic"
+      ],
+      "lost_hubs": [
+        "Transmission of COVID-19"
+      ]
+    },
+    "2022_to_2023": {
+      "nodes_added": 157,
+      "nodes_removed": 57,
+      "edges_added": 215,
+      "edges_removed": 90,
+      "new_hubs": [],
+      "lost_hubs": []
+    },
+    "2023_to_2024": {
+      "nodes_added": 204,
+      "nodes_removed": 110,
+      "edges_added": 1222,
+      "edges_removed": 177,
+      "new_hubs": [],
+      "lost_hubs": []
+    },
+    "2024_to_2025": {
+      "nodes_added": 116,
+      "nodes_removed": 29,
+      "edges_added": 202,
+      "edges_removed": 35,
+      "new_hubs": [],
+      "lost_hubs": []
+    },
+    "2025_to_2026": {
+      "nodes_added": 56,
+      "nodes_removed": 150,
+      "edges_added": 75,
+      "edges_removed": 171,
+      "new_hubs": [],
+      "lost_hubs": []
+    }
+  },
+  "structural_shifts": [
+    {
+      "year": "2021",
+      "type": "consolidation",
+      "description": "Largest SCC grew from 8 to 11 nodes",
+      "magnitude": 3
+    },
+    {
+      "year": "2021",
+      "type": "densification",
+      "description": "Network density increased from 0.000429 to 0.000557",
+      "magnitude": 0.00012799999999999997
+    }
+  ]
+}

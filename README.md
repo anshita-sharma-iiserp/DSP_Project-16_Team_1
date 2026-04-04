@@ -55,7 +55,6 @@ The final compiled project is spread across four primary pipelines designed by o
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/anshita-sharma-iiserp/DSP_Project-16_Team_1.git
-   cd DSP_Project-16_Team_1
    ```
 
 2. **Install Required Libraries**

@@ -1,6 +1,6 @@
 # Link Structure & Knowledge Flow Dashboard (Wikipedia Internal Link Analysis)
 
-![Status Completed](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python) ![NetworkX](https://img.shields.io/badge/NetworkX-Graph_Math-yellow?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python) ![NetworkX](https://img.shields.io/badge/NetworkX-Graph_Math-yellow?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
 
 ##  Project Overview
 This project models Wikipedia’s internal link structure as a temporal directed graph. We select the topic COVID-19, ingest historical link data via the Wikimedia API, and construct yearly time-snapshot graphs for the years 2020-2026. Using graph metrics such as degree centrality, PageRank, betweenness, and strongly connected components, we characterise structural properties and temporal changes between snapshots.
